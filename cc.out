@@ -1,0 +1,150 @@
+--version
+-v
+-V
+-qversion
+conftest.c
+-o conftest conftest.c
+-o conftest conftest.c
+-c conftest.c
+-c conftest.c
+-c -g conftest.c
+-c -g -O2 conftest.c
+conftest.c
+conftest.c
+conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+-o conftest -g -O2 conftest.c -lcposix
+-print-prog-name=ld
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c conftest.c -o conftest2.o
+-c conftest.c -o conftest2.o
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 -DST_MTIM_NSEC=tv_nsec conftest.c
+-c -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c -lkstat
+-o conftest -g -O2 conftest.c
+conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-o conftest -g -O2 conftest.c
+-c -g -O2 conftest.c
+conftest.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o arscan.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o commands.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o default.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o expand.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o function.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o implicit.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o job.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o read.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o remake.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o remote-stub.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o rule.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o signame.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o strcache.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o variable.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o version.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o vpath.c
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c
+-g -O2 -o make ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o implicit.o job.o main.o misc.o read.o remake.o remote-stub.o rule.o signame.o strcache.o variable.o version.o vpath.o hash.o
+-DLOCALEDIR="/usr/local/share/locale" -DLIBDIR="/usr/local/lib" -DINCLUDEDIR="/usr/local/include" -DHAVE_CONFIG_H -I. -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
