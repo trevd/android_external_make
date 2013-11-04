@@ -46,6 +46,12 @@ int no_default_sh_exe = 1;
 int batch_mode_shell = 1;
 HANDLE main_thread;
 
+#elif defined (__BIONIC__) /* Android */
+
+char default_shell[] = "/system/bin/sh";
+int batch_mode_shell = 0;
+
+ 
 #elif defined (_AMIGA)
 
 char default_shell[] = "";
