@@ -81,14 +81,23 @@ if ((-f "example.1")||(-f "example.two")||(-f "example.3")||(-f "example.for")) 
 
 &compare_output($answer,&get_logfile(1));
 
+# TEST #4: Verify that failed wildcards don't return the pattern
+
+run_make_test(q!
+all: ; @echo $(wildcard xz--y*.7)
+!,
+              '', "\n");
+
+# TEST #5: wildcard used to verify file existence
+
+touch('xxx.yyy');
+
+run_make_test(q!exists: ; @echo file=$(wildcard xxx.yyy)!,
+              '', "file=xxx.yyy\n");
+
+unlink('xxx.yyy');
+
+run_make_test(q!exists: ; @echo file=$(wildcard xxx.yyy)!,
+              '', "file=\n");
 
 1;
-
-
-
-
-
-
-
-
-

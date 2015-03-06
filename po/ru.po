@@ -1,2086 +1,2305 @@
-# Локализация make
-# Copyright (C) 1998, 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
-# Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>, 1998
-# Alexey Mahotkin <alexm@hsys.msk.ru> 2001
-# Denis Perchine <dyp@perchine.com>, 2001, 2002
+# Translation of make messages to Russian.
+# Copyright (C) 1998, 1999, 2000, 2001, 2002, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the make package.
 #
+# Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>, 1998.
+# Alexey Mahotkin <alexm@hsys.msk.ru>, 2001.
+# Denis Perchine <dyp@perchine.com>, 2001, 2002.
+# Pavel Maryanov <acid_jack@ukr.net>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: make 3.79.1\n"
+"Project-Id-Version: make 4.1\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
-"POT-Creation-Date: 2006-04-01 01:40-0500\n"
-"PO-Revision-Date: 2002-01-07 19:34GMT+06\n"
-"Last-Translator: Denis Perchine <dyp@perchine.com>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"POT-Creation-Date: 2015-03-06 06:35+0000\n"
+"PO-Revision-Date: 2014-10-06 19:35+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <gnu@mx.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=KOI8-R\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.5\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ar.c:53
+#: ar.c:46
 #, c-format
-msgid "attempt to use unsupported feature: `%s'"
-msgstr "попытка использования неподдерживаемого средства: `%s'"
+msgid "attempt to use unsupported feature: '%s'"
+msgstr "п©п╬п©я▀я┌п╨п╟ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▐ п╫п╣п©п╬п╢п╢п╣я─п╤п╦п╡п╟п╣п╪п╬пЁп╬ я│я─п╣п╢я│я┌п╡п╟: б╚%sб╩"
 
-#: ar.c:137
+#: ar.c:123
 msgid "touch archive member is not available on VMS"
-msgstr "обновление времени изменения члена архива невозможно в системе VMS"
+msgstr "п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ п╡я─п╣п╪п╣п╫п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐ я┤п╩п╣п╫п╟ п╟я─я┘п╦п╡п╟ п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п╡ я│п╦я│я┌п╣п╪п╣ VMS"
 
-#: ar.c:168
+#: ar.c:147
 #, c-format
-msgid "touch: Archive `%s' does not exist"
-msgstr "обновление времени изменения: Архив `%s' не существует"
+msgid "touch: Archive '%s' does not exist"
+msgstr "п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ п╡я─п╣п╪п╣п╫п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐: п░я─я┘п╦п╡ б╚%sб╩ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌"
 
-#: ar.c:171
+#: ar.c:150
 #, c-format
-msgid "touch: `%s' is not a valid archive"
-msgstr "обновление времени изменения: Неверный архив: `%s'"
+msgid "touch: '%s' is not a valid archive"
+msgstr "п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ п╡я─п╣п╪п╣п╫п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐: п²п╣п╡п╣я─п╫я▀п╧ п╟я─я┘п╦п╡: б╚%sб╩"
 
-#: ar.c:178
+#: ar.c:157
 #, c-format
-msgid "touch: Member `%s' does not exist in `%s'"
-msgstr "обновление времени изменения: Элемент `%s' не содержится в `%s'"
+msgid "touch: Member '%s' does not exist in '%s'"
+msgstr "п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ п╡я─п╣п╪п╣п╫п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐: п╜п╩п╣п╪п╣п╫я┌ б╚%sб╩ п╫п╣ я│п╬п╢п╣я─п╤п╦я┌я│я▐ п╡ б╚%sб╩"
 
-#: ar.c:185
+#: ar.c:164
 #, c-format
-msgid "touch: Bad return code from ar_member_touch on `%s'"
+msgid "touch: Bad return code from ar_member_touch on '%s'"
 msgstr ""
-"обновление времени изменения: Функция ar_member_touch вернула\n"
-"ошибочное значение для `%s'"
+"п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ п╡я─п╣п╪п╣п╫п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐: п╓я┐п╫п╨я├п╦я▐ ar_member_touch п╡п╣я─п╫я┐п╩п╟\n"
+"п╬я┬п╦п╠п╬я┤п╫п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣ п╢п╩я▐ б╚%sб╩"
 
-#: arscan.c:69
+#: arscan.c:130
 #, c-format
-msgid "lbr$set_module failed to extract module info, status = %d"
-msgstr "lbr$set_module не смогла извлечь информацию о модуле, статус = %d"
+msgid "lbr$set_module() failed to extract module info, status = %d"
+msgstr "lbr$set_module() п╫п╣ я│п╪п╬пЁп╩п╟ п╦п╥п╡п╩п╣я┤я▄ п╦п╫я└п╬я─п╪п╟я├п╦я▌ п╬ п╪п╬п╢я┐п╩п╣, я│я┌п╟я┌я┐я│ = %d"
 
-#: arscan.c:154
+#: arscan.c:236
 #, c-format
-msgid "lbr$ini_control failed with status = %d"
-msgstr "lbr$init_control вернула код ошибки %d"
+msgid "lbr$ini_control() failed with status = %d"
+msgstr "lbr$init_control() п╡п╣я─п╫я┐п╩п╟ п╨п╬п╢ п╬я┬п╦п╠п╨п╦ %d"
 
-#: arscan.c:165
+#: arscan.c:261
 #, c-format
-msgid "unable to open library `%s' to lookup member `%s'"
-msgstr "Ошибка открытия библиотеки `%s' для поиска элемента `%s'"
+msgid "unable to open library '%s' to lookup member status %d"
+msgstr ""
+"п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п╬я┌п╨я─я▀я┌я▄ п╠п╦п╠п╩п╦п╬я┌п╣п╨я┐ б╚%sб╩ п╢п╩я▐ п╬п©я─п╣п╢п╣п╩п╣п╫п╦я▐ я│п╬я│я┌п╬я▐п╫п╦я▐ я█п╩п╣п╪п╣п╫я┌п╟ %d"
 
-#: arscan.c:825
+#: arscan.c:950
 #, c-format
-msgid "Member `%s'%s: %ld bytes at %ld (%ld).\n"
-msgstr "Элемент `%s'%s: %ld байт по адресу %ld (%ld).\n"
+msgid "Member '%s'%s: %ld bytes at %ld (%ld).\n"
+msgstr "п╜п╩п╣п╪п╣п╫я┌ б╚%sб╩%s: %ld п╠п╟п╧я┌ п©п╬ п╟п╢я─п╣я│я┐ %ld (%ld).\n"
 
-#: arscan.c:826
+#: arscan.c:951
 msgid " (name might be truncated)"
-msgstr " (имя может быть усечено)"
+msgstr " (п╦п╪я▐ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ я┐я│п╣я┤п╣п╫п╬)"
 
-#: arscan.c:828
+#: arscan.c:953
 #, c-format
 msgid "  Date %s"
-msgstr "  Дата %s"
+msgstr "  п■п╟я┌п╟ %s"
 
-#: arscan.c:829
+#: arscan.c:954
 #, c-format
 msgid "  uid = %d, gid = %d, mode = 0%o.\n"
 msgstr "  uid = %d, gid = %d, mode = 0%o.\n"
 
-#: commands.c:422
+#: commands.c:404
+#, c-format
+msgid "Recipe has too many lines (%ud)"
+msgstr "п▓ я│п©п╬я│п╬п╠п╣ я│п╩п╦я┬п╨п╬п╪ п╪п╫п╬пЁп╬ я│я┌я─п╬п╨ (%ud)"
+
+#: commands.c:505
 msgid "*** Break.\n"
-msgstr "*** Останов.\n"
+msgstr "*** п·я│я┌п╟п╫п╬п╡.\n"
 
-#: commands.c:545
+#: commands.c:629
 #, c-format
-msgid "*** [%s] Archive member `%s' may be bogus; not deleted"
-msgstr "*** [%s] Элемент архива `%s', кажется, недействителен; не удален"
+msgid "*** [%s] Archive member '%s' may be bogus; not deleted"
+msgstr "*** [%s] п╜п╩п╣п╪п╣п╫я┌ п╟я─я┘п╦п╡п╟ б╚%sб╩, п╨п╟п╤п╣я┌я│я▐, п╫п╣п╢п╣п╧я│я┌п╡п╦я┌п╣п╩п╣п╫; п╫п╣ я┐п╢п╟п╩я▒п╫"
 
-#: commands.c:548
+#: commands.c:633
 #, c-format
-msgid "*** Archive member `%s' may be bogus; not deleted"
-msgstr "*** Элемент архива `%s', кажется, недействителен; не удален"
+msgid "*** Archive member '%s' may be bogus; not deleted"
+msgstr "*** п╜п╩п╣п╪п╣п╫я┌ п╟я─я┘п╦п╡п╟ б╚%sб╩, п╨п╟п╤п╣я┌я│я▐, п╫п╣п╢п╣п╧я│я┌п╡п╦я┌п╣п╩п╣п╫; п╫п╣ я┐п╢п╟п╩я▒п╫"
 
-#: commands.c:561
+#: commands.c:647
 #, c-format
-msgid "*** [%s] Deleting file `%s'"
-msgstr "*** [%s] Удаляется файл `%s'"
+msgid "*** [%s] Deleting file '%s'"
+msgstr "*** [%s] пёп╢п╟п╩я▐п╣я┌я│я▐ я└п╟п╧п╩ б╚%sб╩"
 
-#: commands.c:563
+#: commands.c:649
 #, c-format
-msgid "*** Deleting file `%s'"
-msgstr "*** Удаляется файл `%s'"
+msgid "*** Deleting file '%s'"
+msgstr "*** пёп╢п╟п╩я▐п╣я┌я│я▐ я└п╟п╧п╩ б╚%sб╩"
 
-#: commands.c:599
-msgid "#  commands to execute"
-msgstr "#  команды, которые следует выполнить"
+#: commands.c:685
+msgid "#  recipe to execute"
+msgstr "#  я│п©п╬я│п╬п╠, п╨п╬я┌п╬я─я▀п╧ я│п╩п╣п╢я┐п╣я┌ п©я─п╦п╪п╣п╫п╦я┌я▄"
 
-#: commands.c:602
+#: commands.c:688
 msgid " (built-in):"
-msgstr " (встроенные):"
+msgstr " (п╡я│я┌я─п╬п╣п╫п╫я▀п╣):"
 
-#: commands.c:604
+#: commands.c:690
 #, c-format
-msgid " (from `%s', line %lu):\n"
-msgstr "  (из `%s', строка %lu):\n"
+msgid " (from '%s', line %lu):\n"
+msgstr "  (п╦п╥ б╚%sб╩, я│я┌я─п╬п╨п╟ %lu):\n"
 
-#: dir.c:983
+#: dir.c:1069
 msgid ""
 "\n"
 "# Directories\n"
 msgstr ""
 "\n"
-"# Каталоги\n"
+"# п п╟я┌п╟п╩п╬пЁп╦\n"
 
-#: dir.c:995
+#: dir.c:1081
 #, c-format
 msgid "# %s: could not be stat'd.\n"
-msgstr "# %s: невозможно получить сведения вызовом stat.\n"
+msgstr "# %s: п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п©п╬п╩я┐я┤п╦я┌я▄ я│п╡п╣п╢п╣п╫п╦я▐ п╡я▀п╥п╬п╡п╬п╪ stat.\n"
 
-#: dir.c:999
+#: dir.c:1085
 #, c-format
 msgid "# %s (key %s, mtime %d): could not be opened.\n"
-msgstr "# %s (ключ %s, время модификации %d): невозможно открыть.\n"
+msgstr "# %s (п╨п╩я▌я┤ %s, п╡я─п╣п╪я▐ п╪п╬п╢п╦я└п╦п╨п╟я├п╦п╦ %d): п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п╬я┌п╨я─я▀я┌я▄.\n"
 
-#: dir.c:1003
+#: dir.c:1089
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): could not be opened.\n"
-msgstr "# %s (устройство %d, inode [%d,%d,%d]): невозможно открыть.\n"
+msgstr "# %s (я┐я│я┌я─п╬п╧я│я┌п╡п╬ %d, inode [%d,%d,%d]): п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п╬я┌п╨я─я▀я┌я▄.\n"
 
-#: dir.c:1008
+#: dir.c:1094
 #, c-format
 msgid "# %s (device %ld, inode %ld): could not be opened.\n"
-msgstr "# %s (устройство %ld, inode %ld): невозможно открыть.\n"
+msgstr "# %s (я┐я│я┌я─п╬п╧я│я┌п╡п╬ %ld, inode %ld): п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п╬я┌п╨я─я▀я┌я▄.\n"
 
-#: dir.c:1035
+#: dir.c:1121
 #, c-format
 msgid "# %s (key %s, mtime %d): "
-msgstr "# %s (ключ %s, время модификации %d): "
+msgstr "# %s (п╨п╩я▌я┤ %s, п╡я─п╣п╪я▐ п╪п╬п╢п╦я└п╦п╨п╟я├п╦п╦ %d): "
 
-#: dir.c:1039
+#: dir.c:1125
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): "
-msgstr "# %s (устройство %d, inode [%d,%d,%d]): "
+msgstr "# %s (я┐я│я┌я─п╬п╧я│я┌п╡п╬ %d, inode [%d,%d,%d]): "
 
-#: dir.c:1044
+#: dir.c:1130
 #, c-format
 msgid "# %s (device %ld, inode %ld): "
-msgstr "# %s (устройство %ld, inode %ld): "
+msgstr "# %s (я┐я│я┌я─п╬п╧я│я┌п╡п╬ %ld, inode %ld): "
 
-#: dir.c:1050 dir.c:1071
+#: dir.c:1136 dir.c:1157
 msgid "No"
-msgstr "Нет"
+msgstr "п²п╣я┌"
 
-#: dir.c:1053 dir.c:1074
+#: dir.c:1139 dir.c:1160
 msgid " files, "
-msgstr " файлов,"
+msgstr " я└п╟п╧п╩п╬п╡,"
 
-#: dir.c:1055 dir.c:1076
+#: dir.c:1141 dir.c:1162
 msgid "no"
-msgstr "нет"
+msgstr "п╫п╣я┌"
 
-#: dir.c:1058
+#: dir.c:1144
 msgid " impossibilities"
-msgstr " недостижимых целей"
+msgstr " п╫п╣п╢п╬я│я┌п╦п╤п╦п╪я▀я┘ я├п╣п╩п╣п╧"
 
-#: dir.c:1062
+#: dir.c:1148
 msgid " so far."
-msgstr " на текущий момент."
+msgstr " п╫п╟ я┌п╣п╨я┐я┴п╦п╧ п╪п╬п╪п╣п╫я┌."
 
-#: dir.c:1079
-#, fuzzy, c-format
+#: dir.c:1165
+#, c-format
 msgid " impossibilities in %lu directories.\n"
-msgstr " недостижимых целей в %u каталогах.\n"
+msgstr " п╫п╣п╢п╬я│я┌п╦п╤п╦п╪я▀я┘ я├п╣п╩п╣п╧ п╡ %lu п╨п╟я┌п╟п╩п╬пЁп╟я┘.\n"
 
-#: expand.c:128
+#: expand.c:125
 #, c-format
-msgid "Recursive variable `%s' references itself (eventually)"
-msgstr "Рекурсивная переменная `%s' ссылается сама на себя (в результате)"
+msgid "Recursive variable '%s' references itself (eventually)"
+msgstr "п═п╣п╨я┐я─я│п╦п╡п╫п╟я▐ п©п╣я─п╣п╪п╣п╫п╫п╟я▐ б╚%sб╩ я│я│я▀п╩п╟п╣я┌я│я▐ я│п╟п╪п╟ п╫п╟ я│п╣п╠я▐ (п╡ я─п╣п╥я┐п╩я▄я┌п╟я┌п╣)"
 
-#: expand.c:266
+#: expand.c:269
 msgid "unterminated variable reference"
-msgstr "незавершенная ссылка на переменную"
-
-#: file.c:270
-#, c-format
-msgid "Commands were specified for file `%s' at %s:%lu,"
-msgstr "Команды для файла `%s' были заданы в %s:%lu,"
-
-#: file.c:275
-#, c-format
-msgid "Commands for file `%s' were found by implicit rule search,"
-msgstr "Команды для файла `%s' были найдены из неявного правила,"
-
-#: file.c:278
-#, c-format
-msgid "but `%s' is now considered the same file as `%s'."
-msgstr "но `%s' и `%s' теперь считаются одним и тем же файлом. "
+msgstr "п╫п╣п╥п╟п╡п╣я─я┬я▒п╫п╫п╟я▐ я│я│я▀п╩п╨п╟ п╫п╟ п©п╣я─п╣п╪п╣п╫п╫я┐я▌"
 
 #: file.c:281
 #, c-format
-msgid "Commands for `%s' will be ignored in favor of those for `%s'."
-msgstr ""
-"Команды для `%s' игнорируются, вместо них будут использованы команды для `%"
-"s'."
+msgid "Recipe was specified for file '%s' at %s:%lu,"
+msgstr "п║п©п╬я│п╬п╠ п╢п╩я▐ я└п╟п╧п╩п╟ б╚%sб╩ п╠я▀п╩ п╥п╟п╢п╟п╫ п╡ %s:%lu,"
 
-#: file.c:301
+#: file.c:286
 #, c-format
-msgid "can't rename single-colon `%s' to double-colon `%s'"
-msgstr ""
-"невозможно переименовать `%s' с одним двоеточием в `%s' с двумя двоеточиями"
+msgid "Recipe for file '%s' was found by implicit rule search,"
+msgstr "п║п©п╬я│п╬п╠ п╢п╩я▐ я└п╟п╧п╩п╟ б╚%sб╩ п╠я▀п╩ п╫п╟п╧п╢п╣п╫ п╦п╥ п╫п╣я▐п╡п╫п╬пЁп╬ п©я─п╟п╡п╦п╩п╟,"
 
-#: file.c:306
+#: file.c:290
 #, c-format
-msgid "can't rename double-colon `%s' to single-colon `%s'"
-msgstr ""
-"невозможно переименовать `%s' с двумя двоеточиями в `%s' с одним двоеточием"
+msgid "but '%s' is now considered the same file as '%s'."
+msgstr "п╫п╬ б╚%sб╩ п╦ б╚%sб╩ я┌п╣п©п╣я─я▄ я│я┤п╦я┌п╟я▌я┌я│я▐ п╬п╢п╫п╦п╪ п╦ я┌п╣п╪ п╤п╣ я└п╟п╧п╩п╬п╪."
 
-#: file.c:381
+#: file.c:293
 #, c-format
-msgid "*** Deleting intermediate file `%s'"
-msgstr "*** Удаление промежуточного файла `%s'"
+msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
+msgstr ""
+"п║п©п╬я│п╬п╠ п╢п╩я▐ б╚%sб╩ п╦пЁп╫п╬я─п╦я─я┐п╣я┌я│я▐, п╡п╪п╣я│я┌п╬ п╫п╣пЁп╬ п╠я┐п╢п╣я┌ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫ я│п©п╬я│п╬п╠ п╢п╩я▐ б╚%sб╩."
 
-#: file.c:385
-#, fuzzy
+#: file.c:313
+#, c-format
+msgid "can't rename single-colon '%s' to double-colon '%s'"
+msgstr ""
+"п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п©п╣я─п╣п╦п╪п╣п╫п╬п╡п╟я┌я▄ б╚%sб╩ я│ п╬п╢п╫п╦п╪ п╢п╡п╬п╣я┌п╬я┤п╦п╣п╪ п╡ б╚%sб╩ я│ п╢п╡я┐п╪я▐ п╢п╡п╬п╣я┌п╬я┤п╦я▐п╪п╦"
+
+#: file.c:319
+#, c-format
+msgid "can't rename double-colon '%s' to single-colon '%s'"
+msgstr ""
+"п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ п©п╣я─п╣п╦п╪п╣п╫п╬п╡п╟я┌я▄ б╚%sб╩ я│ п╢п╡я┐п╪я▐ п╢п╡п╬п╣я┌п╬я┤п╦я▐п╪п╦ п╡ б╚%sб╩ я│ п╬п╢п╫п╦п╪ п╢п╡п╬п╣я┌п╬я┤п╦п╣п╪"
+
+#: file.c:411
+#, c-format
+msgid "*** Deleting intermediate file '%s'"
+msgstr "*** пёп╢п╟п╩п╣п╫п╦п╣ п©я─п╬п╪п╣п╤я┐я┌п╬я┤п╫п╬пЁп╬ я└п╟п╧п╩п╟ б╚%sб╩"
+
+#: file.c:415
 msgid "Removing intermediate files...\n"
-msgstr "*** Удаление промежуточного файла `%s'"
+msgstr "пёп╢п╟п╩п╣п╫п╦п╣ п©я─п╬п╪п╣п╤я┐я┌п╬я┤п╫я▀я┘ я└п╟п╧п╩п╬п╡...\n"
 
-#: file.c:781
+#: file.c:821
+msgid "Current time"
+msgstr "п╒п╣п╨я┐я┴п╣п╣ п╡я─п╣п╪я▐"
+
+#: file.c:825
 #, c-format
 msgid "%s: Timestamp out of range; substituting %s"
-msgstr "%s: Временной штамп выходит за пределы диапазона; подставляем %s"
+msgstr "%s: п▓я─п╣п╪п╣п╫п╫п╬п╧ я┬я┌п╟п╪п© п╡я▀я┘п╬п╢п╦я┌ п╥п╟ п©я─п╣п╢п╣п╩я▀ п╢п╦п╟п©п╟п╥п╬п╫п╟; п©п╬п╢я│я┌п╟п╡п╩я▐п╣п╪ %s"
 
-#: file.c:782
-msgid "Current time"
-msgstr "Текущее время"
-
-#: file.c:881
+#: file.c:965
 msgid "# Not a target:"
-msgstr "# Не является целью:"
-
-#: file.c:903
-msgid "#  Precious file (prerequisite of .PRECIOUS)."
-msgstr "#  Ценный файл (зависимость .PRECIOUS)."
-
-#: file.c:905
-msgid "#  Phony target (prerequisite of .PHONY)."
-msgstr "#  Псевдоцель (зависимость от .PHONY)."
-
-#: file.c:907
-msgid "#  Command-line target."
-msgstr "#  Цель, вызываемая из командной строки."
-
-#: file.c:909
-#, fuzzy
-msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
-msgstr "#  makefile по умолчанию или из MAKEFILES."
-
-#: file.c:911
-msgid "#  Implicit rule search has been done."
-msgstr "#  Производился поиск неявных правил"
-
-#: file.c:912
-msgid "#  Implicit rule search has not been done."
-msgstr "#  Поиск неявных правил не производился."
-
-#: file.c:914
-#, c-format
-msgid "#  Implicit/static pattern stem: `%s'\n"
-msgstr "#  Основа неявного или статического образца: `%s'\n"
-
-#: file.c:916
-msgid "#  File is an intermediate prerequisite."
-msgstr "#  Файл -- промежуточная зависимость."
-
-#: file.c:919
-msgid "#  Also makes:"
-msgstr "#  Собирает также:"
-
-#: file.c:925
-msgid "#  Modification time never checked."
-msgstr "#  Время изменения ни разу не проверялось."
-
-#: file.c:927
-msgid "#  File does not exist."
-msgstr "#  Файл не существует."
-
-#: file.c:929
-msgid "#  File is very old."
-msgstr "# Файл очень старый."
-
-#: file.c:934
-#, c-format
-msgid "#  Last modified %s\n"
-msgstr "#  Время последнего изменения %s\n"
-
-#: file.c:937
-msgid "#  File has been updated."
-msgstr "#  Файл был обновлен."
-
-#: file.c:937
-msgid "#  File has not been updated."
-msgstr "#  Файл не был обновлен."
-
-#: file.c:941
-msgid "#  Commands currently running (THIS IS A BUG)."
-msgstr "#  В данный момент выполняются некоторые команды (ЭТО ОШИБКА)."
-
-#: file.c:944
-msgid "#  Dependencies commands running (THIS IS A BUG)."
-msgstr ""
-"#  В данный момент выполняются команды некоторой зависимости (ЭТО ОШИБКА)."
-
-#: file.c:953
-msgid "#  Successfully updated."
-msgstr "#  Успешно обновлено."
-
-#: file.c:957
-msgid "#  Needs to be updated (-q is set)."
-msgstr "#  Должно быть обновлено (задан ключ -q)."
-
-#: file.c:960
-msgid "#  Failed to be updated."
-msgstr "#  Попытка обновления безуспешна."
-
-#: file.c:963
-msgid "#  Invalid value in `update_status' member!"
-msgstr "#  Неверное значение члена `update_status'!"
+msgstr "# п²п╣ я▐п╡п╩я▐п╣я┌я│я▐ я├п╣п╩я▄я▌:"
 
 #: file.c:970
-msgid "#  Invalid value in `command_state' member!"
-msgstr "#  Неверное значение члена `command_state'!"
+msgid "#  Precious file (prerequisite of .PRECIOUS)."
+msgstr "#  п╕п╣п╫п╫я▀п╧ я└п╟п╧п╩ (п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▄ .PRECIOUS)."
+
+#: file.c:972
+msgid "#  Phony target (prerequisite of .PHONY)."
+msgstr "#  п÷я│п╣п╡п╢п╬я├п╣п╩я▄ (п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▄ п╬я┌ .PHONY)."
+
+#: file.c:974
+msgid "#  Command line target."
+msgstr "#  п╕п╣п╩я▄, п╡я▀п╥я▀п╡п╟п╣п╪п╟я▐ п╦п╥ п╨п╬п╪п╟п╫п╢п╫п╬п╧ я│я┌я─п╬п╨п╦."
+
+#: file.c:976
+msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
+msgstr "#  п÷п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌, MAKEFILES, п╦п╩п╦ -include/sinclude makefile."
+
+#: file.c:978
+msgid "#  Builtin rule"
+msgstr "# п▓я│я┌я─п╬п╣п╫п╫п╬п╣ п©я─п╟п╡п╦п╩п╬"
+
+#: file.c:980
+msgid "#  Implicit rule search has been done."
+msgstr "#  п÷я─п╬п╦п╥п╡п╬п╢п╦п╩я│я▐ п©п╬п╦я│п╨ п╫п╣я▐п╡п╫я▀я┘ п©я─п╟п╡п╦п╩."
+
+#: file.c:981
+msgid "#  Implicit rule search has not been done."
+msgstr "#  п÷п╬п╦я│п╨ п╫п╣я▐п╡п╫я▀я┘ п©я─п╟п╡п╦п╩ п╫п╣ п©я─п╬п╦п╥п╡п╬п╢п╦п╩я│я▐."
+
+#: file.c:983
+#, c-format
+msgid "#  Implicit/static pattern stem: '%s'\n"
+msgstr "#  п·я│п╫п╬п╡п╟ п╫п╣я▐п╡п╫п╬пЁп╬ п╦п╩п╦ я│я┌п╟я┌п╦я┤п╣я│п╨п╬пЁп╬ п╬п╠я─п╟п╥я├п╟: б╚%sб╩\n"
+
+#: file.c:985
+msgid "#  File is an intermediate prerequisite."
+msgstr "#  п╓п╟п╧п╩ Б─■ п©я─п╬п╪п╣п╤я┐я┌п╬я┤п╫п╟я▐ п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▄."
 
 #: file.c:989
+msgid "#  Also makes:"
+msgstr "#  п║п╬п╠п╦я─п╟п╣я┌ я┌п╟п╨п╤п╣:"
+
+#: file.c:995
+msgid "#  Modification time never checked."
+msgstr "#  п▓я─п╣п╪я▐ п╦п╥п╪п╣п╫п╣п╫п╦я▐ п╫п╦ я─п╟п╥я┐ п╫п╣ п©я─п╬п╡п╣я─я▐п╩п╬я│я▄."
+
+#: file.c:997
+msgid "#  File does not exist."
+msgstr "#  п╓п╟п╧п╩ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌."
+
+#: file.c:999
+msgid "#  File is very old."
+msgstr "#  п╓п╟п╧п╩ п╬я┤п╣п╫я▄ я│я┌п╟я─я▀п╧."
+
+#: file.c:1004
+#, c-format
+msgid "#  Last modified %s\n"
+msgstr "#  п▓я─п╣п╪я▐ п©п╬я│п╩п╣п╢п╫п╣пЁп╬ п╦п╥п╪п╣п╫п╣п╫п╦я▐ %s\n"
+
+#: file.c:1007
+msgid "#  File has been updated."
+msgstr "#  п╓п╟п╧п╩ п╠я▀п╩ п╬п╠п╫п╬п╡п╩я▒п╫."
+
+#: file.c:1007
+msgid "#  File has not been updated."
+msgstr "#  п╓п╟п╧п╩ п╫п╣ п╠я▀п╩ п╬п╠п╫п╬п╡п╩я▒п╫."
+
+#: file.c:1011
+msgid "#  Recipe currently running (THIS IS A BUG)."
+msgstr "#  п▓ п╢п╟п╫п╫я▀п╧ п╪п╬п╪п╣п╫я┌ я┐п╤п╣ п©я─п╦п╪п╣п╫я▐п╣я┌я│я▐ п╫п╣п╨п╦п╧ я│п©п╬я│п╬п╠ (п╜п╒п· п·п╗п≤п▒п п░)."
+
+#: file.c:1014
+msgid "#  Dependencies recipe running (THIS IS A BUG)."
+msgstr ""
+"#  п▓ п╢п╟п╫п╫я▀п╧ п╪п╬п╪п╣п╫я┌ я┐п╤п╣ п©я─п╦п╪п╣п╫я▐п╣я┌я│я▐ п╫п╣п╨п╦п╧ я│п©п╬я│п╬п╠ п©п╬ п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▐п╪ (п╜п╒п· п·п╗п≤п▒п п░)."
+
+#: file.c:1023
+msgid "#  Successfully updated."
+msgstr "#  пёя│п©п╣я┬п╫п╬ п╬п╠п╫п╬п╡п╩п╣п╫п╬."
+
+#: file.c:1027
+msgid "#  Needs to be updated (-q is set)."
+msgstr "#  п■п╬п╩п╤п╫п╬ п╠я▀я┌я▄ п╬п╠п╫п╬п╡п╩п╣п╫п╬ (п╥п╟п╢п╟п╫ п╨п╩я▌я┤ -q)."
+
+#: file.c:1030
+msgid "#  Failed to be updated."
+msgstr "#  п÷п╬п©я▀я┌п╨п╟ п╬п╠п╫п╬п╡п╩п╣п╫п╦я▐ п╠п╣п╥я┐я│п©п╣я┬п╫п╟."
+
+#: file.c:1035
+msgid "#  Invalid value in 'command_state' member!"
+msgstr "#  п²п╣п╡п╣я─п╫п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣ я┤п╩п╣п╫п╟ б╚command_stateб╩!"
+
+#: file.c:1054
 msgid ""
 "\n"
 "# Files"
 msgstr ""
 "\n"
-"# Файлы"
+"# п╓п╟п╧п╩я▀"
 
-#: file.c:993
+#: file.c:1058
 msgid ""
 "\n"
 "# files hash-table stats:\n"
 "# "
 msgstr ""
+"\n"
+"# я│п╬я│я┌п╬я▐п╫п╦п╣ я└п╟п╧п╩п╬п╡ я┘п╣я┬-я┌п╟п╠п╩п╦я├я▀:\n"
+"# "
 
-#: function.c:759
-msgid "non-numeric first argument to `word' function"
-msgstr "нечисловой первый аргумент функции `word'"
+#: file.c:1068
+#, c-format
+msgid "%s: Field '%s' not cached: %s"
+msgstr "%s: п÷п╬п╩п╣ б╚%sб╩ п╫п╣ п╨п╣я┬п╦я─п╬п╡п╟п╫п╬: %s"
 
-#: function.c:764
-msgid "first argument to `word' function must be greater than 0"
-msgstr "первый аргумент функции `word' должен быть больше нуля"
+#: function.c:789
+msgid "non-numeric first argument to 'word' function"
+msgstr "п╫п╣я┤п╦я│п╩п╬п╡п╬п╧ п©п╣я─п╡я▀п╧ п╟я─пЁя┐п╪п╣п╫я┌ я└я┐п╫п╨я├п╦п╦ б╚wordб╩"
 
-#: function.c:785
-msgid "non-numeric first argument to `wordlist' function"
-msgstr "нечисловой первый аргумент функции `wordlist'"
+#: function.c:794
+msgid "first argument to 'word' function must be greater than 0"
+msgstr "п©п╣я─п╡я▀п╧ п╟я─пЁя┐п╪п╣п╫я┌ я└я┐п╫п╨я├п╦п╦ б╚wordб╩ п╢п╬п╩п╤п╣п╫ п╠я▀я┌я▄ п╠п╬п╩я▄я┬п╣ п╫я┐п╩я▐"
 
-#: function.c:787
-msgid "non-numeric second argument to `wordlist' function"
-msgstr "нечисловой второй аргумент функции `wordlist'"
+#: function.c:814
+msgid "non-numeric first argument to 'wordlist' function"
+msgstr "п╫п╣я┤п╦я│п╩п╬п╡п╬п╧ п©п╣я─п╡я▀п╧ п╟я─пЁя┐п╪п╣п╫я┌ я└я┐п╫п╨я├п╦п╦ б╚wordlistб╩"
 
-#: function.c:1453
-#, fuzzy, c-format
-msgid "create_child_process: DuplicateHandle(In) failed (e=%ld)\n"
-msgstr "create_child_process: DuplicateHandle(In) вернула код ошибки (e=%d)\n"
+#: function.c:816
+msgid "non-numeric second argument to 'wordlist' function"
+msgstr "п╫п╣я┤п╦я│п╩п╬п╡п╬п╧ п╡я┌п╬я─п╬п╧ п╟я─пЁя┐п╪п╣п╫я┌ я└я┐п╫п╨я├п╦п╦ б╚wordlistб╩"
 
-#: function.c:1464
-#, fuzzy, c-format
-msgid "create_child_process: DuplicateHandle(Err) failed (e=%ld)\n"
-msgstr "create_child_process: DuplicateHandle(Err) вернула код ошибки (e=%d)\n"
+#: function.c:1506
+#, c-format
+msgid "windows32_openpipe: DuplicateHandle(In) failed (e=%ld)\n"
+msgstr "windows32_openpipe: DuplicateHandle(In) п╡п╣я─п╫я┐п╩п╟ п╨п╬п╢ п╬я┬п╦п╠п╨п╦ (e=%ld)\n"
 
-#: function.c:1469
-#, fuzzy, c-format
+#: function.c:1530
+#, c-format
+msgid "windows32_openpipe: DuplicateHandle(Err) failed (e=%ld)\n"
+msgstr "windows32_openpipe: DuplicateHandle(Err) п╡п╣я─п╫я┐п╩п╟ п╨п╬п╢ п╬я┬п╦п╠п╨п╦ (e=%ld)\n"
+
+#: function.c:1537
+#, c-format
 msgid "CreatePipe() failed (e=%ld)\n"
-msgstr "CreatePipe() вернула код ошибки (e=%d)\n"
+msgstr "CreatePipe() п╡п╣я─п╫я┐п╩п╟ п╨п╬п╢ п╬я┬п╦п╠п╨п╦ (e=%ld)\n"
 
-#: function.c:1474
-msgid "windows32_openpipe (): process_init_fd() failed\n"
-msgstr "windows32_openpipe(): process_init_fd() вернула код ошибки\n"
+#: function.c:1545
+msgid "windows32_openpipe(): process_init_fd() failed\n"
+msgstr "windows32_openpipe(): process_init_fd() п╥п╟п╡п╣я─я┬п╦п╩п╟я│я▄ п╫п╣я┐п╢п╟я┤п╫п╬\n"
 
-#: function.c:1725
+#: function.c:1839
 #, c-format
 msgid "Cleaning up temporary batch file %s\n"
-msgstr "Очищаю временный пакетный файл %s\n"
+msgstr "п·я┤п╦я┴п╟я▌ п╡я─п╣п╪п╣п╫п╫я▀п╧ п©п╟п╨п╣я┌п╫я▀п╧ я└п╟п╧п╩ %s\n"
 
-#: function.c:2101
-#, fuzzy, c-format
-msgid "insufficient number of arguments (%d) to function `%s'"
-msgstr "Недостаточно аргументов (всего %d) функции `%s'"
-
-#: function.c:2113
-#, fuzzy, c-format
-msgid "unimplemented on this platform: function `%s'"
-msgstr "Не реализовано на этой платформе: функция `%s'"
-
-#: function.c:2163
+#: function.c:2200
 #, c-format
-msgid "unterminated call to function `%s': missing `%c'"
-msgstr "незавершенный вызов функции `%s': пропущено `%c'"
+msgid "open: %s: %s"
+msgstr "п╬я┌п╨я─я▀я┌п╦п╣: %s: %s"
 
-# Сообщения getopt исключены, т.к. они относятся к уже
-# устаревшей версии этой библиотеки, и исчезнут в следующей версии make
-#
-#: getopt.c:663
+#: function.c:2210
 #, c-format
-msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: ключ `%s' не однозначен\n"
+msgid "write: %s: %s"
+msgstr "п╥п╟п©п╦я│я▄: %s: %s"
 
-#: getopt.c:687
+#: function.c:2216
 #, c-format
-msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ключ `--%s' не имеет аргумента\n"
+msgid "Invalid file operation: %s"
+msgstr "п²п╣п╨п╬я─я─п╣п╨я┌п╫п╟я▐ п╬п©п╣я─п╟я├п╦я▐ я│ я└п╟п╧п╩п╬п╪: %s"
 
-#: getopt.c:692
+#: function.c:2331
 #, c-format
-msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ключ `%c%s' не имеет аргумента\n"
+msgid "insufficient number of arguments (%d) to function '%s'"
+msgstr "п╫п╣п╢п╬я│я┌п╟я┌п╬я┤п╫п╬ п╟я─пЁя┐п╪п╣п╫я┌п╬п╡ (п╡я│п╣пЁп╬ %d) я└я┐п╫п╨я├п╦п╦ б╚%sб╩"
 
-#: getopt.c:709 getopt.c:882
+#: function.c:2343
 #, c-format
-msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ключ `%s' требует аргумент\n"
+msgid "unimplemented on this platform: function '%s'"
+msgstr "п╫п╣ я─п╣п╟п╩п╦п╥п╬п╡п╟п╫п╬ п╫п╟ я█я┌п╬п╧ п©п╩п╟я┌я└п╬я─п╪п╣: я└я┐п╫п╨я├п╦я▐ б╚%sб╩"
+
+#: function.c:2406
+#, c-format
+msgid "unterminated call to function '%s': missing '%c'"
+msgstr "п╫п╣п╥п╟п╡п╣я─я┬я▒п╫п╫я▀п╧ п╡я▀п╥п╬п╡ я└я┐п╫п╨я├п╦п╦ б╚%sб╩: п©я─п╬п©я┐я┴п╣п╫п╬ б╚%cб╩"
+
+#: function.c:2598
+msgid "Empty function name"
+msgstr "п÷я┐я│я┌п╬п╣ п╦п╪я▐ я└я┐п╫п╨я├п╦п╦"
+
+#: function.c:2600
+#, c-format
+msgid "Invalid function name: %s"
+msgstr "п²п╣п╨п╬я─я─п╣п╨я┌п╫п╬п╣ п╦п╪я▐ я└я┐п╫п╨я├п╦п╦: %s"
+
+#: function.c:2602
+#, c-format
+msgid "Function name too long: %s"
+msgstr "п║п╩п╦я┬п╨п╬п╪ п╢п╩п╦п╫п╫п╬п╣ п╦п╪я▐ я└я┐п╫п╨я├п╦п╦: %s"
+
+#: function.c:2605
+#, c-format
+msgid "Invalid minimum argument count (%d) for function %s"
+msgstr "п²п╣п╨п╬я─я─п╣п╨я┌п╫п╬п╣ п╪п╦п╫п╦п╪п╟п╩я▄п╫п╬п╣ я┤п╦я│п╩п╬ п╟я─пЁя┐п╪п╣п╫я┌п╬п╡ (п╡я│п╣пЁп╬ %d) я└я┐п╫п╨я├п╦п╦ %s"
+
+#: function.c:2608
+#, c-format
+msgid "Invalid maximum argument count (%d) for function %s"
+msgstr "п²п╣п╨п╬я─я─п╣п╨я┌п╫п╬п╣ п╪п╟п╨я│п╦п╪п╟п╩я▄п╫п╬п╣ я┤п╦я│п╩п╬ п╟я─пЁя┐п╪п╣п╫я┌п╬п╡ (п╡я│п╣пЁп╬ %d) я└я┐п╫п╨я├п╦п╦ %s"
+
+# п║п╬п╬п╠я┴п╣п╫п╦я▐ getopt п╦я│п╨п╩я▌я┤п╣п╫я▀, я┌.п╨. п╬п╫п╦ п╬я┌п╫п╬я│я▐я┌я│я▐ п╨ я┐п╤п╣
+# я┐я│я┌п╟я─п╣п╡я┬п╣п╧ п╡п╣я─я│п╦п╦ я█я┌п╬п╧ п╠п╦п╠п╩п╦п╬я┌п╣п╨п╦, п╦ п╦я│я┤п╣п╥п╫я┐я┌ п╡ я│п╩п╣п╢я┐я▌я┴п╣п╧ п╡п╣я─я│п╦п╦ make
+#: getopt.c:659
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr "%s: п╨п╩я▌я┤ б╚%sб╩ п╫п╣ п╬п╢п╫п╬п╥п╫п╟я┤п╣п╫\n"
+
+#: getopt.c:683
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: п╨п╩я▌я┤ б╚--%sб╩ п╢п╬п╩п╤п╣п╫ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐ п╠п╣п╥ п╟я─пЁя┐п╪п╣п╫я┌п╟\n"
+
+#: getopt.c:688
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: п╨п╩я▌я┤ б╚%c%sб╩ п╢п╬п╩п╤п╣п╫ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐ п╠п╣п╥ п╟я─пЁя┐п╪п╣п╫я┌п╟\n"
+
+#: getopt.c:705 getopt.c:878
+#, c-format
+msgid "%s: option '%s' requires an argument\n"
+msgstr "%s: п╨п╩я▌я┤я┐ б╚%sб╩ я┌я─п╣п╠я┐п╣я┌я│я▐ п╟я─пЁя┐п╪п╣п╫я┌\n"
+
+#: getopt.c:734
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ п╨п╩я▌я┤ б╚--%sб╩\n"
 
 #: getopt.c:738
 #, c-format
-msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: неизвестный ключ `--%s'\n"
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ п╨п╩я▌я┤ б╚%c%sб╩\n"
 
-#: getopt.c:742
-#, c-format
-msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: неизвествный ключ `%c%s'\n"
-
-#: getopt.c:768
+#: getopt.c:764
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: недопустимый ключ -- %c\n"
+msgstr "%s: п╫п╣п╢п╬п©я┐я│я┌п╦п╪я▀п╧ п╨п╩я▌я┤ -- %c\n"
 
-#: getopt.c:771
+#: getopt.c:767
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: неверный ключ -- %c\n"
+msgstr "%s: п╫п╣п╡п╣я─п╫я▀п╧ п╨п╩я▌я┤ -- %c\n"
 
-#: getopt.c:801 getopt.c:931
+#: getopt.c:797 getopt.c:927
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ключ требует аргумент -- %c\n"
+msgstr "%s: п╨п╩я▌я┤ я┌я─п╣п╠я┐п╣я┌ п╟я─пЁя┐п╪п╣п╫я┌ -- %c\n"
 
-#: getopt.c:848
+#: getopt.c:844
 #, c-format
-msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: ключ `-W %s' неоднозначен\n"
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: п╨п╩я▌я┤ б╚-W %sб╩ п╫п╣п╬п╢п╫п╬п╥п╫п╟я┤п╣п╫\n"
 
-#: getopt.c:866
+#: getopt.c:862
 #, c-format
-msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ключ `-W %s' не имеет аргумента\n"
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: п╨п╩я▌я┤ б╚-W %sб╩ п╢п╬п╩п╤п╣п╫ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐ п╠п╣п╥ п╟я─пЁя┐п╪п╣п╫я┌п╟\n"
 
-#: hash.c:51
+#: guile.c:58
 #, c-format
-msgid "can't allocate %ld bytes for hash table: memory exhausted"
-msgstr ""
+msgid "guile: Expanding '%s'\n"
+msgstr "guile: я─п╟я│я┬п╦я─я▐п╣я┌я│я▐ б╚%sб╩\n"
+
+#: guile.c:74
+#, c-format
+msgid "guile: Evaluating '%s'\n"
+msgstr "guile: п╡я▀я┤п╦я│п╩я▐п╣я┌я│я▐ б╚%sб╩\n"
+
+#: hash.c:49
+#, c-format
+msgid "can't allocate %lu bytes for hash table: memory exhausted"
+msgstr "п╫п╣ я┐п╢п╟п╩п╬я│я▄ п╡я▀п╢п╣п╩п╦я┌я▄ %lu п╠п╟п╧я┌ п╢п╩я▐ я┘п╣я┬-я┌п╟п╠п╩п╦я├я▀: п╥п╟п╨п╬п╫я┤п╦п╩п╟я│я▄ п©п╟п╪я▐я┌я▄"
+
+#: hash.c:280
+#, c-format
+msgid "Load=%ld/%ld=%.0f%%, "
+msgstr "п≈п╟пЁя─я┐п╤п╣п╫п╬=%ld/%ld=%.0f%%, "
 
 #: hash.c:282
 #, c-format
-msgid "Load=%ld/%ld=%.0f%%, "
-msgstr ""
-
-#: hash.c:284
-#, c-format
 msgid "Rehash=%d, "
-msgstr ""
+msgstr "п÷п╣я─п╣я└п╬я─п╪я┐п╩п╦я─п╬п╡п╟п╫п╬=%d, "
 
-#: hash.c:285
+#: hash.c:283
 #, c-format
 msgid "Collisions=%ld/%ld=%.0f%%"
-msgstr ""
+msgstr "п÷я─п╬я┌п╦п╡п╬я─п╣я┤п╦п╧=%ld/%ld=%.0f%%"
 
-#: implicit.c:41
+#: implicit.c:38
 #, c-format
-msgid "Looking for an implicit rule for `%s'.\n"
-msgstr "Поиск неявного правила для `%s'.\n"
+msgid "Looking for an implicit rule for '%s'.\n"
+msgstr "п÷п╬п╦я│п╨ п╫п╣я▐п╡п╫п╬пЁп╬ п©я─п╟п╡п╦п╩п╟ п╢п╩я▐ б╚%sб╩.\n"
 
-#: implicit.c:57
+#: implicit.c:54
 #, c-format
-msgid "Looking for archive-member implicit rule for `%s'.\n"
-msgstr "Поиск неявного правила для элемента архива `%s'.\n"
+msgid "Looking for archive-member implicit rule for '%s'.\n"
+msgstr "п÷п╬п╦я│п╨ п╫п╣я▐п╡п╫п╬пЁп╬ п©я─п╟п╡п╦п╩п╟ п╢п╩я▐ я█п╩п╣п╪п╣п╫я┌п╟ п╟я─я┘п╦п╡п╟ б╚%sб╩.\n"
 
-#: implicit.c:319
+#: implicit.c:312
 msgid "Avoiding implicit rule recursion.\n"
-msgstr "Избежание рекурсивного вызова неявного правила.\n"
+msgstr "п≤п╥п╠п╣п╤п╟п╫п╦п╣ я─п╣п╨я┐я─я│п╦п╡п╫п╬пЁп╬ п╡я▀п╥п╬п╡п╟ п╫п╣я▐п╡п╫п╬пЁп╬ п©я─п╟п╡п╦п╩п╟.\n"
 
-#: implicit.c:476
+#: implicit.c:487
 #, c-format
-msgid "Trying pattern rule with stem `%.*s'.\n"
-msgstr "Попытка применения правила с образцом, основа `%.*s'.\n"
+msgid "Stem too long: '%.*s'.\n"
+msgstr "п║п╩п╦я┬п╨п╬п╪ п╢п╩п╦п╫п╫я▀п╧ п╬п╠я─п╟п╥п╣я├: б╚%.*sб╩.\n"
 
-#: implicit.c:667
+#: implicit.c:492
 #, c-format
-msgid "Rejecting impossible implicit prerequisite `%s'.\n"
-msgstr "Отвержение невозможной неявной зависимости `%s'.\n"
+msgid "Trying pattern rule with stem '%.*s'.\n"
+msgstr "п÷п╬п©я▀я┌п╨п╟ п©я─п╦п╪п╣п╫п╣п╫п╦я▐ п©я─п╟п╡п╦п╩п╟ я│ п╬п╠я─п╟п╥я├п╬п╪ б╚%.*sб╩.\n"
 
-#: implicit.c:668
+#: implicit.c:698
 #, c-format
-msgid "Rejecting impossible rule prerequisite `%s'.\n"
-msgstr "Отвержение невозможной зависимости правила `%s'.\n"
+msgid "Rejecting impossible rule prerequisite '%s'.\n"
+msgstr "п·я┌п╡п╣я─п╤п╣п╫п╦п╣ п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬п╧ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╦ п©я─п╟п╡п╦п╩п╟ б╚%sб╩.\n"
 
-#: implicit.c:678
+#: implicit.c:699
 #, c-format
-msgid "Trying implicit prerequisite `%s'.\n"
-msgstr "Попытка применения неявной зависимости `%s'.\n"
+msgid "Rejecting impossible implicit prerequisite '%s'.\n"
+msgstr "п·я┌п╡п╣я─п╤п╣п╫п╦п╣ п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬п╧ п╫п╣я▐п╡п╫п╬п╧ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╦ б╚%sб╩.\n"
 
-#: implicit.c:679
+#: implicit.c:712
 #, c-format
-msgid "Trying rule prerequisite `%s'.\n"
-msgstr "Попытка применения правила зависимости `%s'.\n"
+msgid "Trying rule prerequisite '%s'.\n"
+msgstr "п÷п╬п©я▀я┌п╨п╟ п©я─п╦п╪п╣п╫п╣п╫п╦я▐ п©я─п╟п╡п╦п╩п╟ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╦ б╚%sб╩.\n"
 
-#: implicit.c:710
+#: implicit.c:713
 #, c-format
-msgid "Found prerequisite `%s' as VPATH `%s'\n"
-msgstr "Обнаружена зависимость `%s' в виде VPATH `%s'\n"
+msgid "Trying implicit prerequisite '%s'.\n"
+msgstr "п÷п╬п©я▀я┌п╨п╟ п©я─п╦п╪п╣п╫п╣п╫п╦я▐ п╫п╣я▐п╡п╫п╬п╧ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╦ б╚%sб╩.\n"
 
-#: implicit.c:730
+#: implicit.c:752
 #, c-format
-msgid "Looking for a rule with intermediate file `%s'.\n"
-msgstr "Поиск правила с промежуточным файлом `%s'.\n"
+msgid "Found prerequisite '%s' as VPATH '%s'\n"
+msgstr "п·п╠п╫п╟я─я┐п╤п╣п╫п╟ п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▄ б╚%sб╩ п╡ п╡п╦п╢п╣ VPATH б╚%sб╩\n"
 
-#: job.c:321
-#, fuzzy
+#: implicit.c:766
+#, c-format
+msgid "Looking for a rule with intermediate file '%s'.\n"
+msgstr "п÷п╬п╦я│п╨ п©я─п╟п╡п╦п╩п╟ я│ п©я─п╬п╪п╣п╤я┐я┌п╬я┤п╫я▀п╪ я└п╟п╧п╩п╬п╪ б╚%sб╩.\n"
+
+#: job.c:373
 msgid "Cannot create a temporary file\n"
-msgstr "fwrite (временный файл)"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ я│п╬п╥п╢п╟я┌я▄ п╡я─п╣п╪п╣п╫п╫я▀п╧ я└п╟п╧п╩\n"
 
-#: job.c:388
-#, c-format
-msgid "*** [%s] Error 0x%x (ignored)"
-msgstr "*** [%s] Ошибка 0x%x (игнорирована)"
-
-#: job.c:389
-#, c-format
-msgid "*** [%s] Error 0x%x"
-msgstr "*** [%s] Ошибка 0x%x"
-
-#: job.c:393
-#, c-format
-msgid "[%s] Error %d (ignored)"
-msgstr "[%s] Ошибка %d (игнорирована)"
-
-#: job.c:394
-#, c-format
-msgid "*** [%s] Error %d"
-msgstr "*** [%s] Ошибка %d"
-
-#: job.c:399
+#: job.c:495
 msgid " (core dumped)"
-msgstr " (сделан дамп памяти)"
+msgstr " (я│п╢п╣п╩п╟п╫ п╢п╟п╪п© п©п╟п╪я▐я┌п╦)"
 
-#: job.c:488
+#: job.c:500
+msgid " (ignored)"
+msgstr " (п╦пЁп╫п╬я─п╦я─п╬п╡п╟п╫п╦п╣)"
+
+#: job.c:504 job.c:2073
+msgid "<builtin>"
+msgstr "<п╡я│я┌я─п╬п╣п╫п╫п╬п╣>"
+
+#: job.c:515
+#, c-format
+msgid "%s: recipe for target '%s' failed"
+msgstr "%s: п╬я┬п╦п╠п╨п╟ п╡я▀п©п╬п╩п╫п╣п╫п╦я▐ я─п╣я├п╣п©я┌п╟ п╢п╩я▐ я├п╣п╩п╦ б╚%sб╩"
+
+#: job.c:521
+#, c-format
+msgid "%s[%s] Error %d%s"
+msgstr "%s[%s] п·я┬п╦п╠п╨п╟ %d%s"
+
+#: job.c:526
+#, c-format
+msgid "%s[%s] %s%s%s"
+msgstr "%s[%s] %s%s%s"
+
+#: job.c:618
 msgid "*** Waiting for unfinished jobs...."
-msgstr "*** Ожидание завершения заданий..."
+msgstr "*** п·п╤п╦п╢п╟п╫п╦п╣ п╥п╟п╡п╣я─я┬п╣п╫п╦я▐ п╥п╟п╢п╟п╫п╦п╧Б─╕"
 
-#: job.c:518
+#: job.c:648
 #, c-format
-msgid "Live child 0x%08lx (%s) PID %ld %s\n"
-msgstr "Незавершенный потомок 0x%08lx (%s) PID %ld %s\n"
+msgid "Live child %p (%s) PID %s %s\n"
+msgstr "п²п╣п╥п╟п╡п╣я─я┬я▒п╫п╫я▀п╧ п©п╬я┌п╬п╪п╬п╨ %p (%s) PID %s %s\n"
 
-#: job.c:520 job.c:701 job.c:804 job.c:1457
+#: job.c:650 job.c:849 job.c:968 job.c:1764
 msgid " (remote)"
-msgstr " (удаленный)"
+msgstr " (я┐п╢п╟п╩я▒п╫п╫я▀п╧)"
 
-#: job.c:698
+#: job.c:847
 #, c-format
-msgid "Reaping losing child 0x%08lx PID %ld %s\n"
-msgstr "Подбираю неудачно завершившегося потомка 0x%08lx PID %ld %s\n"
+msgid "Reaping losing child %p PID %s %s\n"
+msgstr "п÷п╬п╢п╠п╦я─п╟п╣я┌я│я▐ п╫п╣я┐п╢п╟я┤п╫п╬ п╥п╟п╡п╣я─я┬п╦п╡я┬п╦п╧я│я▐  п©п╬я┌п╬п╪п╬п╨ %p PID %s %s\n"
 
-#: job.c:699
+#: job.c:848
 #, c-format
-msgid "Reaping winning child 0x%08lx PID %ld %s\n"
-msgstr "Подбираю удачно завершившегося потомка 0x%08lx PID %ld %s\n"
+msgid "Reaping winning child %p PID %s %s\n"
+msgstr "п÷п╬п╢п╠п╦я─п╟п╣я┌я│я▐ я┐п╢п╟я┤п╫п╬ п╥п╟п╡п╣я─я┬п╦п╡я┬п╦п╧я│я▐ п©п╬я┌п╬п╪п╬п╨ %p PID %s %s\n"
 
-#: job.c:704
+#: job.c:855
 #, c-format
 msgid "Cleaning up temp batch file %s\n"
-msgstr "Подчищаю временный пакетный файл %s\n"
+msgstr "п÷п╬п╢я┤п╦я┴п╟я▌ п╡я─п╣п╪п╣п╫п╫я▀п╧ п©п╟п╨п╣я┌п╫я▀п╧ я└п╟п╧п╩ %s\n"
 
-#: job.c:802
-#, fuzzy, c-format
-msgid "Removing child 0x%08lx PID %ld%s from chain.\n"
-msgstr "Удаление потомка 0x%08lx PID %ld %s из цепочки активных потомков.\n"
-
-#: job.c:862
-msgid "write jobserver"
-msgstr "пишу в сервер задач"
-
-#: job.c:864
+#: job.c:861
 #, c-format
-msgid "Released token for child 0x%08lx (%s).\n"
-msgstr "Освобождается токен для потомка 0x%08lx (%s).\n"
+msgid "Cleaning up temp batch file %s failed (%d)\n"
+msgstr "п·я┤п╦я│я┌п╨п╟ п╡я─п╣п╪п╣п╫п╫п╬пЁп╬ п©п╟п╨п╣я┌п╫п╬пЁп╬ я└п╟п╧п╩п╟ %s п╥п╟п╡п╣я─я┬п╦п╩п╟я│я▄ я│ п╬я┬п╦п╠п╨п╬п╧ (%d)\n"
 
-#: job.c:1383
-#, fuzzy, c-format
+#: job.c:967
+#, c-format
+msgid "Removing child %p PID %s%s from chain.\n"
+msgstr "пёп╢п╟п╩я▐п╣я┌я│я▐ п©п╬я┌п╬п╪п╬п╨ %p PID %s%s п╦п╥ я├п╣п©п╬я┤п╨п╦.\n"
+
+#: job.c:1027
+#, c-format
+msgid "release jobserver semaphore: (Error %ld: %s)"
+msgstr "п╬я│п╡п╬п╠п╬п╤п╢п╣п╫п╦п╣ я│п╣п╪п╟я└п╬я─п╟ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧: (п╬я┬п╦п╠п╨п╟ %ld: %s)"
+
+#: job.c:1030 job.c:1044
+#, c-format
+msgid "Released token for child %p (%s).\n"
+msgstr "п·я│п╡п╬п╠п╬п╤п╢я▒п╫ я┌п╬п╨п╣п╫ п╢п╩я▐ п©п╬я┌п╬п╪п╨п╟ %p (%s).\n"
+
+#: job.c:1042
+msgid "write jobserver"
+msgstr "п╥п╟п©п╦я│я▄ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧"
+
+#: job.c:1689 job.c:2414
+#, c-format
 msgid "process_easy() failed to launch process (e=%ld)\n"
-msgstr "process_easy() не смогла запустить процесс (e=%d)\n"
+msgstr "process_easy() п╫п╣ я│п╪п╬пЁп╩п╟ п╥п╟п©я┐я│я┌п╦я┌я▄ п©я─п╬я├п╣я│я│ (e=%ld)\n"
 
-#: job.c:1387 job.c:2020
+#: job.c:1693 job.c:2418
 #, c-format
 msgid ""
 "\n"
 "Counted %d args in failed launch\n"
 msgstr ""
 "\n"
-"При неуспешном запуске сосчитано %d аргументов\n"
+"п÷я─п╦ п╫п╣я┐п╢п╟я┤п╫п╬п╪ п╥п╟п©я┐я│п╨п╣ я│п╬я│я┤п╦я┌п╟п╫п╬ %d п╟я─пЁя┐п╪п╣п╫я┌п╬п╡\n"
 
-#: job.c:1455
+#: job.c:1762
 #, c-format
-msgid "Putting child 0x%08lx (%s) PID %ld%s on the chain.\n"
-msgstr ""
-"Помещение потомка 0x%08lx (%s) PID %ld%s в цепочку активных потомков.\n"
+msgid "Putting child %p (%s) PID %s%s on the chain.\n"
+msgstr "п÷п╬п╪п╣я┴п╣п╫п╦п╣ п©п╬я┌п╬п╪п╨п╟ %p (%s) PID %s%s п╡ я├п╣п©п╬я┤п╨я┐ п©п╬я┌п╬п╪п╨п╬п╡.\n"
 
-#: job.c:1709
+#: job.c:2032
 #, c-format
-msgid "Obtained token for child 0x%08lx (%s).\n"
-msgstr "Получен токен для потомка 0x%08lx (%s).\n"
-
-#: job.c:1718
-msgid "read jobs pipe"
-msgstr "читаю задачи из потока"
-
-#: job.c:1832
-msgid "cannot enforce load limits on this operating system"
-msgstr "эта операционная система не позволяет устанавливать пределы загрузки"
-
-#: job.c:1834
-msgid "cannot enforce load limit: "
-msgstr "невозможно установить пределы загрузки: "
-
-#: job.c:1907
-msgid "no more file handles: could not duplicate stdin\n"
-msgstr ""
-
-#: job.c:1909
-msgid "no more file handles: could not duplicate stdout\n"
-msgstr ""
-
-#: job.c:1937
-msgid "Could not restore stdin\n"
-msgstr ""
-
-#: job.c:1945
-msgid "Could not restore stdout\n"
-msgstr ""
-
-#: job.c:2016
-#, fuzzy, c-format
-msgid "process_easy() failed failed to launch process (e=%ld)\n"
-msgstr "process_easy() не смогла запустить процесс (e=%d)\n"
+msgid "semaphore or child process wait: (Error %ld: %s)"
+msgstr "п╬п╤п╦п╢п╟п╫п╦п╣ я│п╣п╪п╟я└п╬я─п╟ п╦п╩п╦ п©я─п╬я├п╣я│я│п╟-п©п╬я┌п╬п╪п╨п╟: (п╬я┬п╦п╠п╨п╟ %ld: %s)"
 
 #: job.c:2046
-#, fuzzy, c-format
-msgid "make reaped child pid %ld, still waiting for pid %ld\n"
-msgstr "make нашла завершившегося потомка pid %d, все еще ожидает pid %d\n"
+#, c-format
+msgid "Obtained token for child %p (%s).\n"
+msgstr "п÷п╬п╩я┐я┤п╣п╫ я┌п╬п╨п╣п╫ п╢п╩я▐ п©п╬я┌п╬п╪п╨п╟ %p (%s).\n"
 
-#: job.c:2085
+#: job.c:2056
+msgid "read jobs pipe"
+msgstr "я┤я┌п╣п╫п╦п╣ п©п╬я┌п╬п╨п╟ п╥п╟п╢п╟п╫п╦п╧"
+
+#: job.c:2083
+#, c-format
+msgid "%s: target '%s' does not exist"
+msgstr "%s: я├п╣п╩я▄ б╚%sб╩ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌"
+
+#: job.c:2086
+#, c-format
+msgid "%s: update target '%s' due to: %s"
+msgstr "%s: п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ я├п╣п╩п╦ б╚%sб╩ п╦п╥-п╥п╟: %s"
+
+#: job.c:2198
+msgid "cannot enforce load limits on this operating system"
+msgstr "я█я┌п╟ п╬п©п╣я─п╟я├п╦п╬п╫п╫п╟я▐ я│п╦я│я┌п╣п╪п╟ п╫п╣ п©п╬п╥п╡п╬п╩я▐п╣я┌ я┐я│я┌п╟п╫п╟п╡п╩п╦п╡п╟я┌я▄ п©я─п╣п╢п╣п╩я▀ п╥п╟пЁя─я┐п╥п╨п╦"
+
+#: job.c:2200
+msgid "cannot enforce load limit: "
+msgstr "п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬ я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ п©я─п╣п╢п╣п╩я▀ п╥п╟пЁя─я┐п╥п╨п╦: "
+
+#: job.c:2279
+msgid "no more file handles: could not duplicate stdin\n"
+msgstr "п╥п╟п╨п╬п╫я┤п╦п╩п╦я│я▄ я└п╟п╧п╩п╬п╡я▀п╣ п╢п╣я│п╨я─п╦п©я┌п╬я─я▀: п╫п╣ я┐п╢п╟п╩п╬я│я▄ я│п╢п╣п╩п╟я┌я▄ п╨п╬п©п╦я▌ stdin\n"
+
+#: job.c:2291
+msgid "no more file handles: could not duplicate stdout\n"
+msgstr "п╥п╟п╨п╬п╫я┤п╦п╩п╦я│я▄ я└п╟п╧п╩п╬п╡я▀п╣ п╢п╣я│п╨я─п╦п©я┌п╬я─я▀: п╫п╣ я┐п╢п╟п╩п╬я│я▄ я│п╢п╣п╩п╟я┌я▄ п╨п╬п©п╦я▌ stdout\n"
+
+#: job.c:2305
+msgid "no more file handles: could not duplicate stderr\n"
+msgstr "п╥п╟п╨п╬п╫я┤п╦п╩п╦я│я▄ я└п╟п╧п╩п╬п╡я▀п╣ п╢п╣я│п╨я─п╦п©я┌п╬я─я▀: п╫п╣ я┐п╢п╟п╩п╬я│я▄ я│п╢п╣п╩п╟я┌я▄ п╨п╬п©п╦я▌ stderr\n"
+
+#: job.c:2320
+msgid "Could not restore stdin\n"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п╡п╬я│я│я┌п╟п╫п╬п╡п╦я┌я▄ stdin\n"
+
+#: job.c:2328
+msgid "Could not restore stdout\n"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п╡п╬я│я│я┌п╟п╫п╬п╡п╦я┌я▄ stdout\n"
+
+#: job.c:2336
+msgid "Could not restore stderr\n"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п╡п╬я│я│я┌п╟п╫п╬п╡п╦я┌я▄ stderr\n"
+
+#: job.c:2447
+#, c-format
+msgid "make reaped child pid %s, still waiting for pid %s\n"
+msgstr "make п╫п╟я┬п╩п╟ п╥п╟п╡п╣я─я┬п╦п╡я┬п╣пЁп╬я│я▐ п©п╬я┌п╬п╪п╨п╟ pid %s, п╡я│я▒ п╣я┴я▒ п╬п╤п╦п╢п╟п╣я┌ pid %s\n"
+
+#: job.c:2485
 #, c-format
 msgid "%s: Command not found"
-msgstr "%s: Команда не найдена"
+msgstr "%s: п п╬п╪п╟п╫п╢п╟ п╫п╣ п╫п╟п╧п╢п╣п╫п╟"
 
-#: job.c:2145
+#: job.c:2545
 #, c-format
 msgid "%s: Shell program not found"
-msgstr "%s: Командный процессор не найден"
+msgstr "%s: п п╬п╪п╟п╫п╢п╫я▀п╧ п©я─п╬я├п╣я│я│п╬я─ п╫п╣ п╫п╟п╧п╢п╣п╫"
 
-#: job.c:2154
+#: job.c:2554
 msgid "spawnvpe: environment space might be exhausted"
-msgstr ""
+msgstr "spawnvpe: п╡п╣я─п╬я▐я┌п╫п╬, п╥п╟п╨п╬п╫я┤п╦п╩п╬я│я▄ п╪п╣я│я┌п╬ п©п╬п╢ п╬п╨я─я┐п╤п╣п╫п╦п╣"
 
-#: job.c:2363
-#, fuzzy, c-format
-msgid "$SHELL changed (was `%s', now `%s')\n"
-msgstr "Переменная $SHELL изменилась (было '%s', теперь '%s')"
+#: job.c:2792
+#, c-format
+msgid "$SHELL changed (was '%s', now '%s')\n"
+msgstr "п÷п╣я─п╣п╪п╣п╫п╫п╟я▐ $SHELL п╦п╥п╪п╣п╫п╦п╩п╟я│я▄ (п╠я▀п╩п╬ б╚%sб╩, я┌п╣п©п╣я─я▄ б╚%sб╩)\n"
 
-#: job.c:2789
+#: job.c:3229 job.c:3414
 #, c-format
 msgid "Creating temporary batch file %s\n"
-msgstr "Создается временный пакетный файл %s\n"
+msgstr "п║п╬п╥п╢п╟я▒я┌я│я▐ п╡я─п╣п╪п╣п╫п╫я▀п╧ п©п╟п╨п╣я┌п╫я▀п╧ я└п╟п╧п╩ %s\n"
 
-#: job.c:2902
+#: job.c:3237
+msgid ""
+"Batch file contents:\n"
+"\t@echo off\n"
+msgstr ""
+"п║п╬п╢п╣я─п╤п╦п╪п╬п╣ я└п╟п╧п╩п╟ п©п╟п╨п╣я┌п╫я▀я┘ п╥п╟п╢п╟п╫п╦п╧:\n"
+"\t@echo off\n"
+
+#: job.c:3426
+#, c-format
+msgid ""
+"Batch file contents:%s\n"
+"\t%s\n"
+msgstr ""
+"п║п╬п╢п╣я─п╤п╦п╪п╬п╣ я└п╟п╧п╩п╟ п©п╟п╨п╣я┌п╫я▀я┘ п╥п╟п╢п╟п╫п╦п╧:%s\n"
+"\t%s\n"
+
+#: job.c:3534
 #, c-format
 msgid "%s (line %d) Bad shell context (!unixy && !batch_mode_shell)\n"
 msgstr ""
-"%s (строка %d) Плохой контекст командного процессора (!unixy && !"
+"%s (я│я┌я─п╬п╨п╟ %d) п÷п╩п╬я┘п╬п╧ п╨п╬п╫я┌п╣п╨я│я┌ п╨п╬п╪п╟п╫п╢п╫п╬пЁп╬ п©я─п╬я├п╣я│я│п╬я─п╟ (!unixy && !"
 "batch_mode_shell)\n"
 
-#: main.c:291
+#: job.h:43
+msgid "-O[TYPE] (--output-sync[=TYPE]) is not configured for this build."
+msgstr "-O[п╒п≤п÷] (--output-sync[=п╒п≤п÷]) п╫п╣ п╫п╟я│я┌я─п╬п╣п╫ п╡ п╢п╟п╫п╫п╬п╧ я│п╠п╬я─п╨п╣."
+
+#: load.c:60
+#, c-format
+msgid "Failed to open global symbol table: %s"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п╬я┌п╨я─я▀я┌я▄ пЁп╩п╬п╠п╟п╩я▄п╫я┐я▌ я┌п╟п╠п╩п╦я├я┐ я│п╦п╪п╡п╬п╩п╬п╡: %s"
+
+#: load.c:97
+#, c-format
+msgid "Loaded object %s is not declared to be GPL compatible"
+msgstr "п≈п╟пЁя─я┐п╤п╣п╫п╫я▀п╧ п╬п╠я┼п╣п╨я┌ %s п╫п╣ п╬п╠я┼я▐п╡п╩п╣п╫п╬ п╨п╟п╨ я│п╬п╡п╪п╣я│я┌п╦п╪я▀п╧ я│ GPL"
+
+#: load.c:104
+#, c-format
+msgid "Failed to load symbol %s from %s: %s"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п╥п╟пЁя─я┐п╥п╦я┌я▄ я│п╦п╪п╡п╬п╩ %s п╦п╥ %s: %s"
+
+#: load.c:149
+#, c-format
+msgid "Empty symbol name for load: %s"
+msgstr "п÷я┐я│я┌п╬п╣ п╦п╪я▐ я│п╦п╪п╡п╬п╩п╟ п╢п╩я▐ п╥п╟пЁя─я┐п╥п╨п╦: %s"
+
+#: load.c:205
+#, c-format
+msgid "Loading symbol %s from %s\n"
+msgstr "п≈п╟пЁя─я┐п╤п╟п╣я┌я│я▐ я│п╦п╪п╡п╬п╩ %s п╦п╥ %s\n"
+
+#: load.c:244
+msgid "The 'load' operation is not supported on this platform."
+msgstr "п·п©п╣я─п╟я├п╦я▐ б╚loadб╩ п╫п╣ п©п╬п╢п╢п╣я─п╤п╦п╡п╟п╣я┌я│я▐ п╫п╟ я█я┌п╬п╧ п©п╩п╟я┌я└п╬я─п╪п╣."
+
+#: main.c:348
 msgid "Options:\n"
-msgstr "Ключи:\n"
+msgstr "п п╩я▌я┤п╦:\n"
 
-#: main.c:292
-#, fuzzy
+#: main.c:349
 msgid "  -b, -m                      Ignored for compatibility.\n"
-msgstr "Игнорируется для совместимости"
+msgstr "  -b, -m                      п≤пЁп╫п╬я─п╦я─я┐п╣я┌я│я▐ п╢п╩я▐ я│п╬п╡п╪п╣я│я┌п╦п╪п╬я│я┌п╦.\n"
 
-#: main.c:294
+#: main.c:351
 msgid "  -B, --always-make           Unconditionally make all targets.\n"
-msgstr ""
+msgstr "  -B, --always-make           п▒п╣п╥ я┐я│п╩п╬п╡п╦п╧ п╬я┌я─п╟п╠п╟я┌я▀п╡п╟я┌я▄ п╡я│п╣ я├п╣п╩п╦.\n"
 
-#: main.c:296
+#: main.c:353
 msgid ""
 "  -C DIRECTORY, --directory=DIRECTORY\n"
 "                              Change to DIRECTORY before doing anything.\n"
 msgstr ""
+"  -C п п░п╒п░п⌡п·п⌠, --directory=п п░п╒п░п⌡п·п⌠\n"
+"                              п÷п╣я─п╣п╧я┌п╦ п╡ п п░п╒п░п⌡п·п⌠ п©п╣я─п╣п╢ п╡я▀п©п╬п╩п╫п╣п╫п╦п╣п╪ п╢п╣п╧я│я┌п╡п╦п╧.\n"
 
-#: main.c:299
-#, fuzzy
+#: main.c:356
 msgid "  -d                          Print lots of debugging information.\n"
-msgstr "Выводить массу отладочных сообщений"
+msgstr "  -d                          п▓я▀п╡п╬п╢п╦я┌я▄ п╪п╟я│я│я┐ п╬я┌п╩п╟п╢п╬я┤п╫я▀я┘ я│п╬п╬п╠я┴п╣п╫п╦п╧.\n"
 
-#: main.c:301
-#, fuzzy
+#: main.c:358
 msgid ""
 "  --debug[=FLAGS]             Print various types of debugging information.\n"
-msgstr "Выводить различные типы отладочной информации"
+msgstr ""
+"  --debug[=п╓п⌡п░п⌠п≤]             п▓я▀п╡п╬п╢п╦я┌я▄ я─п╟п╥п╩п╦я┤п╫я▀п╣ я┌п╦п©я▀ п╬я┌п╩п╟п╢п╬я┤п╫п╬п╧ "
+"п╦п╫я└п╬я─п╪п╟я├п╦п╦.\n"
 
-#: main.c:303
+#: main.c:360
 msgid ""
 "  -e, --environment-overrides\n"
 "                              Environment variables override makefiles.\n"
 msgstr ""
+"  -e, --environment-overrides\n"
+"                              п÷п╣я─п╣п╪п╣п╫п╫я▀п╣ п╬п╨я─я┐п╤п╣п╫п╦я▐ п╥п╟п╪п╣п╫я▐я▌я┌ п╥п╫п╟я┤п╣п╫п╦я▐ "
+"makefile.\n"
 
-#: main.c:306
+#: main.c:363
+msgid ""
+"  --eval=STRING               Evaluate STRING as a makefile statement.\n"
+msgstr ""
+"  --eval=п║п╒п═п·п п░               п▓я▀я┤п╦я│п╩п╦я┌я▄ п║п╒п═п·п пё п╨п╟п╨ п©я─п╣п╢п╩п╬п╤п╣п╫п╦п╣ makefile.\n"
+
+#: main.c:365
 msgid ""
 "  -f FILE, --file=FILE, --makefile=FILE\n"
 "                              Read FILE as a makefile.\n"
 msgstr ""
+"  -f п╓п░п≥п⌡, --file=п╓п░п≥п⌡, --makefile=п╓п░п≥п⌡\n"
+"                              п≤я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ п╓п░п≥п⌡ п╡ п╨п╟я┤п╣я│я┌п╡п╣ makefile.\n"
 
-#: main.c:309
-#, fuzzy
+#: main.c:368
 msgid "  -h, --help                  Print this message and exit.\n"
-msgstr "Показать эту справку и выйти"
+msgstr "  -h, --help                  п÷п╬п╨п╟п╥п╟я┌я▄ я█я┌я┐ я│п©я─п╟п╡п╨я┐ п╦ п╡я▀п╧я┌п╦.\n"
 
-#: main.c:311
-#, fuzzy
-msgid "  -i, --ignore-errors         Ignore errors from commands.\n"
-msgstr "Игнорировать ошибки команд"
+#: main.c:370
+msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
+msgstr "  -i, --ignore-errors         п≤пЁп╫п╬я─п╦я─п╬п╡п╟я┌я▄ п╬я┬п╦п╠п╨п╦ я│п©п╬я│п╬п╠п╬п╡.\n"
 
-#: main.c:313
+#: main.c:372
 msgid ""
 "  -I DIRECTORY, --include-dir=DIRECTORY\n"
 "                              Search DIRECTORY for included makefiles.\n"
 msgstr ""
+"  -I п п░п╒п░п⌡п·п⌠, --include-dir=п п░п╒п░п⌡п·п⌠\n"
+"                              п≤я│п╨п╟я┌я▄ п╡п╨п╩я▌я┤п╟п╣п╪я▀п╣ make-я└п╟п╧п╩я▀ п╡ п п░п╒п░п⌡п·п⌠п∙.\n"
 
-#: main.c:316
-#, fuzzy
+#: main.c:375
 msgid ""
 "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no "
 "arg.\n"
 msgstr ""
-"Запускать одновременно до N заданий; \n"
-"если аргумент не задан, число заданий неограничено"
+"  -j [N], --jobs[=N]          п≈п╟п©я┐я│п╨п╟я┌я▄ п╬п╢п╫п╬п╡я─п╣п╪п╣п╫п╫п╬ п╢п╬ N п╥п╟п╢п╟п╫п╦п╧; \n"
+"                              п╣я│п╩п╦ N п╫п╣ я┐п╨п╟п╥п╟п╫п╬, я┤п╦я│п╩п╬ п╥п╟п╢п╟п╫п╦п╧ "
+"п╫п╣п╬пЁя─п╟п╫п╦я┤п╣п╫п╬.\n"
 
-#: main.c:318
-#, fuzzy
+#: main.c:377
 msgid ""
 "  -k, --keep-going            Keep going when some targets can't be made.\n"
 msgstr ""
-"Продолжать работу, даже если некоторые цели\n"
-"не могут быть достигнуты"
+"  -k, --keep-going            п÷я─п╬п╢п╬п╩п╤п╟я┌я▄ я─п╟п╠п╬я┌я┐, п╢п╟п╤п╣ п╣я│п╩п╦ п╫п╣п╨п╬я┌п╬я─я▀п╣ я├п╣п╩п╦\n"
+"                              п╫п╣ п╪п╬пЁя┐я┌ п╠я▀я┌я▄ п╢п╬я│я┌п╦пЁп╫я┐я┌я▀.\n"
 
-#: main.c:320
+#: main.c:379
 msgid ""
 "  -l [N], --load-average[=N], --max-load[=N]\n"
 "                              Don't start multiple jobs unless load is below "
 "N.\n"
 msgstr ""
+"  -l [N], --load-average[=N], --max-load[=N]         п²п╣ п╥п╟п©я┐я│п╨п╟я┌я▄\n"
+"                               п╫п╣я│п╨п╬п╩я▄п╨п╬ п╥п╟п╢п╟п╫п╦п╧, п╣я│п╩п╦ п╥п╟пЁя─я┐п╥п╨п╟ п╠п╬п╩я▄я┬п╣ N.\n"
 
-#: main.c:323
+#: main.c:382
 msgid ""
 "  -L, --check-symlink-times   Use the latest mtime between symlinks and "
 "target.\n"
 msgstr ""
+"  -L, --check-symlink-times   п≤я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ п©п╬я│п╩п╣п╢п╫п╣п╣ mtime п©я─п╦ п╡я▀п╠п╬я─п╣ п╪п╣п╤п╢я┐\n"
+"                              я│п╦п╪п╡п╬п╩п╦я┤п╣я│п╨п╦п╪п╦ я│я│я▀п╩п╨п╟п╪п╦ п╦ я├п╣п╩я▄я▌.\n"
 
-#: main.c:325
+#: main.c:384
 msgid ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              Don't actually run any commands; just print "
+"                              Don't actually run any recipe; just print "
 "them.\n"
 msgstr ""
+"  -n, --just-print, --dry-run, --recon\n"
+"                              п²п╣ п©я─п╦п╪п╣п╫я▐я┌я▄ я│п©п╬я│п╬п╠ п╫п╟ я│п╟п╪п╬п╪ п╢п╣п╩п╣; п©я─п╬я│я┌п╬\n"
+"                              п╫п╟п©п╣я┤п╟я┌п╟я┌я▄ п╣пЁп╬.\n"
 
-#: main.c:328
+#: main.c:387
 msgid ""
 "  -o FILE, --old-file=FILE, --assume-old=FILE\n"
 "                              Consider FILE to be very old and don't remake "
 "it.\n"
 msgstr ""
+"  -o п╓п░п≥п⌡, --old-file=п╓п░п≥п⌡, --assume-old=п╓п░п≥п⌡\n"
+"                              п║я┤п╦я┌п╟я┌я▄ п╓п░п≥п⌡ п╬я┤п╣п╫я▄ я│я┌п╟я─я▀п╪ п╦ п╫п╣ п©п╣я─п╣п╢п╣п╩я▀п╡п╟я┌я▄ "
+"п╣пЁп╬.\n"
 
-#: main.c:331
-#, fuzzy
-msgid "  -p, --print-data-base       Print make's internal database.\n"
-msgstr "Напечатать внутреннюю базу данных make"
-
-#: main.c:333
-#, fuzzy
+#: main.c:390
 msgid ""
-"  -q, --question              Run no commands; exit status says if up to "
+"  -O[TYPE], --output-sync[=TYPE]\n"
+"                              Synchronize output of parallel jobs by TYPE.\n"
+msgstr ""
+"  -O[п╒п≤п÷], --output-sync[=п╒п≤п÷]\n"
+"                              п║п╦п╫я┘я─п╬п╫п╦п╥п╦я─п╬п╡п╟я┌я▄ п╡я▀п╡п╬п╢ п©п╟я─п╟п╩п╩п╣п╩я▄п╫я▀я┘\n"
+"                              п╥п╟п╢п╟п╫п╦п╧ я│ я┌п╦п©п╬п╪ п╒п≤п÷.\n"
+
+#: main.c:393
+msgid "  -p, --print-data-base       Print make's internal database.\n"
+msgstr ""
+"  -p, --print-data-base       п²п╟п©п╣я┤п╟я┌п╟я┌я▄ п╡п╫я┐я┌я─п╣п╫п╫я▌я▌ п╠п╟п╥я┐ п╢п╟п╫п╫я▀я┘ make.\n"
+
+#: main.c:395
+msgid ""
+"  -q, --question              Run no recipe; exit status says if up to "
 "date.\n"
 msgstr ""
-"Не выполнять команды;\n"
-"код завершения показывает, все ли уже сделано"
+"  -q, --question              п²п╣ п©я─п╦п╪п╣п╫я▐я┌я▄ я│п©п╬я│п╬п╠;\n"
+"                              п╨п╬п╢ п╥п╟п╡п╣я─я┬п╣п╫п╦я▐ п©п╬п╨п╟п╥я▀п╡п╟п╣я┌, п╡я│я▒ п╩п╦ я┐п╤п╣ "
+"я│п╢п╣п╩п╟п╫п╬.\n"
 
-#: main.c:335
-#, fuzzy
+#: main.c:397
 msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
-msgstr "Не использовать встроенные неявные правила"
-
-# Что такое "variable settings"?
-#: main.c:337
-#, fuzzy
-msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
-msgstr "Выключить не задавать встроенные значения переменным"
-
-#: main.c:339
-msgid "  -s, --silent, --quiet       Don't echo commands.\n"
 msgstr ""
+"  -r, --no-builtin-rules      п²п╣ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ п╡я│я┌я─п╬п╣п╫п╫я▀п╣ п╫п╣я▐п╡п╫я▀п╣ п©я─п╟п╡п╦п╩п╟.\n"
 
-#: main.c:341
+# п╖я┌п╬ я┌п╟п╨п╬п╣ "variable settings"?
+#: main.c:399
+msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
+msgstr ""
+"  -R, --no-builtin-variables   п▓я▀п╨п╩я▌я┤п╦я┌я▄ я┐я│я┌п╟п╫п╬п╡п╨я┐ п╡я│я┌я─п╬п╣п╫п╫я▀я┘\n"
+"                              п╥п╫п╟я┤п╣п╫п╦п╧ п©п╣я─п╣п╪п╣п╫п╫я▀я┘.\n"
+
+#: main.c:401
+msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
+msgstr "  -s, --silent, --quiet        п²п╣ п©п╬п╨п╟п╥я▀п╡п╟я┌я▄ я│п╟п╪п╦ я│п©п╬я│п╬п╠я▀.\n"
+
+#: main.c:403
 msgid ""
 "  -S, --no-keep-going, --stop\n"
 "                              Turns off -k.\n"
 msgstr ""
+"  -S, --no-keep-going, --stop\n"
+"                              п·я┌п╪п╣п╫п╦я┌я▄ п╨п╩я▌я┤ -k.\n"
 
-#: main.c:344
-#, fuzzy
+#: main.c:406
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 msgstr ""
-"Установить время доступа целей в текущее,\n"
-"а не пересобирать их"
+"  -t, --touch                 пёя│я┌п╟п╫п╬п╡п╦я┌я▄ п╡я─п╣п╪я▐ п╢п╬я│я┌я┐п©п╟ я├п╣п╩п╣п╧ п╡ я┌п╣п╨я┐я┴п╣п╣,\n"
+"                              п╟ п╫п╣ п©п╣я─п╣я│п╬п╠п╦я─п╟я┌я▄ п╦я┘.\n"
 
-#: main.c:346
-#, fuzzy
+#: main.c:408
+msgid "  --trace                     Print tracing information.\n"
+msgstr "  --trace                     п▓я▀п╡п╬п╢п╦я┌я▄ я┌я─п╟я│я│п╦я─п╬п╡п╬я┤п╫я┐я▌ п╦п╫я└п╬я─п╪п╟я├п╦я▌.\n"
+
+#: main.c:410
 msgid ""
 "  -v, --version               Print the version number of make and exit.\n"
-msgstr "Показать информацию о версии и выйти"
+msgstr "  -v, --version               п÷п╬п╨п╟п╥п╟я┌я▄ п╦п╫я└п╬я─п╪п╟я├п╦я▌ п╬ п╡п╣я─я│п╦п╦ п╦ п╡я▀п╧я┌п╦.\n"
 
-#: main.c:348
-#, fuzzy
+#: main.c:412
 msgid "  -w, --print-directory       Print the current directory.\n"
-msgstr "Напечатать текущий каталог"
+msgstr "  -w, --print-directory       п²п╟п©п╣я┤п╟я┌п╟я┌я▄ я┌п╣п╨я┐я┴п╦п╧ п╨п╟я┌п╟п╩п╬пЁ.\n"
 
-#: main.c:350
-#, fuzzy
+#: main.c:414
 msgid ""
 "  --no-print-directory        Turn off -w, even if it was turned on "
 "implicitly.\n"
-msgstr "Отменить ключ -w, даже если он был явно указан"
+msgstr ""
+"  --no-print-directory        п·я┌п╪п╣п╫п╦я┌я▄ п╨п╩я▌я┤ -w, п╢п╟п╤п╣ п╣я│п╩п╦ п╬п╫ п╠я▀п╩ я▐п╡п╫п╬ "
+"я┐п╨п╟п╥п╟п╫.\n"
 
-#: main.c:352
+#: main.c:416
 msgid ""
 "  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
 "                              Consider FILE to be infinitely new.\n"
 msgstr ""
+"  -W п╓п░п≥п⌡, --what-if=п╓п░п≥п⌡, --new-file=п╓п░п≥п⌡, --assume-new=п╓п░п≥п⌡\n"
+"                              п║я┤п╦я┌п╟я┌я▄ п╓п░п≥п⌡ п╡я│п╣пЁп╢п╟ п╫п╬п╡я▀п╪.\n"
 
-#: main.c:355
-#, fuzzy
+#: main.c:419
 msgid ""
 "  --warn-undefined-variables  Warn when an undefined variable is "
 "referenced.\n"
 msgstr ""
-"Выдавать предупреждение при ссылке\n"
-"на неопределенную переменную"
+"  --warn-undefined-variables  п▓я▀п╢п╟п╡п╟я┌я▄ п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣ п©я─п╦ я│я│я▀п╩п╨п╣\n"
+"                              п╫п╟ п╫п╣п╬п©я─п╣п╢п╣п╩я▒п╫п╫я┐я▌ п©п╣я─п╣п╪п╣п╫п╫я┐я▌.\n"
 
-#: main.c:549
+#: main.c:691
 msgid "empty string invalid as file name"
-msgstr "пустая строка недопустима в качестве имени файла"
+msgstr "п©я┐я│я┌п╟я▐ я│я┌я─п╬п╨п╟ п╫п╣п╢п╬п©я┐я│я┌п╦п╪п╟ п╡ п╨п╟я┤п╣я│я┌п╡п╣ п╦п╪п╣п╫п╦ я└п╟п╧п╩п╟"
 
-#: main.c:630
+#: main.c:774
 #, c-format
-msgid "unknown debug level specification `%s'"
-msgstr "неизвестный способ задания уровня отладки `%s'"
+msgid "unknown debug level specification '%s'"
+msgstr "п╥п╟п╢п╟п╫ п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ я┐я─п╬п╡п╣п╫я▄ п╬я┌п╩п╟п╢п╨п╦ б╚%sб╩"
 
-#: main.c:670
-#, fuzzy, c-format
-msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%lx)\n"
-msgstr "%s: поймано прерывание или исключение (код = 0x%x, адрес = 0x%x)\n"
+#: main.c:811
+#, c-format
+msgid "unknown output-sync type '%s'"
+msgstr "п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ я┌п╦п© output-sync б╚%sб╩"
 
-#: main.c:677
-#, fuzzy, c-format
+#: main.c:865
+#, c-format
+msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%p)\n"
+msgstr "%s: п©п╬п╧п╪п╟п╫п╬ п©я─п╣я─я▀п╡п╟п╫п╦п╣ п╦п╩п╦ п╦я│п╨п╩я▌я┤п╣п╫п╦п╣ (п╨п╬п╢ = 0x%lx, п╟п╢я─п╣я│ = 0x%p)\n"
+
+#: main.c:872
+#, c-format
 msgid ""
 "\n"
 "Unhandled exception filter called from program %s\n"
 "ExceptionCode = %lx\n"
 "ExceptionFlags = %lx\n"
-"ExceptionAddress = %lx\n"
+"ExceptionAddress = 0x%p\n"
 msgstr ""
 "\n"
-"Необработанное исключение в программе %s\n"
-"Код исключения = %x\n"
-"Флаги исключения = %x\n"
-"Адрес исключения = %x\n"
+"п²п╣п╬п╠я─п╟п╠п╬я┌п╟п╫п╫п╬п╣ п╦я│п╨п╩я▌я┤п╣п╫п╦п╣ п╡ п©я─п╬пЁя─п╟п╪п╪п╣ %s\n"
+"п п╬п╢ п╦я│п╨п╩я▌я┤п╣п╫п╦я▐ = %lx\n"
+"п╓п╩п╟пЁп╦ п╦я│п╨п╩я▌я┤п╣п╫п╦я▐ = %lx\n"
+"п░п╢я─п╣я│ п╦я│п╨п╩я▌я┤п╣п╫п╦я▐ = 0x%p\n"
 
-#: main.c:685
-#, fuzzy, c-format
-msgid "Access violation: write operation at address %lx\n"
-msgstr "Нарушение доступа: операция записи по адресу %x\n"
-
-#: main.c:686
-#, fuzzy, c-format
-msgid "Access violation: read operation at address %lx\n"
-msgstr "Нарушение доступа: операция чтения адреса %x\n"
-
-#: main.c:762 main.c:773
+#: main.c:880
 #, c-format
-msgid "find_and_set_shell setting default_shell = %s\n"
-msgstr "find_and_set_shell устанавливает default_shell = %s\n"
+msgid "Access violation: write operation at address 0x%p\n"
+msgstr "п²п╟я─я┐я┬п╣п╫п╦п╣ п╢п╬я│я┌я┐п©п╟: п╬п©п╣я─п╟я├п╦я▐ п╥п╟п©п╦я│п╦ п©п╬ п╟п╢я─п╣я│я┐ 0x%p\n"
 
-#: main.c:814
+#: main.c:881
 #, c-format
-msgid "find_and_set_shell path search set default_shell = %s\n"
-msgstr "find_and_set_shell: поиск в путях устанавливает default_shell = %s\n"
+msgid "Access violation: read operation at address 0x%p\n"
+msgstr "п²п╟я─я┐я┬п╣п╫п╦п╣ п╢п╬я│я┌я┐п©п╟: п╬п©п╣я─п╟я├п╦я▐ я┤я┌п╣п╫п╦я▐ п╟п╢я─п╣я│п╟ 0x%p\n"
 
-#: main.c:1236
+#: main.c:957 main.c:972
+#, c-format
+msgid "find_and_set_shell() setting default_shell = %s\n"
+msgstr "find_and_set_shell() я┐я│я┌п╟п╫п╟п╡п╩п╦п╡п╟п╣я┌ default_shell = %s\n"
+
+#: main.c:1025
+#, c-format
+msgid "find_and_set_shell() path search set default_shell = %s\n"
+msgstr "find_and_set_shell(): п©п╬п╦я│п╨ п╡ п©я┐я┌я▐я┘ я┐я│я┌п╟п╫п╟п╡п╩п╦п╡п╟п╣я┌ default_shell = %s\n"
+
+#: main.c:1525
 #, c-format
 msgid "%s is suspending for 30 seconds..."
-msgstr "%s приостанавливается на 30 секунд..."
+msgstr "%s п©я─п╦п╬я│я┌п╟п╫п╟п╡п╩п╦п╡п╟п╣я┌я│я▐ п╫п╟ 30 я│п╣п╨я┐п╫п╢..."
 
-#: main.c:1238
+#: main.c:1527
 #, c-format
 msgid "done sleep(30). Continuing.\n"
-msgstr "sleep(30) завершен.  Продолжаем.\n"
+msgstr "sleep(30) п╥п╟п╡п╣я─я┬я▒п╫. п÷я─п╬п╢п╬п╩п╤п╟п╣п╪.\n"
 
-#: main.c:1466
-msgid "Makefile from standard input specified twice."
-msgstr "Makefile из стандартного ввода указан дважды."
+#: main.c:1616
+#, c-format
+msgid ""
+"internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
+msgstr ""
+"п╡п╫я┐я┌я─п╣п╫п╫я▐я▐ п╬я┬п╦п╠п╨п╟: п╫п╣ я┐п╢п╟п╩п╬я│я▄ п╬я┌п╨я─я▀я┌я▄ я│п╣п╪п╟я└п╬я─ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧ б╚%sб╩: (п╬я┬п╦п╠п╨п╟ "
+"%ld: %s)"
 
-#: main.c:1505 vmsjobs.c:486
-msgid "fopen (temporary file)"
-msgstr "fopen (временный файл)"
+#: main.c:1619
+#, c-format
+msgid "Jobserver client (semaphore %s)\n"
+msgstr "п п╩п╦п╣п╫я┌ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧ (я│п╣п╪п╟я└п╬я─ %s)\n"
 
-#: main.c:1511
-msgid "fwrite (temporary file)"
-msgstr "fwrite (временный файл)"
+#: main.c:1623
+#, c-format
+msgid "internal error: invalid --jobserver-fds string '%s'"
+msgstr "п╡п╫я┐я┌я─п╣п╫п╫я▐я▐ п╬я┬п╦п╠п╨п╟: п╫п╣п©я─п╟п╡п╦п╩я▄п╫п╟я▐ я│я┌я─п╬п╨п╟ --jobserver-fds б╚%sб╩"
+
+#: main.c:1626
+#, c-format
+msgid "Jobserver client (fds %d,%d)\n"
+msgstr "п п╩п╦п╣п╫я┌ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧ (fds %d,%d)\n"
 
 #: main.c:1640
-msgid "Parallel jobs (-j) are not supported on this platform."
-msgstr "Параллельные задачи (-j) не поддерживаются на этой платформе."
-
-#: main.c:1641
-msgid "Resetting to single job (-j1) mode."
-msgstr "Возвращается режим одиночной задачи (-j1)."
-
-#: main.c:1656
-msgid "internal error: multiple --jobserver-fds options"
-msgstr "внутренняя ошибка: несколько ключей --jobserver-fds"
-
-#: main.c:1664
-#, c-format
-msgid "internal error: invalid --jobserver-fds string `%s'"
-msgstr "внутренняя ошибка: неправильная строка --jobserver-fds: `%s'"
-
-#: main.c:1674
 msgid "warning: -jN forced in submake: disabling jobserver mode."
 msgstr ""
-"предупреждение: в суб-Makefile принудительно задан -jN; режим сервера задач "
-"запрещен"
+"п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п╡ я│я┐п╠-Makefile п©я─п╦п╫я┐п╢п╦я┌п╣п╩я▄п╫п╬ п╥п╟п╢п╟п╫ -jN; я─п╣п╤п╦п╪ я│п╣я─п╡п╣я─п╟ "
+"п╥п╟п╢п╟п╫п╦п╧ п╥п╟п©я─п╣я┴я▒п╫"
 
-#: main.c:1684
+#: main.c:1656
 msgid "dup jobserver"
-msgstr "создаю копию сервера задач"
+msgstr "я│п╬п╥п╢п╟я▌ п╨п╬п©п╦я▌ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧"
 
-#: main.c:1687
+#: main.c:1659
 msgid ""
-"warning: jobserver unavailable: using -j1.  Add `+' to parent make rule."
+"warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
 msgstr ""
-"предупреждение: сервер задач недоступен: используется -j1.\n"
-"Добавьте `+' к правилу в родительском make."
+"п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: я│п╣я─п╡п╣я─ п╥п╟п╢п╟п╫п╦п╧ п╫п╣п╢п╬я│я┌я┐п©п╣п╫: п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ -j1. п■п╬п╠п╟п╡я▄я┌п╣ б╚+б╩ п╨ "
+"п©я─п╟п╡п╦п╩я┐ п╡ я─п╬п╢п╦я┌п╣п╩я▄я│п╨п╬п╪ make."
 
-#: main.c:1710
+#: main.c:1838
+msgid "Makefile from standard input specified twice."
+msgstr "Makefile п╦п╥ я│я┌п╟п╫п╢п╟я─я┌п╫п╬пЁп╬ п╡п╡п╬п╢п╟ я┐п╨п╟п╥п╟п╫ п╢п╡п╟п╤п╢я▀."
+
+#: main.c:1876 vmsjobs.c:1252
+msgid "fopen (temporary file)"
+msgstr "fopen (п╡я─п╣п╪п╣п╫п╫я▀п╧ я└п╟п╧п╩)"
+
+#: main.c:1882
+msgid "fwrite (temporary file)"
+msgstr "fwrite (п╡я─п╣п╪п╣п╫п╫я▀п╧ я└п╟п╧п╩)"
+
+#: main.c:2070
+msgid "Parallel jobs (-j) are not supported on this platform."
+msgstr "п÷п╟я─п╟п╩п╩п╣п╩я▄п╫я▀п╣ п╥п╟п╢п╟п╫п╦я▐ (-j) п╫п╣ п©п╬п╢п╢п╣я─п╤п╦п╡п╟я▌я┌я│я▐ п╫п╟ я█я┌п╬п╧ п©п╩п╟я┌я└п╬я─п╪п╣."
+
+#: main.c:2071
+msgid "Resetting to single job (-j1) mode."
+msgstr "п▓п╬п╥п╡я─п╟я┴п╟п╣я┌я│я▐ я─п╣п╤п╦п╪ п╬п╢п╦п╫п╬я┤п╫п╬пЁп╬ п╥п╟п╢п╟п╫п╦я▐ (-j1)."
+
+#: main.c:2090
+#, c-format
+msgid "Jobserver slots limited to %d\n"
+msgstr "п п╬п╩п╦я┤п╣я│я┌п╡п╬ я│п╩п╬я┌п╬п╡ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧ п╬пЁя─п╟п╫п╦я┤п╣п╫п╬ %d\n"
+
+#: main.c:2098
+#, c-format
+msgid "creating jobserver semaphore: (Error %ld: %s)"
+msgstr "я│п╬п╥п╢п╟п╫п╦п╣ я│п╣п╪п╟я└п╬я─п╟ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧: (п╬я┬п╦п╠п╨п╟ %ld: %s)"
+
+#: main.c:2104
 msgid "creating jobs pipe"
-msgstr "создаю канал задач"
+msgstr "я│п╬п╥п╢п╟я▒я┌я│я▐ п╨п╟п╫п╟п╩ п╥п╟п╢п╟п╫п╦п╧"
 
-#: main.c:1725
+#: main.c:2124
 msgid "init jobserver pipe"
-msgstr "начальная настройка сервера задач"
+msgstr "п╫п╟я┤п╟п╩я▄п╫п╟я▐ п╫п╟я│я┌я─п╬п╧п╨п╟ я│п╣я─п╡п╣я─п╟ п╥п╟п╢п╟п╫п╦п╧"
 
-#: main.c:1744
+#: main.c:2143
 msgid "Symbolic links not supported: disabling -L."
-msgstr ""
+msgstr "п║п╦п╪п╡п╬п╩п╦я┤п╣я│п╨п╦п╣ я│я│я▀п╩п╨п╦ п╫п╣ п©п╬п╢п╢п╣я─п╤п╦п╡п╟я▌я┌я│я▐: п╬я┌п╪п╣п╫я▐п╣я┌я│я▐ п╨п╩я▌я┤ -L."
 
-#: main.c:1820
+#: main.c:2229
 msgid "Updating makefiles....\n"
-msgstr "Обновление make-файлов....\n"
+msgstr "п·п╠п╫п╬п╡п╩п╣п╫п╦п╣ make-я└п╟п╧п╩п╬п╡....\n"
 
-#: main.c:1845
+#: main.c:2254
 #, c-format
-msgid "Makefile `%s' might loop; not remaking it.\n"
-msgstr "Make-файл `%s', возможно, зациклен, он не будет пересобираться.\n"
+msgid "Makefile '%s' might loop; not remaking it.\n"
+msgstr "Make-я└п╟п╧п╩ б╚%sб╩, п╡п╬п╥п╪п╬п╤п╫п╬, п╥п╟я├п╦п╨п╩п╣п╫, п╬п╫ п╫п╣ п╠я┐п╢п╣я┌ п©п╣я─п╣я│п╬п╠п╦я─п╟я┌я▄я│я▐.\n"
 
-#: main.c:1924
+#: main.c:2333
 #, c-format
-msgid "Failed to remake makefile `%s'."
-msgstr "Попытка пересобрать make-файл `%s' неуспешна."
+msgid "Failed to remake makefile '%s'."
+msgstr "п÷п╬п©я▀я┌п╨п╟ п©п╣я─п╣я│п╬п╠я─п╟я┌я▄ make-я└п╟п╧п╩ б╚%sб╩ п╥п╟п╡п╣я─я┬п╦п╩п╟я│я▄ п╫п╣я┐п╢п╟я┤п╫п╬."
 
-#: main.c:1941
+#: main.c:2353
 #, c-format
-msgid "Included makefile `%s' was not found."
-msgstr "Включаемый make-файл `%s' не найден."
+msgid "Included makefile '%s' was not found."
+msgstr "п▓п╨п╩я▌я┤п╟п╣п╪я▀п╧ make-я└п╟п╧п╩ б╚%sб╩ п╫п╣ п╫п╟п╧п╢п╣п╫."
 
-#: main.c:1946
+#: main.c:2358
 #, c-format
-msgid "Makefile `%s' was not found"
-msgstr "Make-файл `%s' не найден"
+msgid "Makefile '%s' was not found"
+msgstr "Make-я└п╟п╧п╩ б╚%sб╩ п╫п╣ п╫п╟п╧п╢п╣п╫"
 
-#: main.c:2016
+#: main.c:2426
 msgid "Couldn't change back to original directory."
-msgstr "Невозможно перейти в первоначальный каталог."
+msgstr "п²п╣п╡п╬п╥п╪п╬п╤п╫п╬ п©п╣я─п╣п╧я┌п╦ п╡ п©п╣я─п╡п╬п╫п╟я┤п╟п╩я▄п╫я▀п╧ п╨п╟я┌п╟п╩п╬пЁ."
 
-#: main.c:2024
-#, fuzzy, c-format
+#: main.c:2439
+#, c-format
 msgid "Re-executing[%u]:"
-msgstr "Повторное выполнение:"
+msgstr "п÷п╬п╡я┌п╬я─п╫п╬п╣ п╡я▀п©п╬п╩п╫п╣п╫п╦п╣[%u]:"
 
-#: main.c:2140
+#: main.c:2552
 msgid "unlink (temporary file): "
-msgstr "unlink (временный файл)"
+msgstr "unlink (п╡я─п╣п╪п╣п╫п╫я▀п╧ я└п╟п╧п╩)"
 
-#: main.c:2169
+#: main.c:2585
 msgid ".DEFAULT_GOAL contains more than one target"
-msgstr ""
+msgstr ".DEFAULT_GOAL я│п╬п╢п╣я─п╤п╦я┌ п╠п╬п╩п╣п╣ п╬п╢п╫п╬п╧ я├п╣п╩п╦"
 
-#: main.c:2189
+#: main.c:2608
 msgid "No targets specified and no makefile found"
-msgstr "Не заданы цели и не найден make-файл"
+msgstr "п²п╣ п╥п╟п╢п╟п╫я▀ я├п╣п╩п╦ п╦ п╫п╣ п╫п╟п╧п╢п╣п╫ make-я└п╟п╧п╩"
 
-#: main.c:2191
+#: main.c:2610
 msgid "No targets"
-msgstr "Нет целей"
+msgstr "п²п╣я┌ я├п╣п╩п╣п╧"
 
-#: main.c:2196
+#: main.c:2615
 msgid "Updating goal targets....\n"
-msgstr "Обновление целей результата...\n"
+msgstr "п·п╠п╫п╬п╡п╩п╣п╫п╦п╣ я├п╣п╩п╣п╧ я─п╣п╥я┐п╩я▄я┌п╟я┌п╟...\n"
 
-#: main.c:2222
+#: main.c:2639
 msgid "warning:  Clock skew detected.  Your build may be incomplete."
-msgstr "предупреждение: Неправильный ход часов.  Сборка может быть неполной."
+msgstr "п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п²п╣п©я─п╟п╡п╦п╩я▄п╫я▀п╧ я┘п╬п╢ я┤п╟я│п╬п╡.  п║п╠п╬я─п╨п╟ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ п╫п╣п©п╬п╩п╫п╬п╧."
 
-#: main.c:2383
+#: main.c:2833
 #, c-format
 msgid "Usage: %s [options] [target] ...\n"
-msgstr "Использование: %s [КЛЮЧ]... [ЦЕЛЬ]...\n"
+msgstr "п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣: %s [п п⌡п╝п╖]... [п╕п∙п⌡п╛]...\n"
 
-#: main.c:2389
+#: main.c:2839
 #, c-format
 msgid ""
 "\n"
 "This program built for %s\n"
 msgstr ""
+"\n"
+"п╜я┌п╟ п©я─п╬пЁя─п╟п╪п╪п╟ я│п╬п╠я─п╟п╫п╟ п╢п╩я▐ %s\n"
 
-#: main.c:2391
+#: main.c:2841
 #, c-format
 msgid ""
 "\n"
 "This program built for %s (%s)\n"
 msgstr ""
+"\n"
+"п╜я┌п╟ п©я─п╬пЁя─п╟п╪п╪п╟ я│п╬п╠я─п╟п╫п╟ п╢п╩я▐ %s (%s)\n"
 
-#: main.c:2394
-#, fuzzy, c-format
+#: main.c:2844
+#, c-format
 msgid "Report bugs to <bug-make@gnu.org>\n"
-msgstr ""
-"\n"
-"Сообщайте об ошибках по адресу <bug-make@gnu.org>.\n"
+msgstr "п║п╬п╬п╠я┴п╟п╧я┌п╣ п╬п╠ п╬я┬п╦п╠п╨п╟я┘ п©п╬ п╟п╢я─п╣я│я┐ <bug-make@gnu.org>\n"
 
-#: main.c:2466
-#, fuzzy, c-format
-msgid "the `-%c' option requires a non-empty string argument"
-msgstr "ключ `-%c' должен использоваться с целым положительным аргументом"
-
-#: main.c:2518
+#: main.c:2930
 #, c-format
-msgid "the `-%c' option requires a positive integral argument"
-msgstr "ключ `-%c' должен использоваться с целым положительным аргументом"
+msgid "the '%s%s' option requires a non-empty string argument"
+msgstr "п╢п╩я▐б═п╨п╩я▌я┤п╟ б╚%s%sб╩ п╫я┐п╤п╫п╬ я┐п╨п╟п╥п╟я┌я▄ п╟я─пЁя┐п╪п╣п╫я┌п╬п╪ п╫п╣п©я┐я│я┌я┐я▌ я│я┌я─п╬п╨я┐"
 
-#: main.c:2942
-#, fuzzy, c-format
-msgid ""
-"%sThis is free software; see the source for copying conditions.\n"
-"%sThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"%sPARTICULAR PURPOSE.\n"
-msgstr ""
-", авторы Richard Stallman и Roland McGrath.\n"
-"%sСобрано для %s\n"
-"%sCopyright (C) 1988, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 2000\n"
-"%s\tFree Software Foundation, Inc.\n"
-"%sЭто свободная программа; подробности об условиях распространения смотрите\n"
-"%sв исходном тексте.  Мы НЕ предоставляем гарантий; даже гарантий\n"
-"%sКОММЕРЧЕСКОЙ ЦЕННОСТИ или ПРИГОДНОСТИ ДЛЯ КАКОЙ-ЛИБО ЦЕЛИ.\n"
-"\n"
-"%sСообщайте об ошибках по адресу <bug-make@gnu.org>.\n"
-"\n"
+#: main.c:2994
+#, c-format
+msgid "the '-%c' option requires a positive integer argument"
+msgstr "п╨п╩я▌я┤ б╚-%cб╩ п╢п╬п╩п╤п╣п╫ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐ я│ я├п╣п╩я▀п╪ п©п╬п╩п╬п╤п╦я┌п╣п╩я▄п╫я▀п╪ п╟я─пЁя┐п╪п╣п╫я┌п╬п╪"
 
-#: main.c:2948
+#: main.c:3392
+#, c-format
+msgid "%sBuilt for %s\n"
+msgstr "%sп╜я┌п╟ п©я─п╬пЁя─п╟п╪п╪п╟ я│п╬п╠я─п╟п╫п╟ п╢п╩я▐ %s\n"
+
+#: main.c:3394
+#, c-format
+msgid "%sBuilt for %s (%s)\n"
+msgstr "%sп╜я┌п╟ п©я─п╬пЁя─п╟п╪п╪п╟ я│п╬п╠я─п╟п╫п╟ п╢п╩я▐ %s (%s)\n"
+
+#: main.c:3405
 #, c-format
 msgid ""
-"\n"
-"%sThis program built for %s\n"
+"%sLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"%sThis is free software: you are free to change and redistribute it.\n"
+"%sThere is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
+"%sп⌡п╦я├п╣п╫п╥п╦я▐ GPLv3+: GNU GPL п╡п╣я─я│п╦п╦ 3 п╦п╩п╦ п╫п╬п╡п╣п╣ <http://gnu.org/licenses/gpl."
+"html>\n"
+"%sп╜я┌п╬ я│п╡п╬п╠п╬п╢п╫п╬п╣ п©я─п╬пЁя─п╟п╪п╪п╫п╬п╣ п╬п╠п╣я│п©п╣я┤п╣п╫п╦п╣: п╡я▀ п╪п╬п╤п╣я┌п╣ я│п╡п╬п╠п╬п╢п╫п╬ п╦п╥п╪п╣п╫я▐я┌я▄ п╣пЁп╬ п╦\n"
+"%sя─п╟я│п©я─п╬я│я┌я─п╟п╫я▐я┌я▄. п²п∙п╒ п²п≤п п░п п≤п╔ п⌠п░п═п░п²п╒п≤п≥ п╡п╫п╣ п©я─п╣п╢п╣п╩п╬п╡, п╢п╬п©я┐я│я┌п╦п╪я▀я┘ п╥п╟п╨п╬п╫п╬п╪.\n"
 
-#: main.c:2950
-#, c-format
-msgid ""
-"\n"
-"%sThis program built for %s (%s)\n"
-msgstr ""
-
-#: main.c:2968
+#: main.c:3426
 #, c-format
 msgid ""
 "\n"
 "# Make data base, printed on %s"
 msgstr ""
 "\n"
-"# База данных Make, напечатана %s"
+"# п▒п╟п╥п╟ п╢п╟п╫п╫я▀я┘ Make, п╫п╟п©п╣я┤п╟я┌п╟п╫п╟ %s"
 
-#: main.c:2978
+#: main.c:3436
 #, c-format
 msgid ""
 "\n"
 "# Finished Make data base on %s\n"
 msgstr ""
 "\n"
-"# Печать базы данных Make завершена %s\n"
+"# п÷п╣я┤п╟я┌я▄ п╠п╟п╥я▀ п╢п╟п╫п╫я▀я┘ Make п╥п╟п╡п╣я─я┬п╣п╫п╟ %s\n"
 
-#: main.c:3101
-#, fuzzy, c-format
-msgid "%s: Entering an unknown directory\n"
-msgstr "Вход в неизвестный каталог"
-
-#: main.c:3103
-#, fuzzy, c-format
-msgid "%s: Leaving an unknown directory\n"
-msgstr "Выход из неизвестного каталога"
-
-#: main.c:3106
-#, fuzzy, c-format
-msgid "%s: Entering directory `%s'\n"
-msgstr "Вход в каталог `%s'\n"
-
-#: main.c:3109
-#, fuzzy, c-format
-msgid "%s: Leaving directory `%s'\n"
-msgstr "Выход из каталога `%s'\n"
-
-#: main.c:3114
-#, fuzzy, c-format
-msgid "%s[%u]: Entering an unknown directory\n"
-msgstr "Вход в неизвестный каталог"
-
-#: main.c:3117
-#, fuzzy, c-format
-msgid "%s[%u]: Leaving an unknown directory\n"
-msgstr "Выход из неизвестного каталога"
-
-#: main.c:3121
-#, fuzzy, c-format
-msgid "%s[%u]: Entering directory `%s'\n"
-msgstr "Вход в каталог `%s'\n"
-
-#: main.c:3124
-#, fuzzy, c-format
-msgid "%s[%u]: Leaving directory `%s'\n"
-msgstr "Выход из каталога `%s'\n"
-
-#: misc.c:285
-msgid ".  Stop.\n"
-msgstr ".  Останов.\n"
-
-#: misc.c:306
+#: misc.c:201
 #, c-format
 msgid "Unknown error %d"
-msgstr "Неизвестная ошибка %d"
+msgstr "п²п╣п╦п╥п╡п╣я│я┌п╫п╟я▐ п╬я┬п╦п╠п╨п╟ %d"
 
-#: misc.c:316
+#: misc.c:522
 #, c-format
-msgid "%s%s: %s"
-msgstr ""
-
-#: misc.c:324
-#, c-format
-msgid "%s: %s"
-msgstr ""
-
-#: misc.c:344 misc.c:359 misc.c:376 read.c:3127
-msgid "virtual memory exhausted"
-msgstr "виртуальная память исчерпана"
-
-#: misc.c:646
-#, fuzzy, c-format
 msgid "%s: user %lu (real %lu), group %lu (real %lu)\n"
 msgstr ""
-"Права доступа к %s: пользователь %lu (действительный %lu),\n"
-"группа %lu (действительная %lu)\n"
+"%s: п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▄ %lu (п╢п╣п╧я│я┌п╡п╦я┌п╣п╩я▄п╫я▀п╧ %lu),\n"
+"пЁя─я┐п©п©п╟ %lu (п╢п╣п╧я│я┌п╡п╦я┌п╣п╩я▄п╫п╟я▐ %lu)\n"
 
-#: misc.c:667
-#, fuzzy
+#: misc.c:543
 msgid "Initialized access"
-msgstr "Инициализирован"
+msgstr "п■п╬я│я┌я┐п© п╦п╫п╦я├п╦п╟п╩п╦п╥п╟я├п╦п╦"
 
-#: misc.c:746
+#: misc.c:622
 msgid "User access"
-msgstr ""
+msgstr "п■п╬я│я┌я┐п© п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▐"
 
-#: misc.c:794
+#: misc.c:670
 msgid "Make access"
-msgstr ""
+msgstr "п■п╬я│я┌я┐п© make"
 
-#: misc.c:828
+#: misc.c:704
 msgid "Child access"
-msgstr ""
+msgstr "п■п╬я│я┌я┐п© п©п╬я┌п╬п╪п╨п╟"
 
-#: misc.c:892
-#, fuzzy, c-format
-msgid "write error: %s"
-msgstr "Поток ошибок перенаправлен в %s\n"
-
-#: misc.c:894
-#, fuzzy
-msgid "write error"
-msgstr "пишу в сервер задач"
-
-#: read.c:160
-msgid "Reading makefiles...\n"
-msgstr "Чтение make-файлов...\n"
-
-#: read.c:315
+#: output.c:104
 #, c-format
-msgid "Reading makefile `%s'"
-msgstr "Чтение make-файла `%s'"
+msgid "%s: Entering an unknown directory\n"
+msgstr "%s: п▓я┘п╬п╢ п╡ п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ п╨п╟я┌п╟п╩п╬пЁ\n"
 
-#: read.c:317
+#: output.c:106
+#, c-format
+msgid "%s: Leaving an unknown directory\n"
+msgstr "%s: п▓я▀я┘п╬п╢ п╦п╥ п╫п╣п╦п╥п╡п╣я│я┌п╫п╬пЁп╬ п╨п╟я┌п╟п╩п╬пЁп╟\n"
+
+#: output.c:109
+#, c-format
+msgid "%s: Entering directory '%s'\n"
+msgstr "%s: п╡я┘п╬п╢ п╡ п╨п╟я┌п╟п╩п╬пЁ б╚%sб╩\n"
+
+#: output.c:111
+#, c-format
+msgid "%s: Leaving directory '%s'\n"
+msgstr "%s: п╡я▀я┘п╬п╢ п╦п╥ п╨п╟я┌п╟п╩п╬пЁп╟ б╚%sб╩\n"
+
+#: output.c:115
+#, c-format
+msgid "%s[%u]: Entering an unknown directory\n"
+msgstr "%s[%u]: п╡я┘п╬п╢ п╡ п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ п╨п╟я┌п╟п╩п╬пЁ\n"
+
+#: output.c:117
+#, c-format
+msgid "%s[%u]: Leaving an unknown directory\n"
+msgstr "%s[%u]: п╡я▀я┘п╬п╢ п╦п╥ п╫п╣п╦п╥п╡п╣я│я┌п╫п╬пЁп╬ п╨п╟я┌п╟п╩п╬пЁп╟\n"
+
+#: output.c:120
+#, c-format
+msgid "%s[%u]: Entering directory '%s'\n"
+msgstr "%s[%u]: п╡я┘п╬п╢ п╡ п╨п╟я┌п╟п╩п╬пЁ б╚%sб╩\n"
+
+#: output.c:122
+#, c-format
+msgid "%s[%u]: Leaving directory '%s'\n"
+msgstr "%s[%u]: п╡я▀я┘п╬п╢ п╦п╥ п╨п╟я┌п╟п╩п╬пЁп╟ б╚%sб╩\n"
+
+#: output.c:495 output.c:497
+msgid "write error: stdout"
+msgstr "п╬я┬п╦п╠п╨п╟ п╥п╟п©п╦я│п╦: stdout"
+
+#: output.c:677
+msgid ".  Stop.\n"
+msgstr ".  п·я│я┌п╟п╫п╬п╡.\n"
+
+#: output.c:711
+#, c-format
+msgid "%s%s: %s"
+msgstr "%s%s: %s"
+
+#: output.c:720
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: read.c:180
+msgid "Reading makefiles...\n"
+msgstr "п╖я┌п╣п╫п╦п╣ make-я└п╟п╧п╩п╬п╡...\n"
+
+#: read.c:336
+#, c-format
+msgid "Reading makefile '%s'"
+msgstr "п╖я┌п╣п╫п╦п╣ make-я└п╟п╧п╩п╟ б╚%sб╩"
+
+#: read.c:338
 #, c-format
 msgid " (no default goal)"
-msgstr " (нет цели по умолчанию)"
+msgstr " (п╫п╣я┌ я├п╣п╩п╦ п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌)"
 
-#: read.c:319
+#: read.c:340
 #, c-format
 msgid " (search path)"
-msgstr " (путь поиска)"
+msgstr " (п©я┐я┌я▄ п©п╬п╦я│п╨п╟)"
 
-#: read.c:321
+#: read.c:342
 #, c-format
 msgid " (don't care)"
-msgstr " (игнорировать ошибки)"
+msgstr " (п╦пЁп╫п╬я─п╦я─п╬п╡п╟я┌я▄ п╬я┬п╦п╠п╨п╦)"
 
-#: read.c:323
+#: read.c:344
 #, c-format
 msgid " (no ~ expansion)"
-msgstr " (не раскрывать символ `~') "
+msgstr " (п╫п╣ я─п╟я│п╨я─я▀п╡п╟я┌я▄ я│п╦п╪п╡п╬п╩ `~') "
 
-#: read.c:623
+#: read.c:657
+#, c-format
+msgid "Skipping UTF-8 BOM in makefile '%s'\n"
+msgstr "п÷я─п╬п©я┐я│п╨ UTF-8 BOM п╡ make-я└п╟п╧п╩п╣ б╚%sб╩\n"
+
+#: read.c:660
+#, c-format
+msgid "Skipping UTF-8 BOM in makefile buffer\n"
+msgstr "п÷я─п╬п©я┐я│п╨ UTF-8 BOM п╡ п╠я┐я└п╣я─п╣ make-я└п╟п╧п╩п╟\n"
+
+#: read.c:790
 msgid "invalid syntax in conditional"
-msgstr "неверный синтаксис в условном выражении"
+msgstr "п╫п╣п╡п╣я─п╫я▀п╧ я│п╦п╫я┌п╟п╨я│п╦я│ п╡ я┐я│п╩п╬п╡п╫п╬п╪ п╡я▀я─п╟п╤п╣п╫п╦п╦"
 
-#: read.c:633
-msgid "extraneous `endef'"
-msgstr "излишний `endef'"
-
-#: read.c:645 read.c:673 variable.c:1316
-msgid "empty variable name"
-msgstr "пустое имя переменной"
-
-#: read.c:662
-msgid "empty `override' directive"
-msgstr "пустая директива `override'"
-
-#: read.c:687
-msgid "invalid `override' directive"
-msgstr "неправильная директива `override'"
-
-#: read.c:854
-msgid "commands commence before first target"
-msgstr "команды встречены до первого определения цели"
-
-#: read.c:905
-msgid "missing rule before commands"
-msgstr "перед командами пропущено правило"
-
-#: read.c:992
+#: read.c:967
 #, c-format
-msgid "missing separator%s"
-msgstr "пропущен разделитель%s"
+msgid "%s: failed to load"
+msgstr "%s: п╫п╣ я┐п╢п╟п╩п╬я│я▄ п╥п╟пЁя─я┐п╥п╦я┌я▄"
 
-#: read.c:994
-msgid " (did you mean TAB instead of 8 spaces?)"
-msgstr "(не имели ли вы в виду TAB вместо восьми пробелов?)"
+#: read.c:993
+msgid "recipe commences before first target"
+msgstr "п╬п╠п╫п╟я─я┐п╤п╣п╫ я│п©п╬я│п╬п╠ п╢п╬ п©п╣я─п╡п╬пЁп╬ п╬п©я─п╣п╢п╣п╩п╣п╫п╦я▐ я├п╣п╩п╦"
 
-#: read.c:1152
+#: read.c:1042
+msgid "missing rule before recipe"
+msgstr "п©п╣я─п╣п╢ я│п©п╬я│п╬п╠п╬п╪ п╬я┌я│я┐я┌я│я┌п╡я┐п╣я┌ п©я─п╟п╡п╦п╩п╬"
+
+#: read.c:1132
+msgid "missing separator (did you mean TAB instead of 8 spaces?)"
+msgstr "п©я─п╬п©я┐я┴п╣п╫ я─п╟п╥п╢п╣п╩п╦я┌п╣п╩я▄ (п╡п╬п╥п╪п╬п╤п╫п╬ п╫я┐п╤п╣п╫ TAB п╡п╪п╣я│я┌п╬ п╡п╬я│я▄п╪п╦ п©я─п╬п╠п╣п╩п╬п╡?)"
+
+#: read.c:1134
+msgid "missing separator"
+msgstr "п©я─п╬п©я┐я┴п╣п╫ я─п╟п╥п╢п╣п╩п╦я┌п╣п╩я▄"
+
+#: read.c:1271
 msgid "missing target pattern"
-msgstr "пропущен образец цели"
+msgstr "п©я─п╬п©я┐я┴п╣п╫ п╬п╠я─п╟п╥п╣я├ я├п╣п╩п╦"
 
-#: read.c:1154
+#: read.c:1273
 msgid "multiple target patterns"
-msgstr "несколько образцов цели"
+msgstr "п╫п╣я│п╨п╬п╩я▄п╨п╬ п╬п╠я─п╟п╥я├п╬п╡ я├п╣п╩п╦"
 
-#: read.c:1158
+#: read.c:1277
 #, c-format
-msgid "target pattern contains no `%%'"
-msgstr "образец цели не содержит `%%'"
+msgid "target pattern contains no '%%'"
+msgstr "п╬п╠я─п╟п╥п╣я├ я├п╣п╩п╦ п╫п╣ я│п╬п╢п╣я─п╤п╦я┌ б╚%%б╩"
 
-#: read.c:1286
-msgid "missing `endif'"
-msgstr "пропущена `endif'"
+#: read.c:1399
+msgid "missing 'endif'"
+msgstr "п╬я┌я│я┐я┌я│я┌п╡я┐п╣я┌ б╚endifб╩"
 
-#: read.c:1377
-msgid "Extraneous text after `endef' directive"
-msgstr "Излишний текст после директивы `endef'"
+#: read.c:1437 read.c:1482 variable.c:1566
+msgid "empty variable name"
+msgstr "п©я┐я│я┌п╬п╣ п╦п╪я▐ п©п╣я─п╣п╪п╣п╫п╫п╬п╧"
 
-#: read.c:1411
-msgid "missing `endef', unterminated `define'"
-msgstr "пропущена `endif', незавершенная `define'"
+#: read.c:1472
+msgid "extraneous text after 'define' directive"
+msgstr "п╦п╥п╩п╦я┬п╫п╦п╧ я┌п╣п╨я│я┌ п©п╬я│п╩п╣ п╢п╦я─п╣п╨я┌п╦п╡я▀ б╚defineб╩"
 
-#: read.c:1454
+#: read.c:1497
+msgid "missing 'endef', unterminated 'define'"
+msgstr "п╬я┌я│я┐я┌я│я┌п╡я┐п╣я┌ б╚endifб╩, п╫п╣п╥п╟п╡п╣я─я┬я▒п╫п╫п╟я▐ б╚defineб╩"
+
+#: read.c:1525
+msgid "extraneous text after 'endef' directive"
+msgstr "п╦п╥п╩п╦я┬п╫п╦п╧ я┌п╣п╨я│я┌ п©п╬я│п╩п╣ п╢п╦я─п╣п╨я┌п╦п╡я▀ б╚endefб╩"
+
+#: read.c:1596
 #, c-format
-msgid "Extraneous text after `%s' directive"
-msgstr "Излишний текст после директивы `%s'"
+msgid "extraneous text after '%s' directive"
+msgstr "п≤п╥п╩п╦я┬п╫п╦п╧ я┌п╣п╨я│я┌ п©п╬я│п╩п╣ п╢п╦я─п╣п╨я┌п╦п╡я▀ б╚%sб╩"
 
-#: read.c:1463 read.c:1477
+#: read.c:1597
 #, c-format
-msgid "extraneous `%s'"
-msgstr "излишняя `%s'"
+msgid "extraneous '%s'"
+msgstr "п╦п╥п╩п╦я┬п╫я▐я▐ б╚%sб╩"
 
-#: read.c:1482
-msgid "only one `else' per conditional"
-msgstr "в условном выражении возможна только одна `else'"
+#: read.c:1625
+msgid "only one 'else' per conditional"
+msgstr "п╡ я┐я│п╩п╬п╡п╫п╬п╪ п╡я▀я─п╟п╤п╣п╫п╦п╦ п╡п╬п╥п╪п╬п╤п╫п╟ я┌п╬п╩я▄п╨п╬ п╬п╢п╫п╟ б╚elseб╩"
 
-#: read.c:1824
-#, fuzzy
+#: read.c:1900
 msgid "Malformed target-specific variable definition"
-msgstr "Неправильный формат задания переменной для цели"
+msgstr "п²п╣п©я─п╟п╡п╦п╩я▄п╫я▀п╧ я└п╬я─п╪п╟я┌ п╥п╟п╢п╟п╫п╦я▐ п©п╣я─п╣п╪п╣п╫п╫п╬п╧ я├п╣п╩п╦"
 
-#: read.c:1886
-msgid "prerequisites cannot be defined in command scripts"
-msgstr ""
+#: read.c:1958
+msgid "prerequisites cannot be defined in recipes"
+msgstr "п╡ я│п©п╬я│п╬п╠п╟я┘ п╫п╣ п╪п╬пЁя┐я┌ п╥п╟п╢п╟п╡п╟я┌я▄я│я▐ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╦"
 
-#: read.c:1921
+#: read.c:2016
 msgid "mixed implicit and static pattern rules"
-msgstr "смешаны неявные правила и правила со статическими образцами"
+msgstr "я│п╪п╣я┬п╟п╫я▀ п╫п╣я▐п╡п╫я▀п╣ п©я─п╟п╡п╦п╩п╟ п╦ п©я─п╟п╡п╦п╩п╟ я│п╬ я│я┌п╟я┌п╦я┤п╣я│п╨п╦п╪п╦ п╬п╠я─п╟п╥я├п╟п╪п╦"
 
-#: read.c:1924
+#: read.c:2039
 msgid "mixed implicit and normal rules"
-msgstr "смешаны неявные и обычные правила"
+msgstr "я│п╪п╣я┬п╟п╫я▀ п╫п╣я▐п╡п╫я▀п╣ п╦ п╬п╠я▀я┤п╫я▀п╣ п©я─п╟п╡п╦п╩п╟"
 
-#: read.c:1954
+#: read.c:2092
 #, c-format
-msgid "target `%s' doesn't match the target pattern"
-msgstr "цель `%s' не соответствует образцу целей"
+msgid "target '%s' doesn't match the target pattern"
+msgstr "я├п╣п╩я▄ б╚%sб╩ п╫п╣ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐п╣я┌ п╬п╠я─п╟п╥я├я┐ я├п╣п╩п╣п╧"
 
-#: read.c:1973 read.c:2074
+#: read.c:2107 read.c:2153
 #, c-format
-msgid "target file `%s' has both : and :: entries"
-msgstr "целевой файл `%s' имеет вхождения и с `:', и с `::' "
+msgid "target file '%s' has both : and :: entries"
+msgstr "я├п╣п╩п╣п╡п╬п╧ я└п╟п╧п╩ б╚%sб╩ п╦п╪п╣п╣я┌ п╡я┘п╬п╤п╢п╣п╫п╦я▐ п╦ я│ :, п╦ я│ ::"
 
-#: read.c:1979
+#: read.c:2113
 #, c-format
-msgid "target `%s' given more than once in the same rule."
-msgstr "цель `%s' указана несколько раз в одном правиле"
+msgid "target '%s' given more than once in the same rule"
+msgstr "я├п╣п╩я▄ б╚%sб╩ я┐п╨п╟п╥п╟п╫п╟ п╫п╣я│п╨п╬п╩я▄п╨п╬ я─п╟п╥ п╡ п╬п╢п╫п╬п╪ п©я─п╟п╡п╦п╩п╣"
 
-#: read.c:1988
+#: read.c:2123
 #, c-format
-msgid "warning: overriding commands for target `%s'"
-msgstr "предупреждение: переопределение команд для цели `%s'"
+msgid "warning: overriding recipe for target '%s'"
+msgstr "п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п©п╣я─п╣п╬п©я─п╣п╢п╣п╩п╣п╫п╦п╣ я│п©п╬я│п╬п╠п╟ п╢п╩я▐ я├п╣п╩п╦ б╚%sб╩"
 
-#: read.c:1991
+#: read.c:2126
 #, c-format
-msgid "warning: ignoring old commands for target `%s'"
-msgstr "предупреждение: старые команды для цели `%s' игнорируются"
+msgid "warning: ignoring old recipe for target '%s'"
+msgstr "п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: я│я┌п╟я─я▀п╧ я│п©п╬я│п╬п╠ п╢п╩я▐ я├п╣п╩п╦ б╚%sб╩ п╦пЁп╫п╬я─п╦я─я┐я▌я┌я│я▐"
 
-#: read.c:2575
+#: read.c:2230
+msgid "*** mixed implicit and normal rules: deprecated syntax"
+msgstr "*** я│п╪п╣я┬п╟п╫я▀ п╫п╣я▐п╡п╫я▀п╣ п╦ п╬п╠я▀я┤п╫я▀п╣ п©я─п╟п╡п╦п╩п╟: я┐я│я┌п╟я─п╣п╡я┬п╦п╧ я│п╦п╫я┌п╟п╨я│п╦я│"
+
+#: read.c:2540
 msgid "warning: NUL character seen; rest of line ignored"
-msgstr "предупреждение: встречен символ NUL; игнорируется до конца строки"
-
-#: remake.c:229
-#, c-format
-msgid "Nothing to be done for `%s'."
-msgstr "Цель `%s' не требует выполнения команд."
+msgstr "п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п╡я│я┌я─п╣я┤п╣п╫ я│п╦п╪п╡п╬п╩ NUL; п╦пЁп╫п╬я─п╦я─я┐п╣я┌я│я▐ п╢п╬ п╨п╬п╫я├п╟ я│я┌я─п╬п╨п╦"
 
 #: remake.c:230
 #, c-format
-msgid "`%s' is up to date."
-msgstr "`%s' не требует обновления."
+msgid "Nothing to be done for '%s'."
+msgstr "п╕п╣п╩я▄ б╚%sб╩ п╫п╣ я┌я─п╣п╠я┐п╣я┌ п╡я▀п©п╬п╩п╫п╣п╫п╦я▐ п╨п╬п╪п╟п╫п╢."
 
-#: remake.c:297
+#: remake.c:231
 #, c-format
-msgid "Pruning file `%s'.\n"
-msgstr "Обрезается файл `%s'.\n"
+msgid "'%s' is up to date."
+msgstr "б╚%sб╩ п╫п╣ я┌я─п╣п╠я┐п╣я┌ п╬п╠п╫п╬п╡п╩п╣п╫п╦я▐."
 
-#: remake.c:349
+#: remake.c:303
 #, c-format
-msgid "%sNo rule to make target `%s'%s"
-msgstr "%sНет правила для сборки цели `%s'%s"
+msgid "Pruning file '%s'.\n"
+msgstr "п·п╠я─п╣п╥п╟п╣я┌я│я▐ я└п╟п╧п╩ б╚%sб╩.\n"
 
-#: remake.c:351
+#: remake.c:390 remake.c:393
 #, c-format
-msgid "%sNo rule to make target `%s', needed by `%s'%s"
-msgstr "%sНет правила для сборки цели `%s', требуемой для `%s'%s"
+msgid "%sNo rule to make target '%s', needed by '%s'%s"
+msgstr "%sп²п╣я┌ п©я─п╟п╡п╦п╩п╟ п╢п╩я▐ я│п╠п╬я─п╨п╦ я├п╣п╩п╦ б╚%sб╩, я┌я─п╣п╠я┐п╣п╪п╬п╧ п╢п╩я▐ б╚%sб╩%s"
 
-#: remake.c:378
+#: remake.c:402 remake.c:405
 #, c-format
-msgid "Considering target file `%s'.\n"
-msgstr "Обработка целевого файла `%s'.\n"
+msgid "%sNo rule to make target '%s'%s"
+msgstr "%sп²п╣я┌ п©я─п╟п╡п╦п╩п╟ п╢п╩я▐ я│п╠п╬я─п╨п╦ я├п╣п╩п╦ б╚%sб╩%s"
 
-#: remake.c:385
+#: remake.c:426
 #, c-format
-msgid "Recently tried and failed to update file `%s'.\n"
-msgstr "Предыдущая попытка обновить файл `%s' завершилась неуспешно.\n"
+msgid "Considering target file '%s'.\n"
+msgstr "п·п╠я─п╟п╠п╬я┌п╨п╟ я├п╣п╩п╣п╡п╬пЁп╬ я└п╟п╧п╩п╟ б╚%sб╩.\n"
 
-#: remake.c:400
+#: remake.c:433
 #, c-format
-msgid "File `%s' was considered already.\n"
-msgstr "Файл `%s' уже был обработан.\n"
+msgid "Recently tried and failed to update file '%s'.\n"
+msgstr "п÷я─п╣п╢я▀п╢я┐я┴п╟я▐ п©п╬п©я▀я┌п╨п╟ п╬п╠п╫п╬п╡п╦я┌я▄ я└п╟п╧п╩ б╚%sб╩ п╥п╟п╡п╣я─я┬п╦п╩п╟я│я▄ п╫п╣я┐п╢п╟я┤п╫п╬.\n"
 
-#: remake.c:410
+#: remake.c:445
 #, c-format
-msgid "Still updating file `%s'.\n"
-msgstr "Файл `%s' обновляется в данный момент.\n"
+msgid "File '%s' was considered already.\n"
+msgstr "п╓п╟п╧п╩ б╚%sб╩ я┐п╤п╣ п╠я▀п╩ п╬п╠я─п╟п╠п╬я┌п╟п╫.\n"
 
-#: remake.c:413
+#: remake.c:455
 #, c-format
-msgid "Finished updating file `%s'.\n"
-msgstr "Обновление файла `%s' завершено.\n"
+msgid "Still updating file '%s'.\n"
+msgstr "п╓п╟п╧п╩ б╚%sб╩ п╬п╠п╫п╬п╡п╩я▐п╣я┌я│я▐ п╡ п╢п╟п╫п╫я▀п╧ п╪п╬п╪п╣п╫я┌.\n"
 
-#: remake.c:434
+#: remake.c:458
 #, c-format
-msgid "File `%s' does not exist.\n"
-msgstr "Файл `%s' не существует.\n"
+msgid "Finished updating file '%s'.\n"
+msgstr "п·п╠п╫п╬п╡п╩п╣п╫п╦п╣ я└п╟п╧п╩п╟ б╚%sб╩ п╥п╟п╡п╣я─я┬п╣п╫п╬.\n"
 
-#: remake.c:441
+#: remake.c:487
+#, c-format
+msgid "File '%s' does not exist.\n"
+msgstr "п╓п╟п╧п╩ б╚%sб╩ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌.\n"
+
+#: remake.c:495
 #, c-format
 msgid ""
-"*** Warning: .LOW_RESOLUTION_TIME file `%s' has a high resolution time stamp"
+"*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
 msgstr ""
+"*** п÷я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: я┐ я└п╟п╧п╩п╟ б╚%sб╩ п©п╟я─п╟п╪п╣я┌я─ LOW_RESOLUTION_TIME я│п╬п╢п╣я─п╤п╦я┌ п╪п╣я┌п╨я┐ "
+"п╡я─п╣п╪п╣п╫п╦ я│ п╡я▀я│п╬п╨п╬п╧ я┌п╬я┤п╫п╬я│я┌я▄я▌"
 
-#: remake.c:454 remake.c:962
+#: remake.c:508 remake.c:1040
 #, c-format
-msgid "Found an implicit rule for `%s'.\n"
-msgstr "Найдено неявное правило для `%s'.\n"
+msgid "Found an implicit rule for '%s'.\n"
+msgstr "п²п╟п╧п╢п╣п╫п╬ п╫п╣я▐п╡п╫п╬п╣ п©я─п╟п╡п╦п╩п╬ п╢п╩я▐ б╚%sб╩.\n"
 
-#: remake.c:456 remake.c:964
+#: remake.c:510 remake.c:1042
 #, c-format
-msgid "No implicit rule found for `%s'.\n"
-msgstr "Не найдено неявного правила для `%s'.\n"
+msgid "No implicit rule found for '%s'.\n"
+msgstr "п²п╣ п╫п╟п╧п╢п╣п╫п╬ п╫п╣я▐п╡п╫п╬пЁп╬ п©я─п╟п╡п╦п╩п╟ п╢п╩я▐ б╚%sб╩.\n"
 
-#: remake.c:462 remake.c:970
+#: remake.c:516
 #, c-format
-msgid "Using default commands for `%s'.\n"
-msgstr "Использование команд по умолчанию для `%s'.\n"
+msgid "Using default recipe for '%s'.\n"
+msgstr "п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣ я│п©п╬я│п╬п╠п╟ п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌ п╢п╩я▐ б╚%sб╩.\n"
 
-#: remake.c:484 remake.c:996
+#: remake.c:550 remake.c:1089
 #, c-format
 msgid "Circular %s <- %s dependency dropped."
-msgstr "Циклическая зависимость %s <- %s пропущена."
+msgstr "п╕п╦п╨п╩п╦я┤п╣я│п╨п╟я▐ п╥п╟п╡п╦я│п╦п╪п╬я│я┌я▄ %s <- %s п©я─п╬п©я┐я┴п╣п╫п╟."
 
-#: remake.c:601
+#: remake.c:675
 #, c-format
-msgid "Finished prerequisites of target file `%s'.\n"
-msgstr "Обновление целей, от которых зависит целевой файл `%s', завершено.\n"
+msgid "Finished prerequisites of target file '%s'.\n"
+msgstr "п·п╠п╫п╬п╡п╩п╣п╫п╦п╣ я├п╣п╩п╣п╧, п╬я┌ п╨п╬я┌п╬я─я▀я┘ п╥п╟п╡п╦я│п╦я┌ я├п╣п╩п╣п╡п╬п╧ я└п╟п╧п╩ б╚%sб╩, п╥п╟п╡п╣я─я┬п╣п╫п╬.\n"
 
-#: remake.c:607
+#: remake.c:681
 #, c-format
-msgid "The prerequisites of `%s' are being made.\n"
-msgstr "Цели, от которых зависит `%s', в настоящий момент собираются.\n"
+msgid "The prerequisites of '%s' are being made.\n"
+msgstr "п╕п╣п╩п╦, п╬я┌ п╨п╬я┌п╬я─я▀я┘ п╥п╟п╡п╦я│п╦я┌ б╚%sб╩, п╡ п╫п╟я│я┌п╬я▐я┴п╦п╧ п╪п╬п╪п╣п╫я┌ я│п╬п╠п╦я─п╟я▌я┌я│я▐.\n"
 
-#: remake.c:620
+#: remake.c:695
 #, c-format
-msgid "Giving up on target file `%s'.\n"
-msgstr "Аварийный останов на целевом файле `%s'.\n"
+msgid "Giving up on target file '%s'.\n"
+msgstr "п░п╡п╟я─п╦п╧п╫я▀п╧ п╬я│я┌п╟п╫п╬п╡ п╫п╟ я├п╣п╩п╣п╡п╬п╪ я└п╟п╧п╩п╣ б╚%sб╩.\n"
 
-#: remake.c:625
+#: remake.c:700
 #, c-format
-msgid "Target `%s' not remade because of errors."
-msgstr "Цель `%s' не была пересобрана из-за ошибок."
+msgid "Target '%s' not remade because of errors."
+msgstr "п╕п╣п╩я▄ б╚%sб╩ п╫п╣ п╠я▀п╩п╟ п©п╣я─п╣я│п╬п╠я─п╟п╫п╟ п╦п╥-п╥п╟ п╬я┬п╦п╠п╬п╨."
 
-#: remake.c:677
-#, fuzzy, c-format
-msgid "Prerequisite `%s' is order-only for target `%s'.\n"
-msgstr "Зависимость `%s' старее, чем цель `%s'.\n"
-
-#: remake.c:682
+#: remake.c:752
 #, c-format
-msgid "Prerequisite `%s' of target `%s' does not exist.\n"
-msgstr "Зависимость `%s' цели `%s' не существует.\n"
+msgid "Prerequisite '%s' is order-only for target '%s'.\n"
+msgstr "п≈п╟п╡п╦я│п╦п╪п╬я│я┌я▄ б╚%sб╩ п╢п╩я▐ я├п╣п╩п╦ б╚%sб╩ п╥п╟п╡п╦я│п╦я┌ п╬я┌ п©п╬я─я▐п╢п╨п╟.\n"
 
-#: remake.c:687
+#: remake.c:757
 #, c-format
-msgid "Prerequisite `%s' is newer than target `%s'.\n"
-msgstr "Зависимость `%s' новее, чем цель `%s'.\n"
+msgid "Prerequisite '%s' of target '%s' does not exist.\n"
+msgstr "п≈п╟п╡п╦я│п╦п╪п╬я│я┌я▄ б╚%sб╩ я├п╣п╩п╦ б╚%sб╩ п╫п╣ я│я┐я┴п╣я│я┌п╡я┐п╣я┌.\n"
 
-#: remake.c:690
+#: remake.c:762
 #, c-format
-msgid "Prerequisite `%s' is older than target `%s'.\n"
-msgstr "Зависимость `%s' старее, чем цель `%s'.\n"
-
-#: remake.c:708
-#, c-format
-msgid "Target `%s' is double-colon and has no prerequisites.\n"
-msgstr "Цель `%s' объявлена с двумя двоеточиями и не имеет зависимостей.\n"
-
-#: remake.c:715
-#, c-format
-msgid "No commands for `%s' and no prerequisites actually changed.\n"
-msgstr "Команды для `%s' не заданы, и зависимости не были изменены.\n"
-
-#: remake.c:720
-#, c-format
-msgid "Making `%s' due to always-make flag.\n"
-msgstr ""
-
-#: remake.c:728
-#, c-format
-msgid "No need to remake target `%s'"
-msgstr "Нет необходимости пересобирать цель `%s'."
-
-#: remake.c:730
-#, c-format
-msgid "; using VPATH name `%s'"
-msgstr "; используется VPATH-имя `%s'"
-
-#: remake.c:750
-#, c-format
-msgid "Must remake target `%s'.\n"
-msgstr "Необходимо пересобрать цель `%s'.\n"
-
-#: remake.c:756
-#, c-format
-msgid "  Ignoring VPATH name `%s'.\n"
-msgstr "  Игнорируется VPATH-имя `%s'.\n"
+msgid "Prerequisite '%s' is newer than target '%s'.\n"
+msgstr "п≈п╟п╡п╦я│п╦п╪п╬я│я┌я▄ б╚%sб╩ п╫п╬п╡п╣п╣, я┤п╣п╪ я├п╣п╩я▄ б╚%sб╩.\n"
 
 #: remake.c:765
 #, c-format
-msgid "Commands of `%s' are being run.\n"
-msgstr "Команды для `%s' выполняются в настоящее время.\n"
+msgid "Prerequisite '%s' is older than target '%s'.\n"
+msgstr "п≈п╟п╡п╦я│п╦п╪п╬я│я┌я▄ б╚%sб╩ я│я┌п╟я─п╣п╣, я┤п╣п╪ я├п╣п╩я▄ б╚%sб╩.\n"
 
-#: remake.c:772
+#: remake.c:783
 #, c-format
-msgid "Failed to remake target file `%s'.\n"
-msgstr "Попытка пересоздания целевого файла `%s' безуспешна.\n"
+msgid "Target '%s' is double-colon and has no prerequisites.\n"
+msgstr "п╕п╣п╩я▄ б╚%sб╩ п╬п╠я┼я▐п╡п╩п╣п╫п╟ я│ п╢п╡я┐п╪я▐ п╢п╡п╬п╣я┌п╬я┤п╦я▐п╪п╦ п╦ п╫п╣ п╦п╪п╣п╣я┌ п╥п╟п╡п╦я│п╦п╪п╬я│я┌п╣п╧.\n"
 
-#: remake.c:775
+#: remake.c:790
 #, c-format
-msgid "Successfully remade target file `%s'.\n"
-msgstr "Целевой файл `%s' успешно пересоздан.\n"
+msgid "No recipe for '%s' and no prerequisites actually changed.\n"
+msgstr "п║п©п╬я│п╬п╠ п╢п╩я▐ б╚%sб╩ п╫п╣ п╥п╟п╢п╟п╫, п╦ п╫п╟я┤п╟п╩я▄п╫я▀п╣ я┐я│п╩п╬п╡п╦я▐ п╫п╣ п╦п╥п╪п╣п╫п╣п╫я▀.\n"
 
-#: remake.c:778
+#: remake.c:795
 #, c-format
-msgid "Target file `%s' needs remade under -q.\n"
-msgstr "Целевой файл `%s' требует пересоздания с ключом -q.\n"
+msgid "Making '%s' due to always-make flag.\n"
+msgstr "п÷п╣я─п╣я│п╠п╬я─п╨п╟ б╚%sб╩ п╦п╥-п╥п╟ я┐я│я┌п╟п╫п╬п╡п╩п╣п╫п╫п╬пЁп╬ я└п╩п╟пЁп╟ always-make.\n"
 
-#: remake.c:1306
-#, fuzzy, c-format
-msgid "Warning: File `%s' has modification time in the future"
-msgstr "*** Файл `%s' был изменен в будущем (%s > %s)"
-
-#: remake.c:1313
-#, fuzzy, c-format
-msgid "Warning: File `%s' has modification time %.2g s in the future"
-msgstr "*** Файл `%s' был изменен в будущем (%s > %s)"
-
-#: remake.c:1511
+#: remake.c:803
 #, c-format
-msgid ".LIBPATTERNS element `%s' is not a pattern"
-msgstr "Элемент .LIBPATTERNS `%s' не является образцом"
+msgid "No need to remake target '%s'"
+msgstr "п²п╣я┌ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬я│я┌п╦ п©п╣я─п╣я│п╬п╠п╦я─п╟я┌я▄ я├п╣п╩я▄ б╚%sб╩"
 
-#: remote-cstms.c:125
+#: remake.c:805
+#, c-format
+msgid "; using VPATH name '%s'"
+msgstr "; п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ VPATH-п╦п╪я▐ б╚%sб╩"
+
+#: remake.c:825
+#, c-format
+msgid "Must remake target '%s'.\n"
+msgstr "п²п╣п╬п╠я┘п╬п╢п╦п╪п╬ п©п╣я─п╣я│п╬п╠я─п╟я┌я▄ я├п╣п╩я▄ б╚%sб╩.\n"
+
+#: remake.c:831
+#, c-format
+msgid "  Ignoring VPATH name '%s'.\n"
+msgstr "  п≤пЁп╫п╬я─п╦я─я┐п╣я┌я│я▐ VPATH-п╦п╪я▐ б╚%sб╩.\n"
+
+#: remake.c:840
+#, c-format
+msgid "Recipe of '%s' is being run.\n"
+msgstr "п▓ п╫п╟я│я┌п╬я▐я┴п╣п╣ п╡я─п╣п╪я▐ п©я─п╦п╪п╣п╫я▐п╣я┌я│я▐ я│п©п╬я│п╬п╠ б╚%sб╩.\n"
+
+#: remake.c:847
+#, c-format
+msgid "Failed to remake target file '%s'.\n"
+msgstr "п²п╣ я┐п╢п╟п╩п╬я│я▄ п©п╣я─п╣я│п╬п╥п╢п╟я┌я▄ я└п╟п╧п╩ я├п╣п╩п╦ б╚%sб╩.\n"
+
+#: remake.c:850
+#, c-format
+msgid "Successfully remade target file '%s'.\n"
+msgstr "п╕п╣п╩п╣п╡п╬п╧ я└п╟п╧п╩ б╚%sб╩ я┐я│п©п╣я┬п╫п╬ п©п╣я─п╣я│п╬п╥п╢п╟п╫.\n"
+
+#: remake.c:853
+#, c-format
+msgid "Target file '%s' needs to be remade under -q.\n"
+msgstr "п╕п╣п╩п╣п╡п╬п╧ я└п╟п╧п╩ б╚%sб╩ я┌я─п╣п╠я┐п╣я┌ п©п╣я─п╣я│п╬п╥п╢п╟п╫п╦я▐ я│ п╨п╩я▌я┤п╬п╪ -q.\n"
+
+#: remake.c:1048
+#, c-format
+msgid "Using default commands for '%s'.\n"
+msgstr "п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣ п╨п╬п╪п╟п╫п╢ п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌ п╢п╩я▐ б╚%sб╩.\n"
+
+#: remake.c:1406
+#, c-format
+msgid "Warning: File '%s' has modification time in the future"
+msgstr "п÷я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п╡я─п╣п╪я▐ п╦п╥п╪п╣п╫п╣п╫п╦я▐ я└п╟п╧п╩п╟ б╚%sб╩ п╫п╟я┘п╬п╢п╦я┌я│я▐ п╡ п╠я┐п╢я┐я┴п╣п╪"
+
+#: remake.c:1420
+#, c-format
+msgid "Warning: File '%s' has modification time %s s in the future"
+msgstr "п÷я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п╡я─п╣п╪я▐ п╦п╥п╪п╣п╫п╣п╫п╦я▐ я└п╟п╧п╩п╟ б╚%sб╩ п╫п╟я┘п╬п╢п╦я┌я│я▐ п╡ п╠я┐п╢я┐я┴п╣п╪ (%s)"
+
+#: remake.c:1619
+#, c-format
+msgid ".LIBPATTERNS element '%s' is not a pattern"
+msgstr "п╜п╩п╣п╪п╣п╫я┌ .LIBPATTERNS б╚%sб╩ п╫п╣ я▐п╡п╩я▐п╣я┌я│я▐ п╬п╠я─п╟п╥я├п╬п╪"
+
+#: remote-cstms.c:122
 #, c-format
 msgid "Customs won't export: %s\n"
-msgstr "Не экспортируемые настройки: %s\n"
+msgstr "п²п╣ я█п╨я│п©п╬я─я┌п╦я─я┐п╣п╪я▀п╣ п╫п╟я│я┌я─п╬п╧п╨п╦: %s\n"
 
-#: rule.c:548
-#, fuzzy
+#: rule.c:495
 msgid ""
 "\n"
 "# Implicit Rules"
 msgstr ""
 "\n"
-"# Неявных правил нет."
+"# п²п╣я▐п╡п╫я▀п╣ п©я─п╟п╡п╦п╩п╟"
 
-#: rule.c:563
+#: rule.c:510
 msgid ""
 "\n"
 "# No implicit rules."
 msgstr ""
 "\n"
-"# Неявных правил нет."
+"# п²п╣я▐п╡п╫я▀я┘ п©я─п╟п╡п╦п╩ п╫п╣я┌."
 
-#: rule.c:566
+#: rule.c:513
 #, c-format
 msgid ""
 "\n"
 "# %u implicit rules, %u"
 msgstr ""
 "\n"
-"# Неявных правил: %u, терминальных: %u"
+"# п²п╣я▐п╡п╫я▀я┘ п©я─п╟п╡п╦п╩: %u, я┌п╣я─п╪п╦п╫п╟п╩я▄п╫я▀я┘: %u"
 
-#: rule.c:575
+#: rule.c:522
 msgid " terminal."
-msgstr "."
+msgstr " я┌п╣я─п╪п╦п╫п╟п╩."
 
-#: rule.c:583
+#: rule.c:530
 #, c-format
-msgid "BUG: num_pattern_rules wrong!  %u != %u"
-msgstr "ОШИБКА: неверное значение num_pattern_rules! %u != %u"
+msgid "BUG: num_pattern_rules is wrong!  %u != %u"
+msgstr "п·п╗п≤п▒п п░: п╫п╣п╡п╣я─п╫п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣ num_pattern_rules! %u != %u"
 
-#: signame.c:85
+#: signame.c:84
 msgid "unknown signal"
-msgstr "неизвестный сигнал"
+msgstr "п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ я│п╦пЁп╫п╟п╩"
 
-#: signame.c:93
+#: signame.c:92
 msgid "Hangup"
-msgstr "Обрыв терминальной линии"
+msgstr "п·п╠я─я▀п╡ я┌п╣я─п╪п╦п╫п╟п╩я▄п╫п╬п╧ п╩п╦п╫п╦п╦"
 
-#: signame.c:96
+#: signame.c:95
 msgid "Interrupt"
-msgstr "Прерывание"
+msgstr "п÷я─п╣я─я▀п╡п╟п╫п╦п╣"
 
-#: signame.c:99
+#: signame.c:98
 msgid "Quit"
-msgstr "Аварийное прерывание"
+msgstr "п░п╡п╟я─п╦п╧п╫п╬п╣ п©я─п╣я─я▀п╡п╟п╫п╦п╣"
 
-#: signame.c:102
+#: signame.c:101
 msgid "Illegal Instruction"
-msgstr "Недопустимая инструкция"
+msgstr "п²п╣п╢п╬п©я┐я│я┌п╦п╪п╟я▐ п╦п╫я│я┌я─я┐п╨я├п╦я▐"
 
-#: signame.c:105
+#: signame.c:104
 msgid "Trace/breakpoint trap"
-msgstr "Прерывание на контрольной точке"
+msgstr "п÷я─п╣я─я▀п╡п╟п╫п╦п╣ п╫п╟ п╨п╬п╫я┌я─п╬п╩я▄п╫п╬п╧ я┌п╬я┤п╨п╣"
 
-#: signame.c:110
+#: signame.c:109
 msgid "Aborted"
-msgstr "Прервано"
+msgstr "п÷я─п╣я─п╡п╟п╫п╬"
 
-#: signame.c:113
+#: signame.c:112
 msgid "IOT trap"
-msgstr "Ошибка IOT"
+msgstr "п·я┬п╦п╠п╨п╟ IOT"
 
-#: signame.c:116
+#: signame.c:115
 msgid "EMT trap"
-msgstr "Ошибка эмуляции"
+msgstr "п·я┬п╦п╠п╨п╟ я█п╪я┐п╩я▐я├п╦п╦"
 
-#: signame.c:119
+#: signame.c:118
 msgid "Floating point exception"
-msgstr "Ошибка операции с плавающей точкой"
+msgstr "п·я┬п╦п╠п╨п╟ п╬п©п╣я─п╟я├п╦п╦ я│ п©п╩п╟п╡п╟я▌я┴п╣п╧ я┌п╬я┤п╨п╬п╧"
 
-#: signame.c:122
+#: signame.c:121
 msgid "Killed"
-msgstr "Уничтожение"
+msgstr "пёп╫п╦я┤я┌п╬п╤п╣п╫п╦п╣"
 
-#: signame.c:125
+#: signame.c:124
 msgid "Bus error"
-msgstr "Неверное обращение к памяти"
+msgstr "п²п╣п╡п╣я─п╫п╬п╣ п╬п╠я─п╟я┴п╣п╫п╦п╣ п╨ п©п╟п╪я▐я┌п╦"
 
-#: signame.c:128
+#: signame.c:127
 msgid "Segmentation fault"
-msgstr "Нарушение прав доступа к памяти"
+msgstr "п²п╟я─я┐я┬п╣п╫п╦п╣ п©я─п╟п╡ п╢п╬я│я┌я┐п©п╟ п╨ п©п╟п╪я▐я┌п╦"
 
-#: signame.c:131
+#: signame.c:130
 msgid "Bad system call"
-msgstr "Неправильный системный вызов"
+msgstr "п²п╣п©я─п╟п╡п╦п╩я▄п╫я▀п╧ я│п╦я│я┌п╣п╪п╫я▀п╧ п╡я▀п╥п╬п╡"
 
-#: signame.c:134
+#: signame.c:133
 msgid "Broken pipe"
-msgstr "Обрыв канала"
+msgstr "п·п╠я─я▀п╡ п╨п╟п╫п╟п╩п╟"
 
-#: signame.c:137
+#: signame.c:136
 msgid "Alarm clock"
-msgstr "Сигнал по таймеру"
+msgstr "п║п╦пЁп╫п╟п╩ п©п╬ я┌п╟п╧п╪п╣я─я┐"
 
-#: signame.c:140
+#: signame.c:139
 msgid "Terminated"
-msgstr "Завершение"
+msgstr "п≈п╟п╡п╣я─я┬п╣п╫п╦п╣"
 
-#: signame.c:143
+#: signame.c:142
 msgid "User defined signal 1"
-msgstr "Определяемый пользователем сигнал 1"
+msgstr "п·п©я─п╣п╢п╣п╩я▐п╣п╪я▀п╧ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╣п╪ я│п╦пЁп╫п╟п╩ 1"
 
-#: signame.c:146
+#: signame.c:145
 msgid "User defined signal 2"
-msgstr "Определяемый пользователем сигнал 2"
+msgstr "п·п©я─п╣п╢п╣п╩я▐п╣п╪я▀п╧ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╣п╪ я│п╦пЁп╫п╟п╩ 2"
 
-#: signame.c:151 signame.c:154
+#: signame.c:150 signame.c:153
 msgid "Child exited"
-msgstr "Потомок завершил работу"
+msgstr "п÷п╬я┌п╬п╪п╬п╨ п╥п╟п╡п╣я─я┬п╦п╩ я─п╟п╠п╬я┌я┐"
 
-#: signame.c:157
+#: signame.c:156
 msgid "Power failure"
-msgstr "Отказ питания"
+msgstr "п·я┌п╨п╟п╥ п©п╦я┌п╟п╫п╦я▐"
 
-#: signame.c:160
+#: signame.c:159
 msgid "Stopped"
-msgstr "Останов"
+msgstr "п·я│я┌п╟п╫п╬п╡"
 
-#: signame.c:163
+#: signame.c:162
 msgid "Stopped (tty input)"
-msgstr "Останов (ввод с терминала) "
+msgstr "п·я│я┌п╟п╫п╬п╡ (п╡п╡п╬п╢ я│ я┌п╣я─п╪п╦п╫п╟п╩п╟) "
 
-#: signame.c:166
+#: signame.c:165
 msgid "Stopped (tty output)"
-msgstr "Останов (вывод на терминал)"
+msgstr "п·я│я┌п╟п╫п╬п╡ (п╡я▀п╡п╬п╢ п╫п╟ я┌п╣я─п╪п╦п╫п╟п╩)"
 
-#: signame.c:169
+#: signame.c:168
 msgid "Stopped (signal)"
-msgstr "Останов (сигнал)"
+msgstr "п·я│я┌п╟п╫п╬п╡ (я│п╦пЁп╫п╟п╩)"
 
-#: signame.c:172
+#: signame.c:171
 msgid "CPU time limit exceeded"
-msgstr "Превышен предел процессорного времени"
+msgstr "п÷я─п╣п╡я▀я┬п╣п╫ п©я─п╣п╢п╣п╩ п©я─п╬я├п╣я│я│п╬я─п╫п╬пЁп╬ п╡я─п╣п╪п╣п╫п╦"
 
-#: signame.c:175
+#: signame.c:174
 msgid "File size limit exceeded"
-msgstr "Превышен предел размера файла"
+msgstr "п÷я─п╣п╡я▀я┬п╣п╫ п©я─п╣п╢п╣п╩ я─п╟п╥п╪п╣я─п╟ я└п╟п╧п╩п╟"
 
-#: signame.c:178
+#: signame.c:177
 msgid "Virtual timer expired"
-msgstr "Виртуальное время истекло"
+msgstr "п▓п╦я─я┌я┐п╟п╩я▄п╫п╬п╣ п╡я─п╣п╪я▐ п╦я│я┌п╣п╨п╩п╬"
 
-#: signame.c:181
+#: signame.c:180
 msgid "Profiling timer expired"
-msgstr "Время профилирования истекло"
+msgstr "п▓я─п╣п╪я▐ п©я─п╬я└п╦п╩п╦я─п╬п╡п╟п╫п╦я▐ п╦я│я┌п╣п╨п╩п╬"
 
-#: signame.c:187
+#: signame.c:186
 msgid "Window changed"
-msgstr "Окно изменено"
+msgstr "п·п╨п╫п╬ п╦п╥п╪п╣п╫п╣п╫п╬"
 
-#: signame.c:190
+#: signame.c:189
 msgid "Continued"
-msgstr "Возобновление"
+msgstr "п▓п╬п╥п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣"
 
-#: signame.c:193
+#: signame.c:192
 msgid "Urgent I/O condition"
-msgstr "Условия экстренного ввода/вывода"
+msgstr "пёя│п╩п╬п╡п╦я▐ я█п╨я│я┌я─п╣п╫п╫п╬пЁп╬ п╡п╡п╬п╢п╟/п╡я▀п╡п╬п╢п╟"
 
-#: signame.c:200 signame.c:209
+#: signame.c:199 signame.c:208
 msgid "I/O possible"
-msgstr "Возможен ввод/вывод"
+msgstr "п▓п╬п╥п╪п╬п╤п╣п╫ п╡п╡п╬п╢/п╡я▀п╡п╬п╢"
 
-#: signame.c:203
+#: signame.c:202
 msgid "SIGWIND"
 msgstr "SIGWIND"
 
-#: signame.c:206
+#: signame.c:205
 msgid "SIGPHONE"
 msgstr "SIGPHONE"
 
-#: signame.c:212
+#: signame.c:211
 msgid "Resource lost"
-msgstr "Ресурс потерян"
+msgstr "п═п╣я│я┐я─я│ п©п╬я┌п╣я─я▐п╫"
 
-#: signame.c:215
+#: signame.c:214
 msgid "Danger signal"
-msgstr "Сигнал опасности"
+msgstr "п║п╦пЁп╫п╟п╩ п╬п©п╟я│п╫п╬я│я┌п╦"
 
-#: signame.c:218
+#: signame.c:217
 msgid "Information request"
-msgstr "Запрос информации"
+msgstr "п≈п╟п©я─п╬я│ п╦п╫я└п╬я─п╪п╟я├п╦п╦"
 
-#: signame.c:221
+#: signame.c:220
 msgid "Floating point co-processor not available"
-msgstr "Сопроцессор с плавающей точкой недоступен"
+msgstr "п║п╬п©я─п╬я├п╣я│я│п╬я─ я│ п©п╩п╟п╡п╟я▌я┴п╣п╧ я┌п╬я┤п╨п╬п╧ п╫п╣п╢п╬я│я┌я┐п©п╣п╫"
 
-#: strcache.c:210
+#: strcache.c:236
 #, c-format
 msgid ""
 "\n"
-"%s # of strings in strcache: %d\n"
+"%s No strcache buffers\n"
 msgstr ""
+"\n"
+"%s п╠п╣п╥ п╠я┐я└п╣я─п╬п╡ strcache\n"
 
-#: strcache.c:211
+#: strcache.c:266
 #, c-format
-msgid "%s # of strcache buffers: %d\n"
+msgid ""
+"\n"
+"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu "
+"B\n"
 msgstr ""
+"\n"
+"%s п╠я┐я└п╣я─я▀ strcache: %lu (%lu) / я│я┌я─п╬п╨ = %lu / я┘я─п╟п╫п╦п╩п╦я┴п╣ = %lu п▒ / я│я─п╣п╢ = %lu "
+"п▒\n"
 
-#: strcache.c:212
+#: strcache.c:270
 #, c-format
-msgid "%s strcache size: total = %d / max = %d / min = %d / avg = %d\n"
+msgid ""
+"%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %hu B\n"
 msgstr ""
+"%s я┌п╣п╨я┐я┴п╦п╧ buf: я─п╟п╥п╪п╣я─ = %hu п▒ / п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ = %hu п▒ / п╨п╬п╩-п╡п╬ = %hu / я│я─п╣п╢ "
+"= %hu п▒\n"
 
-#: strcache.c:214
+#: strcache.c:280
 #, c-format
-msgid "%s strcache free: total = %d / max = %d / min = %d / avg = %d\n"
+msgid "%s other used: total = %lu B / count = %lu / avg = %lu B\n"
 msgstr ""
+"%s п╢п╩я▐ п╢я─я┐пЁп╬пЁп╬ п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐: п╡я│п╣пЁп╬ = %lu п▒ / п╨п╬п╩-п╡п╬ = %lu / я│я─п╣п╢ = %lu п▒\n"
 
-#: variable.c:1369
-msgid "default"
-msgstr "по умолчанию"
+#: strcache.c:283
+#, c-format
+msgid ""
+"%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
+msgstr ""
+"%s п╢п╩я▐ п╢я─я┐пЁп╬пЁп╬ я│п╡п╬п╠п╬п╢п╫п╬: п╡я│п╣пЁп╬ = %lu п▒ / п╪п╟п╨я│. = %lu п▒ / п╪п╦п╫. = %lu п▒ / "
+"я│я─п╣п╢. = %hu п▒\n"
 
-#: variable.c:1372
-msgid "environment"
-msgstr "определена в среде"
+#: strcache.c:287
+#, c-format
+msgid ""
+"\n"
+"%s strcache performance: lookups = %lu / hit rate = %lu%%\n"
+msgstr ""
+"\n"
+"%s п©я─п╬п╦п╥п╡п╬п╢п╦я┌п╣п╩я▄п╫п╬я│я┌я▄ strcache: п©п╬п╦я│п╨п╬п╡ = %lu / п╫п╟п╧п╢п╣п╫п╬ = %lu%%\n"
 
-#: variable.c:1375
-msgid "makefile"
-msgstr "Make-файл"
+#: strcache.c:289
+msgid ""
+"# hash-table stats:\n"
+"# "
+msgstr ""
+"# я│п╬я│я┌п╬я▐п╫п╦п╣ я┘п╣я┬-я┌п╟п╠п╩п╦я├я▀:\n"
+"# "
 
-#: variable.c:1378
-msgid "environment under -e"
-msgstr "задан ключ -e"
-
-#: variable.c:1381
-msgid "command line"
-msgstr "определена в командной строке"
-
-#: variable.c:1384
-msgid "`override' directive"
-msgstr "Директива `override'"
-
-#: variable.c:1387
+#: variable.c:1619
 msgid "automatic"
-msgstr "автоматическая"
+msgstr "п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╟я▐"
 
-#: variable.c:1396
-#, fuzzy, c-format
-msgid " (from `%s', line %lu)"
-msgstr "  (из `%s', строка %lu):\n"
+#: variable.c:1622
+msgid "default"
+msgstr "п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌"
 
-#: variable.c:1438
-#, fuzzy
+#: variable.c:1625
+msgid "environment"
+msgstr "п╬п©я─п╣п╢п╣п╩п╣п╫п╟ п╡ я│я─п╣п╢п╣"
+
+#: variable.c:1628
+msgid "makefile"
+msgstr "make-я└п╟п╧п╩"
+
+#: variable.c:1631
+msgid "environment under -e"
+msgstr "п╬п╨я─я┐п╤п╣п╫п╦п╣ я│ -e"
+
+#: variable.c:1634
+msgid "command line"
+msgstr "п╬п©я─п╣п╢п╣п╩п╣п╫п╟ п╡ п╨п╬п╪п╟п╫п╢п╫п╬п╧ я│я┌я─п╬п╨п╣"
+
+#: variable.c:1637
+msgid "'override' directive"
+msgstr "п■п╦я─п╣п╨я┌п╦п╡п╟ б╚overrideб╩"
+
+#: variable.c:1648
+#, c-format
+msgid " (from '%s', line %lu)"
+msgstr " (п╦п╥ б╚%sб╩, я│я┌я─п╬п╨п╟ %lu)"
+
+#: variable.c:1711
 msgid "# variable set hash-table stats:\n"
-msgstr "# %u переменных в %u ячейках хеш-таблицы.\n"
+msgstr "# я│п╬я│я┌п╬я▐п╫п╦п╣ п©п╣я─п╣п╪п╣п╫п╫я▀я┘ п╡ я┘п╣я┬-я┌п╟п╠п╩п╦я├п╣:\n"
 
-#: variable.c:1449
+#: variable.c:1722
 msgid ""
 "\n"
 "# Variables\n"
 msgstr ""
 "\n"
-"# Переменные\n"
+"# п÷п╣я─п╣п╪п╣п╫п╫я▀п╣\n"
 
-#: variable.c:1453
-#, fuzzy
+#: variable.c:1726
 msgid ""
 "\n"
 "# Pattern-specific Variable Values"
 msgstr ""
 "\n"
-"# Значения переменных особенные для маски"
+"# п≈п╫п╟я┤п╣п╫п╦я▐ п©п╣я─п╣п╪п╣п╫п╫я▀я┘ п╬я│п╬п╠п╣п╫п╫я▀п╣ п╢п╩я▐ п╪п╟я│п╨п╦"
 
-#: variable.c:1467
+#: variable.c:1740
 msgid ""
 "\n"
 "# No pattern-specific variable values."
 msgstr ""
 "\n"
-"# Нет значений переменных особенных для маски"
+"# п²п╣я┌ п╥п╫п╟я┤п╣п╫п╦п╧ п©п╣я─п╣п╪п╣п╫п╫я▀я┘ п╬я│п╬п╠п╣п╫п╫я▀я┘ п╢п╩я▐ п╪п╟я│п╨п╦."
 
-#: variable.c:1469
+#: variable.c:1742
 #, c-format
 msgid ""
 "\n"
 "# %u pattern-specific variable values"
 msgstr ""
 "\n"
-"# %u значений переменных особенных для маски"
+"# %u п╥п╫п╟я┤п╣п╫п╦п╧ п©п╣я─п╣п╪п╣п╫п╫я▀я┘ п╬я│п╬п╠п╣п╫п╫я▀я┘ п╢п╩я▐ п╪п╟я│п╨п╦"
 
-#: variable.h:189
+#: variable.h:224
 #, c-format
-msgid "warning: undefined variable `%.*s'"
-msgstr "предупреждение: неопределенная переменная `%.*s'"
+msgid "warning: undefined variable '%.*s'"
+msgstr "п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п╫п╣п╬п©я─п╣п╢п╣п╩я▒п╫п╫п╟я▐ п©п╣я─п╣п╪п╣п╫п╫п╟я▐ б╚%.*sб╩"
 
-#: vmsfunctions.c:94
+#: vmsfunctions.c:91
 #, c-format
-msgid "sys$search failed with %d\n"
-msgstr "sys$search вернула код ошибки %d\n"
+msgid "sys$search() failed with %d\n"
+msgstr "sys$search() п╡п╣я─п╫я┐п╩п╟ п╨п╬п╢ п╬я┬п╦п╠п╨п╦ %d\n"
 
-#: vmsjobs.c:71
-#, c-format
-msgid "Warning: Empty redirection\n"
-msgstr "Предупреждение: Пустое перенаправление\n"
-
-#: vmsjobs.c:175
-#, c-format
-msgid "internal error: `%s' command_state"
-msgstr "внутренняя ошибка: `%s' command_state"
-
-#: vmsjobs.c:268
-#, c-format
-msgid "-warning, CTRL-Y will leave sub-process(es) around.\n"
-msgstr "-предупреждение, после CTRL-Y останутся суб-процессы.\n"
-
-#: vmsjobs.c:284
+#: vmsjobs.c:242
 #, c-format
 msgid "-warning, you may have to re-enable CTRL-Y handling from DCL.\n"
 msgstr ""
-"-предупреждение, возможно вам потребуется повторно разрешить\n"
-"обработку CTRL-Y из DCL.\n"
+"-п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣, п╡п╬п╥п╪п╬п╤п╫п╬ п╡п╟п╪ п©п╬я┌я─п╣п╠я┐п╣я┌я│я▐ п©п╬п╡я┌п╬я─п╫п╬ я─п╟п╥я─п╣я┬п╦я┌я▄\n"
+"п╬п╠я─п╟п╠п╬я┌п╨я┐ CTRL-Y п╦п╥ DCL.\n"
 
-#: vmsjobs.c:407
-#, c-format
-msgid "BUILTIN [%s][%s]\n"
-msgstr "ВСТРОЕННЫЙ [%s][%s]\n"
-
-#: vmsjobs.c:418
+#: vmsjobs.c:679
 #, c-format
 msgid "BUILTIN CD %s\n"
-msgstr "ВСТРОЕННЫЙ CD %s\n"
+msgstr "п▓п║п╒п═п·п∙п²п²п╚п≥ CD %s\n"
 
-#: vmsjobs.c:436
+#: vmsjobs.c:1228
 #, c-format
-msgid "BUILTIN RM %s\n"
-msgstr "ВСТРОЕННЫЙ RM %s\n"
+msgid "DCL: %s\n"
+msgstr ""
 
-#: vmsjobs.c:457
+#: vmsjobs.c:1288
 #, c-format
-msgid "Unknown builtin command '%s'\n"
-msgstr "Неизвестная встроенная команда '%s'\n"
+msgid "Append output to %s\n"
+msgstr "п║я┌п╟п╫п╢п╟я─я┌п╫я▀п╧ п╡я▀п╡п╬п╢ п╢п╬п╠п╟п╡п╩п╣п╫ п╡ %s\n"
 
-#: vmsjobs.c:479
+#: vmsjobs.c:1313
 #, c-format
-msgid "Error, empty command\n"
-msgstr "Ошибка, пустая команда\n"
+msgid "Append %.*s and cleanup\n"
+msgstr "п■п╬п╠п╟п╡п╦я┌я▄ %.*s п╦ п╬я┤п╦я│я┌п╦я┌я▄\n"
 
-#: vmsjobs.c:491
-#, c-format
-msgid "Redirected input from %s\n"
-msgstr "Стандартный ввод перенаправлен из %s\n"
-
-#: vmsjobs.c:498
-#, c-format
-msgid "Redirected error to %s\n"
-msgstr "Поток ошибок перенаправлен в %s\n"
-
-#: vmsjobs.c:505
-#, c-format
-msgid "Redirected output to %s\n"
-msgstr "Стандартный вывод перенаправлен в %s\n"
-
-#: vmsjobs.c:568
+#: vmsjobs.c:1326
 #, c-format
 msgid "Executing %s instead\n"
-msgstr "Вместо заданного выполняется %s\n"
+msgstr "п▓п╪п╣я│я┌п╬ п╥п╟п╢п╟п╫п╫п╬пЁп╬ п╡я▀п©п╬п╩п╫я▐п╣я┌я│я▐ %s\n"
 
-#: vmsjobs.c:668
-#, c-format
-msgid "Error spawning, %d\n"
-msgstr "Ошибка порождения процесса, %d\n"
-
-#: vpath.c:571
+#: vpath.c:603
 msgid ""
 "\n"
 "# VPATH Search Paths\n"
 msgstr ""
 "\n"
-"# Пути поиска VPATH\n"
+"# п÷я┐я┌п╦ п©п╬п╦я│п╨п╟ VPATH\n"
 
-#: vpath.c:588
-msgid "# No `vpath' search paths."
-msgstr "# Не определен путь поиска `vpath'."
+#: vpath.c:620
+msgid "# No 'vpath' search paths."
+msgstr "# п²п╣ п╬п©я─п╣п╢п╣п╩я▒п╫ п©я┐я┌я▄ п©п╬п╦я│п╨п╟ б╚vpathб╩."
 
-#: vpath.c:590
+#: vpath.c:622
 #, c-format
 msgid ""
 "\n"
-"# %u `vpath' search paths.\n"
+"# %u 'vpath' search paths.\n"
 msgstr ""
 "\n"
-"# %u путей поиска по `vpath'\n"
+"# %u п©я┐я┌п╣п╧ п©п╬п╦я│п╨п╟ п©п╬ б╚vpathб╩\n"
 
-#: vpath.c:593
+#: vpath.c:625
 msgid ""
 "\n"
-"# No general (`VPATH' variable) search path."
+"# No general ('VPATH' variable) search path."
 msgstr ""
 "\n"
-"# Не определен общий (переменная `VPATH') путь поиска."
+"# п²п╣ п╬п©я─п╣п╢п╣п╩я▒п╫ п╬п╠я┴п╦п╧ (п©п╣я─п╣п╪п╣п╫п╫п╟я▐ б╚VPATHб╩) п©я┐я┌я▄ п©п╬п╦я│п╨п╟."
 
-#: vpath.c:599
+#: vpath.c:631
 msgid ""
 "\n"
-"# General (`VPATH' variable) search path:\n"
+"# General ('VPATH' variable) search path:\n"
 "# "
 msgstr ""
 "\n"
-"# Общий (переменная `VPATH') путь поиска:\n"
+"# п·п╠я┴п╦п╧ (п©п╣я─п╣п╪п╣п╫п╫п╟я▐ б╚VPATHб╩) п©я┐я┌я▄ п©п╬п╦я│п╨п╟:\n"
 "# "
 
+#~ msgid "%s[%s] Error 0x%x%s"
+#~ msgstr "%s[%s] п·я┬п╦п╠п╨п╟ 0x%x%s"
+
+#~ msgid "Warning: Empty redirection\n"
+#~ msgstr "п÷я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣: п÷я┐я│я┌п╬п╣ п©п╣я─п╣п╫п╟п©я─п╟п╡п╩п╣п╫п╦п╣\n"
+
+#~ msgid "internal error: '%s' command_state"
+#~ msgstr "п╡п╫я┐я┌я─п╣п╫п╫я▐я▐ п╬я┬п╦п╠п╨п╟: б╚%sб╩ command_state"
+
+#~ msgid "BUILTIN [%s][%s]\n"
+#~ msgstr "п▓п║п╒п═п·п∙п²п²п╚п≥ [%s][%s]\n"
+
+#~ msgid "BUILTIN ECHO %s->%s\n"
+#~ msgstr "п▓п║п╒п═п·п∙п²п²п░п╞ ECHO %s->%s\n"
+
+#~ msgid "Unknown builtin command '%s'\n"
+#~ msgstr "п²п╣п╦п╥п╡п╣я│я┌п╫п╟я▐ п╡я│я┌я─п╬п╣п╫п╫п╟я▐ п╨п╬п╪п╟п╫п╢п╟ б╚%sб╩\n"
+
+#~ msgid "Builtin command is unknown or unsupported in .ONESHELL: '%s'\n"
+#~ msgstr ""
+#~ "п▓я│я┌я─п╬п╣п╫п╫п╟я▐ п╨п╬п╪п╟п╫п╢п╟ п╫п╣п╦п╥п╡п╣я│я┌п╫п╟ п╦п╩п╦ п╫п╣ п©п╬п╢п╢п╣я─п╤п╦п╡п╟п╣я┌я│я▐ п╡ .ONESHELL: б╚%sб╩\n"
+
+#~ msgid "Error, empty command\n"
+#~ msgstr "п·я┬п╦п╠п╨п╟, п©я┐я│я┌п╟я▐ п╨п╬п╪п╟п╫п╢п╟\n"
+
+#~ msgid "Redirected input from %s\n"
+#~ msgstr "п║я┌п╟п╫п╢п╟я─я┌п╫я▀п╧ п╡п╡п╬п╢ п©п╣я─п╣п╫п╟п©я─п╟п╡п╩п╣п╫ п╦п╥ %s\n"
+
+#~ msgid "Redirected error to %s\n"
+#~ msgstr "п÷п╬я┌п╬п╨ п╬я┬п╦п╠п╬п╨ п©п╣я─п╣п╫п╟п©я─п╟п╡п╩п╣п╫ п╡ %s\n"
+
+#~ msgid "Redirected output to %s\n"
+#~ msgstr "п║я┌п╟п╫п╢п╟я─я┌п╫я▀п╧ п╡я▀п╡п╬п╢ п©п╣я─п╣п╫п╟п©я─п╟п╡п╩п╣п╫ п╡ %s\n"
+
+#~ msgid "Error spawning, %d\n"
+#~ msgstr "п·я┬п╦п╠п╨п╟ п©п╬я─п╬п╤п╢п╣п╫п╦я▐ п©я─п╬я├п╣я│я│п╟, %d\n"
+
+#~ msgid "internal error: multiple --sync-mutex options"
+#~ msgstr "п╡п╫я┐я┌я─п╣п╫п╫я▐я▐ п╬я┬п╦п╠п╨п╟: п╫п╣я│п╨п╬п╩я▄п╨п╬ п╨п╩я▌я┤п╣п╧ --sync-mutex"
+
+#~ msgid "internal error: multiple --jobserver-fds options"
+#~ msgstr "п╡п╫я┐я┌я─п╣п╫п╫я▐я▐ п╬я┬п╦п╠п╨п╟: п╫п╣я│п╨п╬п╩я▄п╨п╬ п╨п╩я▌я┤п╣п╧ --jobserver-fds"
+
+#~ msgid "virtual memory exhausted"
+#~ msgstr "п╥п╟п╨п╬п╫я┤п╦п╩п╟я│я▄ п╡п╦я─я┌я┐п╟п╩я▄п╫п╟я▐ п©п╟п╪я▐я┌я▄"
+
+#~ msgid "write error"
+#~ msgstr "п╬я┬п╦п╠п╨п╟ п╥п╟п©п╦я│п╦"
+
+#~ msgid "BUILTIN RM %s\n"
+#~ msgstr "п▓п║п╒п═п·п∙п²п²п╚п≥ RM %s\n"
+
+#~ msgid "#  Invalid value in 'update_status' member!"
+#~ msgstr "#  п²п╣п╡п╣я─п╫п╬п╣ п╥п╫п╟я┤п╣п╫п╦п╣ я┤п╩п╣п╫п╟ б╚update_statusб╩!"
+
+#~ msgid "unknown trace mode '%s'"
+#~ msgstr "п╫п╣п╦п╥п╡п╣я│я┌п╫я▀п╧ я─п╣п╤п╦п╪ я┌я─п╟я│я│п╦я─п╬п╡п╨п╦ б╚%sб╩"
+
+#~ msgid "*** [%s] Error 0x%x (ignored)"
+#~ msgstr "*** [%s] п·я┬п╦п╠п╨п╟ 0x%x (п╦пЁп╫п╬я─п╦я─п╬п╡п╟п╫п╟)"
+
+#~ msgid "Invoking recipe from %s:%lu to update target `%s'.\n"
+#~ msgstr "п÷я─п╦п╪п╣п╫я▐п╣я┌я│я▐ я│п©п╬я│п╬п╠ п╦п╥ %s:%lu п╢п╩я▐ п╬п╠п╫п╬п╡п╩п╣п╫п╦я▐ я├п╣п╩п╦ `%s'.\n"
+
+#~ msgid "Invoking builtin recipe to update target `%s'.\n"
+#~ msgstr "п▓я▀п©п╬п╩п╫я▐п╣я┌я│я▐ п╡я│я┌я─п╬п╣п╫п╫я▀п╧ я│п©п╬я│п╬п╠ п╢п╩я▐ п╬п╠п╫п╬п╡п╩п╣п╫п╦я▐ я├п╣п╩п╦ `%s'.\n"
+
+#~ msgid "%s # of strcache buffers: %d (* %d B/buffer = %d B)\n"
+#~ msgstr "%s # п╠я┐я└п╣я─п╬п╡ strcache: %d (* %d B/buffer = %d B)\n"
+
 #~ msgid ""
 #~ "\n"
-#~ "# No files."
+#~ "# strcache hash-table stats:\n"
+#~ "# "
 #~ msgstr ""
 #~ "\n"
-#~ "# Файлов нет."
+#~ "# я│п╬я│я┌п╬я▐п╫п╦п╣ я┘п╣я┬-я┌п╟п╠п╩п╦я├я▀ strcache:\n"
+#~ "# "
+
+#~ msgid "process_easy() failed failed to launch process (e=%ld)\n"
+#~ msgstr "process_easy() п╫п╣ я│п╪п╬пЁп╩п╟ п╥п╟п©я┐я│я┌п╦я┌я▄ п©я─п╬я├п╣я│я│ (e=%ld)\n"
 
 #~ msgid ""
-#~ "\n"
-#~ "# %u files in %u hash buckets.\n"
+#~ "%sThis is free software; see the source for copying conditions.\n"
+#~ "%sThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
+#~ "%sPARTICULAR PURPOSE.\n"
 #~ msgstr ""
-#~ "\n"
-#~ "# %u файлов in %u ячейках хеш-таблицы.\n"
+#~ "%sп╜я┌п╬ я│п╡п╬п╠п╬п╢п╫п╟я▐ п©я─п╬пЁя─п╟п╪п╪п╟; п©п╬п╢я─п╬п╠п╫п╬я│я┌п╦ п╬п╠ я┐я│п╩п╬п╡п╦я▐я┘ я─п╟я│п©я─п╬я│я┌я─п╟п╫п╣п╫п╦я▐ "
+#~ "я│п╪п╬я┌я─п╦я┌п╣\n"
+#~ "%sп╡ п╦я│я┘п╬п╢п╫п╬п╪ п╨п╬п╢п╣.  п°я▀ п²п∙ п©я─п╣п╢п╬я│я┌п╟п╡п╩я▐п╣п╪ пЁп╟я─п╟п╫я┌п╦п╧; п╢п╟п╤п╣ пЁп╟я─п╟п╫я┌п╦п╧\n"
+#~ "%sп п·п°п°п∙п═п╖п∙п║п п·п≥ п╕п∙п²п²п·п║п╒п≤ п╦п╩п╦ п÷п═п≤п⌠п·п■п²п·п║п╒п≤ п■п⌡п╞ п п░п п·п≥-п⌡п≤п▒п· п╕п∙п⌡п≤.\n"
 
-#~ msgid "# average %.3f files per bucket, max %u files in one bucket.\n"
-#~ msgstr "# в среднем %.3f файлов в ячейке, макс. %u файлов в одной ячейке.\n"
+#~ msgid "extraneous `endef'"
+#~ msgstr "п╦п╥п╩п╦я┬п╫п╦п╧ `endef'"
 
-#~ msgid "Syntax error, still inside '\"'\n"
-#~ msgstr "Синтаксическая ошибка, все еще внутри '\"'\n"
+#~ msgid "empty `override' directive"
+#~ msgstr "п©я┐я│я┌п╟я▐ п╢п╦я─п╣п╨я┌п╦п╡п╟ `override'"
 
-#~ msgid "Got a SIGCHLD; %u unreaped children.\n"
-#~ msgstr ""
-#~ "Получен сигнал SIGCHLD; %u потомков с необработанными результатами.\n"
+#~ msgid "invalid `override' directive"
+#~ msgstr "п╫п╣п©я─п╟п╡п╦п╩я▄п╫п╟я▐ п╢п╦я─п╣п╨я┌п╦п╡п╟ `override'"
 
-#~ msgid "DIRECTORY"
-#~ msgstr "КАТАЛОГ"
-
-#~ msgid "Change to DIRECTORY before doing anything"
-#~ msgstr "Перейти в КАТАЛОГ перед началом работы"
-
-#~ msgid "FLAGS"
-#~ msgstr "ФЛАГИ"
-
-#~ msgid "Suspend process to allow a debugger to attach"
-#~ msgstr "Приостановить процесс, чтобы позволить прицепиться отладчику"
-
-#~ msgid "Environment variables override makefiles"
-#~ msgstr ""
-#~ "Переменные среды перекрывают переменные, \n"
-#~ "определенные в make-файле"
-
-#~ msgid "FILE"
-#~ msgstr "ФАЙЛ"
-
-#~ msgid "Read FILE as a makefile"
-#~ msgstr "Использовать ФАЙЛ в качестве make-файла"
-
-#~ msgid "Search DIRECTORY for included makefiles"
-#~ msgstr "Искать включаемые make-файлы в КАТАЛОГЕ"
-
-#~ msgid "Don't start multiple jobs unless load is below N"
-#~ msgstr ""
-#~ "Не запускать параллельные задачи,\n"
-#~ "пока загрузка не снизится до N"
-
-#~ msgid "Don't actually run any commands; just print them"
-#~ msgstr "Не выполнять команды, просто напечатать их"
-
-#~ msgid "Consider FILE to be very old and don't remake it"
-#~ msgstr "Считать ФАЙЛ очень старым и не пересобирать его"
-
-#~ msgid "Don't echo commands"
-#~ msgstr "Не печатать выполняемые команды"
-
-#~ msgid "Turns off -k"
-#~ msgstr "Отменить ключ -k"
-
-#~ msgid "Consider FILE to be infinitely new"
-#~ msgstr "Считать ФАЙЛ неограниченно новым"
-
-#~ msgid "Do not specify -j or --jobs if sh.exe is not available."
-#~ msgstr "Не указывайте -j или --jobs, если нету sh.exe."
-
-#~ msgid "Resetting make for single job mode."
-#~ msgstr "make будет выполняться в режиме одиночной задачи."
-
-#~ msgid "no file name for `%sinclude'"
-#~ msgstr "не задано имя файла для `%sinclude'"
-
-#~ msgid "target `%s' leaves prerequisite pattern empty"
-#~ msgstr "цель `%s' оставляет пустой шаблон зависимости"
-
-#~ msgid "# No variables."
-#~ msgstr "# Переменных нет."
-
-#~ msgid "# average of %.1f variables per bucket, max %u in one bucket.\n"
-#~ msgstr "# в среднем %.1f переменных в ячейке, макс. %u в одной ячейке.\n"
-
-#~ msgid "# average of %d.%d variables per bucket, max %u in one bucket.\n"
-#~ msgstr "# в среднем %d.%d переменных в ячейке, макс. %u в одной ячейке.\n"
+#~ msgid "-warning, CTRL-Y will leave sub-process(es) around.\n"
+#~ msgstr "-п©я─п╣п╢я┐п©я─п╣п╤п╢п╣п╫п╦п╣, п©п╬я│п╩п╣ CTRL-Y п╬я│я┌п╟п╫я┐я┌я│я▐ я│я┐п╠-п©я─п╬я├п╣я│я│я▀.\n"

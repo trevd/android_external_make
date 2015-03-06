@@ -3,26 +3,22 @@ NOTE: getopt is now part of the C library, so if you don't know what
 "Keep this file name-space clean" means, talk to drepper@gnu.org
 before changing it!
 
-Copyright (C) 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996,
-1997, 1998, 2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software
-Foundation, Inc.
+Copyright (C) 1987-2014 Free Software Foundation, Inc.
 
 NOTE: The canonical source of this file is maintained with the GNU C Library.
 Bugs can be reported to bug-glibc@gnu.org.
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the
-Free Software Foundation; either version 2, or (at your option) any
-later version.
+GNU Make is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+GNU Make is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
-this program; see the file COPYING.  If not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.  */
+this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
 /* This tells Alpha OSF/1 not to define a getopt prototype in <stdio.h>.
    Ditto for AIX 3.2 and <stdlib.h>.  */
@@ -85,7 +81,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.  */
 #define _(msgid)    gettext (msgid)
 
 
-/* This version of `getopt' appears to the caller like standard Unix `getopt'
+/* This version of `getopt' appears to the caller like standard Unix 'getopt'
    but it behaves differently for the user, since it allows the user
    to intersperse the options with the other arguments.
 
@@ -660,7 +656,7 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
       if (ambig && !exact)
 	{
 	  if (opterr)
-	    fprintf (stderr, _("%s: option `%s' is ambiguous\n"),
+	    fprintf (stderr, _("%s: option '%s' is ambiguous\n"),
 		     argv[0], argv[optind]);
 	  nextchar += strlen (nextchar);
 	  optind++;
@@ -684,12 +680,12 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 		   if (argv[optind - 1][1] == '-')
 		    /* --option */
 		    fprintf (stderr,
-		     _("%s: option `--%s' doesn't allow an argument\n"),
+		     _("%s: option '--%s' doesn't allow an argument\n"),
 		     argv[0], pfound->name);
 		   else
 		    /* +option or -option */
 		    fprintf (stderr,
-		     _("%s: option `%c%s' doesn't allow an argument\n"),
+		     _("%s: option '%c%s' doesn't allow an argument\n"),
 		     argv[0], argv[optind - 1][0], pfound->name);
 
 		  nextchar += strlen (nextchar);
@@ -706,7 +702,7 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 		{
 		  if (opterr)
 		    fprintf (stderr,
-			   _("%s: option `%s' requires an argument\n"),
+			   _("%s: option '%s' requires an argument\n"),
 			   argv[0], argv[optind - 1]);
 		  nextchar += strlen (nextchar);
 		  optopt = pfound->val;
@@ -735,11 +731,11 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 	    {
 	      if (argv[optind][1] == '-')
 		/* --option */
-		fprintf (stderr, _("%s: unrecognized option `--%s'\n"),
+		fprintf (stderr, _("%s: unrecognized option '--%s'\n"),
 			 argv[0], nextchar);
 	      else
 		/* +option or -option */
-		fprintf (stderr, _("%s: unrecognized option `%c%s'\n"),
+		fprintf (stderr, _("%s: unrecognized option '%c%s'\n"),
 			 argv[0], argv[optind][0], nextchar);
 	    }
 	  nextchar = (char *) "";
@@ -845,7 +841,7 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 	if (ambig && !exact)
 	  {
 	    if (opterr)
-	      fprintf (stderr, _("%s: option `-W %s' is ambiguous\n"),
+	      fprintf (stderr, _("%s: option '-W %s' is ambiguous\n"),
 		       argv[0], argv[optind]);
 	    nextchar += strlen (nextchar);
 	    optind++;
@@ -864,7 +860,7 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 		  {
 		    if (opterr)
 		      fprintf (stderr, _("\
-%s: option `-W %s' doesn't allow an argument\n"),
+%s: option '-W %s' doesn't allow an argument\n"),
 			       argv[0], pfound->name);
 
 		    nextchar += strlen (nextchar);
@@ -879,7 +875,7 @@ _getopt_internal (int argc, char *const *argv, const char *optstring,
 		  {
 		    if (opterr)
 		      fprintf (stderr,
-			       _("%s: option `%s' requires an argument\n"),
+			       _("%s: option '%s' requires an argument\n"),
 			       argv[0], argv[optind - 1]);
 		    nextchar += strlen (nextchar);
 		    return optstring[0] == ':' ? ':' : '?';
@@ -1005,7 +1001,7 @@ main (int argc, char **argv)
 	  break;
 
 	case 'c':
-	  printf ("option c with value `%s'\n", optarg);
+	  printf ("option c with value '%s'\n", optarg);
 	  break;
 
 	case '?':

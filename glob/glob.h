@@ -1,4 +1,5 @@
-/* Copyright (C) 1991, 92, 95, 96, 97, 98 Free Software Foundation, Inc.
+/* Copyright (C) 1991, 1992, 1995, 1996, 1997, 1998 Free Software Foundation,
+Inc.
 
 The GNU C Library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Library General Public License as
@@ -55,7 +56,7 @@ typedef __SIZE_TYPE__ __size_t;
 #  else
 /* This is a guess.  */
 /*hb
- *	Conflicts with DECCs aready defined type __size_t.
+ *	Conflicts with DECCs already defined type __size_t.
  *	Defining an own type with a name beginning with '__' is no good.
  *	Anyway if DECC is used and __SIZE_T is defined then __size_t is
  *	already defined (and I hope it's exactly the one we need here).

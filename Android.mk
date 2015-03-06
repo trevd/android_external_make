@@ -26,13 +26,16 @@ LOCAL_SRC_FILES := \
 					function.c \
 					getopt.c \
 					getopt1.c \
+					guile.c \
 					implicit.c \
 					job.c \
+					load.c \
+					loadapi.c \
 					main.c \
 					misc.c \
+					output.c \
 					read.c \
 					remake.c \
-					remote-stub.c \
 					rule.c \
 					signame.c \
 					strcache.c \
@@ -40,20 +43,17 @@ LOCAL_SRC_FILES := \
 					version.c \
 					vpath.c \
 					hash.c \
+					remote-stub.c \
 					getloadavg.c \
 					glob/glob.c
 
+
 LOCAL_CFLAGS :=-DHAVE_CONFIG_H
 
-LOCAL_C_INCLUDES := $(LOCAL_PATH) \
-					$(LOCAL_PATH)/glob
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/glob
 
-#LOCAL_SHARED_LIBRARIES := 
-
+LOCAL_SHARED_LIBRARIES := libdl
 LOCAL_MODULE := make
-
-LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
-
 LOCAL_MODULE_TAGS := debug
 
 include $(BUILD_EXECUTABLE)

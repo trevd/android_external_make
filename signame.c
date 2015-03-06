@@ -1,21 +1,20 @@
 /* Convert between signal names and numbers.
-Copyright (C) 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
-2000, 2001, 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+Copyright (C) 1990-2014 Free Software Foundation, Inc.
 This file is part of GNU Make.
 
 GNU Make is free software; you can redistribute it and/or modify it under the
 terms of the GNU General Public License as published by the Free Software
-Foundation; either version 2, or (at your option) any later version.
+Foundation; either version 3 of the License, or (at your option) any later
+version.
 
 GNU Make is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
-GNU Make; see the file COPYING.  If not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.  */
+this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
-#include "make.h"
+#include "makeint.h"
 
 /* If the system provides strsignal, we don't need it. */
 
@@ -28,11 +27,11 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.  */
 #if !HAVE_DECL_SYS_SIGLIST
 
 /* Some systems do not define NSIG in <signal.h>.  */
-#ifndef	NSIG
-#ifdef	_NSIG
-#define	NSIG	_NSIG
+#ifndef NSIG
+#ifdef  _NSIG
+#define NSIG    _NSIG
 #else
-#define	NSIG	32
+#define NSIG    32
 #endif
 #endif
 
@@ -193,10 +192,10 @@ signame_init (void)
   init_sig (SIGURG, "URG", _("Urgent I/O condition"));
 #endif
 #if defined (SIGIO)
-  /* "I/O pending" has also been suggested.  A disadvantage is
-     that signal only happens when the process has
-     asked for it, not everytime I/O is pending.  Another disadvantage
-     is the confusion from giving it a different name than under Unix.  */
+  /* "I/O pending" has also been suggested.  A disadvantage is that signal
+     only happens when the process has asked for it, not every time I/O is
+     pending.  Another disadvantage is the confusion from giving it a
+     different name than under Unix.  */
   init_sig (SIGIO, "IO", _("I/O possible"));
 #endif
 #if defined (SIGWIND)
@@ -228,7 +227,7 @@ signame_init (void)
 
 
 char *
-strsignal (int signal)
+strsignal (int sig)
 {
   static char buf[] = "Signal 12345678901234567890";
 
@@ -245,10 +244,10 @@ strsignal (int signal)
 # endif
 #endif
 
-  if (signal > 0 || signal < NSIG)
-    return (char *) sys_siglist[signal];
+  if (sig > 0 && sig < NSIG)
+    return (char *) sys_siglist[sig];
 
-  sprintf (buf, "Signal %d", signal);
+  sprintf (buf, "Signal %d", sig);
   return buf;
 }
 

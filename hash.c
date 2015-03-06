@@ -1,25 +1,23 @@
 /* hash.c -- hash table maintenance
-   Copyright (C) 1995, 1999, 2002 Free Software Foundation, Inc.
-   Written by Greg McGary <gkm@gnu.org> <greg@mcgary.org>
+Copyright (C) 1995, 1999, 2002, 2010 Free Software Foundation, Inc.
+Written by Greg McGary <gkm@gnu.org> <greg@mcgary.org>
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2, or (at your option)
-any later version.
+GNU Make is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+GNU Make is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
-this program; see the file COPYING.  If not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.  */
+this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
-#include "make.h"
+#include "makeint.h"
 #include "hash.h"
 
-#define	CALLOC(t, n) ((t *) calloc (sizeof (t), (n)))
+#define	CALLOC(t, n) ((t *) xcalloc (sizeof (t) * (n)))
 #define MALLOC(t, n) ((t *) xmalloc (sizeof (t) * (n)))
 #define REALLOC(o, t, n) ((t *) xrealloc ((o), sizeof (t) * (n)))
 #define CLONE(o, t, n) ((t *) memcpy (MALLOC (t, (n)), (o), sizeof (t) * (n)))
@@ -28,7 +26,7 @@ static void hash_rehash __P((struct hash_table* ht));
 static unsigned long round_up_2 __P((unsigned long rough));
 
 /* Implement double hashing with open addressing.  The table size is
-   always a power of two.  The secondary (`increment') hash function
+   always a power of two.  The secondary ('increment') hash function
    is forced to return an odd-value, in order to be relatively prime
    to the table size.  This guarantees that the increment can
    potentially hit every slot in the table during collision
@@ -48,9 +46,9 @@ hash_init (struct hash_table *ht, unsigned long size,
   ht->ht_vec = (void**) CALLOC (struct token *, ht->ht_size);
   if (ht->ht_vec == 0)
     {
-      fprintf (stderr, _("can't allocate %ld bytes for hash table: memory exhausted"),
-	       ht->ht_size * sizeof(struct token *));
-      exit (1);
+      fprintf (stderr, _("can't allocate %lu bytes for hash table: memory exhausted"),
+	       ht->ht_size * (unsigned long) sizeof (struct token *));
+      exit (MAKE_TROUBLE);
     }
 
   ht->ht_capacity = ht->ht_size - (ht->ht_size / 16); /* 93.75% loading factor */
@@ -63,7 +61,7 @@ hash_init (struct hash_table *ht, unsigned long size,
   ht->ht_compare = hash_cmp;
 }
 
-/* Load an array of items into `ht'.  */
+/* Load an array of items into 'ht'.  */
 
 void
 hash_load (struct hash_table *ht, void *item_table,
@@ -77,9 +75,9 @@ hash_load (struct hash_table *ht, void *item_table,
     }
 }
 
-/* Returns the address of the table slot matching `key'.  If `key' is
+/* Returns the address of the table slot matching 'key'.  If 'key' is
    not found, return the address of an empty slot suitable for
-   inserting `key'.  The caller is responsible for incrementing
+   inserting 'key'.  The caller is responsible for incrementing
    ht_fill on insertion.  */
 
 void **
@@ -128,7 +126,7 @@ void *
 hash_insert (struct hash_table *ht, const void *item)
 {
   void **slot = hash_find_slot (ht, item);
-  const void *old_item = slot ? *slot : 0;
+  const void *old_item = *slot;
   hash_insert_at (ht, item, slot);
   return (void *)((HASH_VACANT (old_item)) ? 0 : old_item);
 }

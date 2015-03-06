@@ -44,7 +44,7 @@ $answer = "cp foo.f foo.e\ncp foo.e foo.d\n";
 unlink('foo.e');
 
 &run_make_with_options($makefile,'foo.d',&get_logfile);
-$answer = "$make_name: `foo.d' is up to date.\n";
+$answer = "$make_name: 'foo.d' is up to date.\n";
 &compare_output($answer, &get_logfile(1));
 
 # TEST #3
@@ -67,7 +67,7 @@ $answer = "cp foo.e foo.c\n";
 unlink('foo.e');
 
 &run_make_with_options($makefile,'foo.c',&get_logfile);
-$answer = "$make_name: `foo.c' is up to date.\n";
+$answer = "$make_name: 'foo.c' is up to date.\n";
 &compare_output($answer, &get_logfile(1));
 
 # TEST #6
@@ -103,7 +103,7 @@ close(MAKEFILE);
 touch('final');
 
 &run_make_with_options($makefile2, '', &get_logfile);
-$answer = "$make_name: `final' is up to date.\n";
+$answer = "$make_name: 'final' is up to date.\n";
 &compare_output($answer, &get_logfile(1));
 
 unlink('source', 'final', 'intermediate');
@@ -120,6 +120,71 @@ all: version2',
               'all', 'GOOD');
 
 unlink('version2');
+
+# TEST #9 -- Savannah bug #15919
+# The original fix for this bug caused a new bug, shown here.
+
+touch(qw(1.a 2.a));
+
+run_make_test('
+%.c : %.b ; cp $< $@
+%.b : %.a ; cp $< $@
+all : 1.c 2.c
+2.a: 1.c', '-rR -j',
+'cp 1.a 1.b
+cp 1.b 1.c
+cp 2.a 2.b
+cp 2.b 2.c
+rm 1.b 2.b');
+
+unlink(qw(1.a 2.a 1.c 2.c));
+
+# TEST #10 -- Savannah bug #15919
+touch('test.0');
+run_make_test('
+.SECONDARY : test.1 test.2 test.3
+
+test : test.4
+
+%.4 : %.int %.3 ; touch $@
+
+%.int : %.3 %.2 ; touch $@
+
+%.3 : | %.2 ; touch $@
+
+%.2 : %.1 ; touch $@
+
+%.1 : %.0 ; touch $@', '-rR -j 2',
+'touch test.1
+touch test.2
+touch test.3
+touch test.int
+touch test.4
+rm test.int');
+
+# After a touch of test.0 it should give the same output, except we don't need
+# to rebuild test.3 (order-only)
+sleep(1);
+touch('test.0');
+run_make_test(undef, '-rR -j 2',
+'touch test.1
+touch test.2
+touch test.int
+touch test.4
+rm test.int');
+
+# With both test.0 and test.3 updated it should still build everything except
+# test.3
+sleep(1);
+touch('test.0', 'test.3');
+run_make_test(undef, '-rR -j 2',
+'touch test.1
+touch test.2
+touch test.int
+touch test.4
+rm test.int');
+
+unlink(qw(test.0 test.1 test.2 test.3 test.4));
 
 # This tells the test driver that the perl test script executed properly.
 1;
